@@ -1,0 +1,1060 @@
+Script started on 2020-12-08 10:52:35+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs[2Pfgjobs[2Ppsjobsbg 2sleep 805 &[Kfind / -type d 1>directories.txt 2>errors.txt
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sleep 5
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sleep 5 & 
+[1] 42114
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sleeo[Kp 80 
+^Z[1]   Done                    sleep 5
+
+[2]+  Stopped                 sleep 80
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ bg 2
+[2]+ sleep 80 &
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs
+[2]+  Running                 sleep 80 &
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ps
+    PID TTY          TIME CMD
+  42063 pts/1    00:00:00 bash
+  42115 pts/1    00:00:00 sleep
+  42119 pts/1    00:00:00 ps
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs
+[2]+  Running                 sleep 80 &
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ fg
+sleep 80
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sleep 30 &
+[1] 42139
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs
+[1]+  Running                 sleep 30 &
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill %1
+[1]+  Terminated              sleep 30
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sleep 30 &
+[1] 42151
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ps
+    PID TTY          TIME CMD
+  42063 pts/1    00:00:00 bash
+  42151 pts/1    00:00:00 sleep
+  42152 pts/1    00:00:00 ps
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill 42151
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ps
+    PID TTY          TIME CMD
+  42063 pts/1    00:00:00 bash
+  42153 pts/1    00:00:00 ps
+[1]+  Terminated              sleep 30
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sleep 60 &
+[1] 42171
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sleep 60 &
+[2] 42182
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sleep 60 &
+[3] 42183
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sleep 60 &
+[4] 42184
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ps
+    PID TTY          TIME CMD
+  42063 pts/1    00:00:00 bash
+  42171 pts/1    00:00:00 sleep
+  42182 pts/1    00:00:00 sleep
+  42183 pts/1    00:00:00 sleep
+  42184 pts/1    00:00:00 sleep
+  42185 pts/1    00:00:00 ps
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ pkill -KILL sleep 
+[1]   Killed                  sleep 60
+[2]   Killed                  sleep 60
+[3]-  Killed                  sleep 60
+[4]+  Killed                  sleep 60
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ vi [K[K[Kmyprj2var="good" 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ chmod +x myprj2var
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ echo $myprj2var 
+good
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ echo $PATH[C[C[C[1P$PATH[1P$PATH[1P$PATH[1P$PATH[1P$PATH[C[C[C[C[C=/etc:$PATH:/etc
+bash: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin=/etc:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/etc: No such file or directory
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ nice
+0
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ nice -10 gnome-terminal
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ nice -10 gnome-terminal[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvi vi [K[K[Kq1_answd[Kers
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name ".q1_answers.swp"
+[10Cowned by: hoson   dated: Tue Dec 08 11:02:51 2020
+[9Cfile name: ~hoson/q1_answers
+[10Cmodified: no
+[9Cuser name: hoson   host name: hoson-VirtualBox
+[8Cprocess ID: 42291 (STILL RUNNING)
+While opening file "q1_answers"
+[13Cdated: Tue Dec 08 01:20:42 2020
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r q1_answers"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".q1_answers.swp"
+    to avoid this message.
+
+[32mSwap file ".q1_answers.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[m[24;1H[K[?25l[24;1H"q1_answers" [readonly] 48L, 668C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HQuestion 1 :
+
+(Task 1 ) find / -type d >directories.txt 2>errors.txt[4;1H[K[5;1H(Task 2 ) sleep 5[5;19H[K[6;11H[K[7;1H(Task 3 ) sleep 5 &[7;21H[K[8;11H[K[9;1H(Task 4 ) sleep 80 [9;21H[K[10;9H  ctrl +z [10;19H[K[11;1H          bg 2 [11;16H[K[12;11Hjobs [12;16H[K[13;11Hps
+          jobs [14;16H[K[15;5H      fg [15;14H[K[16;5H[K[17;2HTask 5 ) sleep 30 & [17;22H[K[18;5H      job[18;16H[K[19;5H      kill %1 [19;20H[K[20;5H      jobs[20;16H[K[21;5H      sleep 30 & [21;22H[K[22;11Hps
+          kill 3696[23;20H[K[24;63H1,1[11CTop[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1HQuestion 1 :
+
+(Task 1 ) find / -type d >directories.txt 2>errors.txt
+
+(Task 2 ) sleep 5
+
+(Task 3 ) sleep 5 &
+
+(Task 4 ) sleep 80[10;11Hctrl +z[11;11Hbg 2[12;11Hjobs[13;11Hps[14;11Hjobs[15;11Hfg
+
+(Task 5 ) sleep 30 &[18;11Hjobs[19;11Hkill %1[20;11Hjobs[21;11Hsleep 30 &[22;11Hps[23;11Hkill 3696[24;63H1,1[11CTop"q1_answers" [readonly] 48L, 668C[1;1H[?25h[?25l[24;1H[K[24;1H:[?2004h[15;1H[7mq1_answers [RO]                                               1,1            Top[m[16;1H[94m:[mq1
+[94m:[m[93mq![m[17;4H[K[18;1H[94m:[mQ[18;11H[K[19;1H[94m:[mwq1[19;11H[K[20;1H[94m:[m[93mwq![m[20;11H[K[21;1H[94m:[m[93mq[m[21;11H[K[22;1H[94m:[m[22;11H[K[23;1H[1m[7m[Command Line]                                                16,0-1         Bot[22;2H[?25h
+
+[?25l[m[15;1H          fg [15;14H[K[16;1H[K[17;1H(Task 5 ) sleep 30 &
+  [8Cjobs
+          kill %1
+          jobs
+  [8Csleep 30 &
+ [9Cps
+          kill 3696[23;20H[K[24;63H1,1[11CTop[1;1H[?25h[?25l[24;63H2,0-1[2;1H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hwq![?25l[?2004l"q1_answers" 48L, 668C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ chmod +x q1_answers 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cat q1_answers 
+Question 1 :
+
+(Task 1 ) find / -type d >directories.txt 2>errors.txt
+
+(Task 2 ) sleep 5 
+
+(Task 3 ) sleep 5 &
+ 
+(Task 4 ) sleep 80 
+	  ctrl +z 
+	  bg 2 
+	  jobs 
+	  ps
+	  jobs 
+	  fg 
+
+(Task 5 ) sleep 30 & 
+	  jobs 
+	  kill %1 
+          jobs 
+          sleep 30 & 
+          ps 
+	  kill 3696
+	  ps 
+
+(Task 6 ) sleep 40 & 
+	  kill -STOP 3569
+	  ps
+	  bg 
+
+(Task 7 ) sleep 60 & 
+          sleep 60 &
+	  sleep 60 & 
+	  sleep 60 & 
+	  ps 
+	  pkill -KILL sleep 
+
+(Task 8 ) vi myprj2var 
+	  chmod +x myprj2var 
+	  myprj2var="good" 
+	  echo $myprj2var 
+	  
+(Task 9 ) echo $PATH 
+	  $PATH=$PATH=/etc:$PATH:/etc
+
+(Task 10 ) nice -10 gnome-termmal 
+	   exec ls 
+	   exec >tmp 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [K]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [K]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [K]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [K]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ echo Question 2 
+Question 2
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep Mohammad_ prj[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat prj2_passwd 
+root:x:0:0:Admin:/:/bin/bash
+comp311ta:x:501:100:Comp311TA_Account:/home/comp311ta:/bin/bash
+u1142478:x:502:66:Sondos_Awashra:/home/students/comp311/u1142478:/bin/bash
+u1150129:x:503:66:Mohammad_Kahala:/home/students/comp311/u1150129:/bin/bash
+u1150279:x:504:66:Tareq_Qahoush:/home/students/comp311/u1150279:/bin/bash
+u1150312:x:505:66:Ahmad_Thabet:/home/students/comp311/u1150312:/bin/bash
+u1150357:x:506:66:Mohammad_Alqayem:/home/students/comp311/u1150357:/bin/bash
+u1150409:x:507:66:Ahmad_Jamal:/home/students/comp311/u1150409:/bin/bash
+u1150523:x:508:66:Tarik_Suid:/home/students/comp311/u1150523:/bin/bash
+u1152270:x:509:66:Atheer_Mohammad:/home/students/comp311/u1152270:/bin/bash
+u1152484:x:510:66:Mohammad_Asad:/home/students/comp311/u1152484:/bin/bash
+u1152679:x:511:66:Haneen_Ashkar:/home/students/comp311/u1152679:/bin/bash
+u1153026:x:512:66:Noor_Abuhijleh:/home/students/comp311/u1153026:/bin/bash
+u1161333:x:576:66:Roa'A_Injass:/home/students/comp311/u1161333:/bin/bash
+u1161564:x:577:66:Abdallah_Zyoud:/home/students/comp322/u1161564:/bin/bash
+u1162505:x:579:66:Mohammed_Issa:/home/students/comp311/u1162505:/bin/bash
+u1163149:x:580:66:Ibraheem_Issa:/home/students/comp311/u1163149:/bin/bash
+u1111308:x:581:66:Saeed_Sabah:/home/students/comp311/u1111308:/bin/bash
+u1160305:x:513:66:Rebhiya_Sbeih:/home/students/comp311/u1160305:/bin/bash
+u1160440:x:514:66:Marah_Hamad:/home/students/comp311/u1160440:/bin/bash
+u1160455:x:515:66:Ahmad_Basheer:/home/students/comp311/u1160455:/bin/bash
+u1160481:x:516:66:Suhaib_AbuGhannam:/home/students/comp311/u1160481:/bin/bash
+u1161357:x:517:66:Bara_Ibrahim:/home/students/comp311/u1161357:/bin/bash
+u1161405:x:518:66:Rawan_Alimi:/home/students/comp311/u1161405:/bin/ksh
+u1162147:x:519:66:Nada_Zalloum:/home/students/comp311/u1162147:/bin/bash
+u1162422:x:520:66:Reem_Shamasnah:/home/students/comp311/u1162422:/bin/bash
+u1130212:x:521:66:Ibrahim_Njoum:/home/students/comp311/u1130212:/bin/bash
+u1131589:x:522:66:Yara_Hussien:/home/students/comp311/u1131589:/bin/ksh
+u1162074:x:535:66:Sabry_Alawy:/home/students/comp311/u1162074:/bin/bash
+u1162213:x:536:66:Noor_Hmeidan:/home/students/comp311/u1162213:/bin/bash
+u1162230:x:537:66:Jehad_AlMutan:/home/students/comp311/u1162230:/bin/bash
+u1162309:x:538:66:Hammam_Hamad:/home/students/comp311/u1162309:/bin/bash
+u1162314:x:539:66:Samer_Almasloot:/home/students/comp311/u1162314:/bin/bash
+u1163095:x:540:66:AbdelRahim_Ahmad:/home/students/comp311/u1163095:/bin/bash
+u1153160:x:541:66:Muayed_Mafarjeh:/home/students/comp311/u1153160:/bin/ksh
+u1143191:x:542:66:Alaa_Zubaidi:/home/students/comp311/u1143191:/bin/bash
+u1160766:x:543:66:Ahmad_Ghannam:/home/students/comp311/u1160766:/bin/bash
+u1152185:x:544:66:Mahmoud_AbdelKader:/home/students/comp311/u1152185:/bin/bash
+u1162651:x:545:66:Aya_Khateeb:/home/students/comp311/u1162651:/bin/bash
+u1151283:x:546:66:Mustafa_Salah:/home/students/comp311/u1151283:/bin/ksh
+u1141480:x:547:66:Ahmad_Qasem:/home/students/comp311/u1141480:/bin/bash
+u1141648:x:548:66:Mohammad_Mohammad:/home/students/comp311/u1141648:/bin/bash
+u1141879:x:549:66:Rawan_Khalaf:/home/students/comp311/u1141879:/bin/bash
+u1142011:x:550:66:Mohammad_Fitiani:/home/students/comp311/u1142011:/bin/bash
+u1142608:x:551:66:Haitham_Idrees:/home/students/comp311/u1142608:/bin/bash
+u1142651:x:552:66:Dalal_Fukheda:/home/students/comp322/u1142651:/bin/bash
+u1152329:x:553:66:Ibrahim_Rifaie:/home/students/comp311/u1152329:/bin/bash
+u1152477:x:554:66:Rami_Salman:/home/students/comp311/u1152477:/bin/ksh
+u1153279:x:557:66:Yazeed_Nofal:/home/students/comp311/u1153279:/bin/bash
+u1160063:x:558:66:Ayah_Sa'Fin:/home/students/comp311/u1160063:/bin/bash
+u1160343:x:559:66:Mousa_Mtera:/home/students/comp322/u1160343:/bin/bash
+u1160394:x:560:66:Laith_Al-Budeiri:/home/students/comp311/u1160394:/bin/bash
+u1161196:x:561:66:Jeries_Nasrawi:/home/students/comp311/u1161196:/bin/bash
+u1161721:x:562:66:Mohammad_Dar-Ahmad:/home/students/comp311/u1161721:/bin/bash
+u1162344:x:563:66:Tawfiq_Abdulraziq:/home/students/comp311/u1162344:/bin/bash
+u1162949:x:564:66:Basil_Al-Sa`Ed:/home/students/comp311/u1162949:/bin/sh
+u12345:x:565:66:Hafez_AlBarghouthi:/home/students/comp311/u12345:/bin/bash
+u1140360:x:566:66:Rawan_Safi:/home/students/comp311/u1140360:/bin/bash
+u1141936:x:567:66:Areej_Rimawi:/home/students/comp311/u1141936:/bin/sh
+u1142984:x:568:66:Ahlam_Ghazawneh:/home/students/comp311/u1142984:/bin/bash
+u1150845:x:569:66:Haneen_Taweel:/home/students/comp311/u1150845:/bin/bash
+u1151429:x:570:66:Amer_Aldaghamin:/home/students/comp311/u1151429:/bin/bash
+u1151432:x:571:66:Yanal_Abdeljawwad:/home/students/comp311/u1151432:/bin/bash
+u1160034:x:572:66:Taqwa_AbuAsbah:/home/students/comp311/u1160034:/bin/bash
+u1150383:x:523:66:Rami_Yahya:/home/students/comp311/u1150383:/bin/bash
+u1151913:x:524:66:Ahmad_Salah:/home/students/comp311/u1151913:/bin/bash
+u1153216:x:525:66:Isra_Hamed:/home/students/comp311/u1153216:/bin/bash
+u1150383:x:523:66:Rami_Yahya:/home/students/comp311/u1150383:/bin/sh
+u1151913:x:524:66:Ahmad_Salah:/home/students/comp311/u1151913:/bin/bash
+u1153216:x:525:66:Isra_Hamed:/home/students/comp322/u1153216:/bin/bash
+u1160076:x:526:66:Adnan_Assali:/home/students/comp322/u1160076:/bin/bash
+u1160155:x:527:66:Hani_Yaaqbeh:/home/students/comp311/u1160155:/bin/sh
+u1160170:x:528:66:Shadi_Mohammad:/home/students/comp311/u1160170:/bin/bash
+u1160643:x:529:66:Fatima_Ayyash:/home/students/comp311/u1160643:/bin/bash
+u1160658:x:530:66:Kamaleddin_Shaer:/home/students/comp311/u1160658:/bin/bash
+u1160707:x:531:66:Malak_Shoubi:/home/students/comp322/u1160707:/bin/bash
+u1161044:x:532:66:Fida_Zohour:/home/students/comp311/u1161044:/bin/bash
+u1161390:x:533:66:Noor_Kharoubi:/home/students/comp311/u1161390:/bin/bash
+u1161444:x:534:66:Salah_Suliman:/home/students/comp322/u1161444:/bin/bash
+u1152901:x:582:66:Darin_Jojas:/home/students/comp322/u1152901:/bin/bash
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep -i Mohammad_ prj2_passwd 
+u1150129:x:503:66:[01;31m[KMohammad_[m[KKahala:/home/students/comp311/u1150129:/bin/bash
+u1150357:x:506:66:[01;31m[KMohammad_[m[KAlqayem:/home/students/comp311/u1150357:/bin/bash
+u1152484:x:510:66:[01;31m[KMohammad_[m[KAsad:/home/students/comp311/u1152484:/bin/bash
+u1141648:x:548:66:[01;31m[KMohammad_[m[KMohammad:/home/students/comp311/u1141648:/bin/bash
+u1142011:x:550:66:[01;31m[KMohammad_[m[KFitiani:/home/students/comp311/u1142011:/bin/bash
+u1161721:x:562:66:[01;31m[KMohammad_[m[KDar-Ahmad:/home/students/comp311/u1161721:/bin/bash
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep -i Mohammad_ prj2_passwd [1@^
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep -i ^Mohammad_ prj2_passwd [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C| cut -d: -f5 | tr '_ ' ' '
+Mohammad Kahala
+Mohammad Alqayem
+Mohammad Asad
+Mohammad Mohammad
+Mohammad Fitiani
+Mohammad Dar-Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep -i comp322* prj2_passwd | cut -d: -f5 | sort - t: -k2
+Abdallah_Zyoud
+Adnan_Assali
+Dalal_Fukheda
+Darin_Jojas
+Isra_Hamed
+Malak_Shoubi
+Mousa_Mtera
+Salah_Suliman
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sed 's/Mh[Kohammad/Mahmoud/ig' prj2_passwd | ci[Kur [K[Kt -d: - f5 > Mahmoud_passwd
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ chmod +c[Kx Mahmoud_passwd 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cat Mahmoud_passwd 
+Admin
+Comp311TA_Account
+Sondos_Awashra
+Mahmoud_Kahala
+Tareq_Qahoush
+Ahmad_Thabet
+Mahmoud_Alqayem
+Ahmad_Jamal
+Tarik_Suid
+Atheer_Mahmoud
+Mahmoud_Asad
+Haneen_Ashkar
+Noor_Abuhijleh
+Roa'A_Injass
+Abdallah_Zyoud
+Mohammed_Issa
+Ibraheem_Issa
+Saeed_Sabah
+Rebhiya_Sbeih
+Marah_Hamad
+Ahmad_Basheer
+Suhaib_AbuGhannam
+Bara_Ibrahim
+Rawan_Alimi
+Nada_Zalloum
+Reem_Shamasnah
+Ibrahim_Njoum
+Yara_Hussien
+Sabry_Alawy
+Noor_Hmeidan
+Jehad_AlMutan
+Hammam_Hamad
+Samer_Almasloot
+AbdelRahim_Ahmad
+Muayed_Mafarjeh
+Alaa_Zubaidi
+Ahmad_Ghannam
+Mahmoud_AbdelKader
+Aya_Khateeb
+Mustafa_Salah
+Ahmad_Qasem
+Mahmoud_Mahmoud
+Rawan_Khalaf
+Mahmoud_Fitiani
+Haitham_Idrees
+Dalal_Fukheda
+Ibrahim_Rifaie
+Rami_Salman
+Yazeed_Nofal
+Ayah_Sa'Fin
+Mousa_Mtera
+Laith_Al-Budeiri
+Jeries_Nasrawi
+Mahmoud_Dar-Ahmad
+Tawfiq_Abdulraziq
+Basil_Al-Sa`Ed
+Hafez_AlBarghouthi
+Rawan_Safi
+Areej_Rimawi
+Ahlam_Ghazawneh
+Haneen_Taweel
+Amer_Aldaghamin
+Yanal_Abdeljawwad
+Taqwa_AbuAsbah
+Rami_Yahya
+Ahmad_Salah
+Isra_Hamed
+Rami_Yahya
+Ahmad_Salah
+Isra_Hamed
+Adnan_Assali
+Hani_Yaaqbeh
+Shadi_Mahmoud
+Fatima_Ayyash
+Kamaleddin_Shaer
+Malak_Shoubi
+Fida_Zohour
+Noor_Kharoubi
+Salah_Suliman
+Darin_Jojas
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -d: -f5 prj2_passwdd[K | tail -3 | tr'_[K[K '_' ' ' 
+Salah Suliman
+Darin Jojas
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sort prj2_passwd | uniq -d > cleanprj2_passwd 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ chmod +x cleanprj2_passwd 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ chmod +x cleanprj2_passwd [1P[1P[1P[1P[1P[1P[1P[1P[1P[C[1@c[1@a[1@t[1@ 
+u1151913:x:524:66:Ahmad_Salah:/home/students/comp311/u1151913:/bin/bash
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -d: -f5 prj2_passwd | cut -d_ -f2 | tr 'a-z' 'A -Z' | sort -n-r[K[K -r | greo[Kp -iv u116
+ZYOUD
+ZUBAIDI
+ZOHOUR
+ZALLOUM
+YAHYA
+YAHYA
+YAAQBEH
+THABET
+TAWEEL
+SULIMAN
+SUID
+SHOUBI
+SHAMASNAH
+SHAER
+SBEIH
+SALMAN
+SALAH
+SALAH
+SALAH
+SA'FIN
+SAFI
+SABAH
+RIMAWI
+RIFAIE
+QASEM
+QAHOUSH
+NOFAL
+NJOUM
+NASRAWI
+MTERA
+MOHAMMAD
+MOHAMMAD
+MOHAMMAD
+MAFARJEH
+KHATEEB
+KHAROUBI
+KHALAF
+KAHALA
+JOJAS
+JAMAL
+ISSA
+ISSA
+INJASS
+IDREES
+IBRAHIM
+HUSSIEN
+HMEIDAN
+HAMED
+HAMED
+HAMAD
+HAMAD
+GHAZAWNEH
+GHANNAM
+FUKHEDA
+FITIANI
+DAR-AHMAD
+BASHEER
+AYYASH
+AWASHRA
+ASSALI
+ASHKAR
+ASAD
+AL-SA`ED
+ALQAYEM
+ALMUTAN
+ALMASLOOT
+ALIMI
+ALDAGHAMIN
+AL-BUDEIRI
+ALBARGHOUTHI
+ALAWY
+AHMAD
+ADMIN
+ACCOUNT
+ABUHIJLEH
+ABUGHANNAM
+ABUASBAH
+ABDULRAZIQ
+ABDELKADER
+ABDELJAWWAD
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sort prj2_passwdd[K | sed 's/ksh/bash/ig' > [Koldkshusers [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ks
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ chmod +x oldkshusers 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cat oldkshusers
+
+comp311ta:x:501:100:Comp311TA_Account:/home/comp311ta:/bin/bash
+root:x:0:0:Admin:/:/bin/bash
+u1111308:x:581:66:Saeed_Sabah:/home/students/comp311/u1111308:/bin/bash
+u1130212:x:521:66:Ibrahim_Njoum:/home/students/comp311/u1130212:/bin/bash
+u1131589:x:522:66:Yara_Hussien:/home/students/comp311/u1131589:/bin/bash
+u1140360:x:566:66:Rawan_Safi:/home/students/comp311/u1140360:/bin/bash
+u1141480:x:547:66:Ahmad_Qasem:/home/students/comp311/u1141480:/bin/bash
+u1141648:x:548:66:Mohammad_Mohammad:/home/students/comp311/u1141648:/bin/bash
+u1141879:x:549:66:Rawan_Khalaf:/home/students/comp311/u1141879:/bin/bash
+u1141936:x:567:66:Areej_Rimawi:/home/students/comp311/u1141936:/bin/sh
+u1142011:x:550:66:Mohammad_Fitiani:/home/students/comp311/u1142011:/bin/bash
+u1142478:x:502:66:Sondos_Awashra:/home/students/comp311/u1142478:/bin/bash
+u1142608:x:551:66:Haitham_Idrees:/home/students/comp311/u1142608:/bin/bash
+u1142651:x:552:66:Dalal_Fukheda:/home/students/comp322/u1142651:/bin/bash
+u1142984:x:568:66:Ahlam_Ghazawneh:/home/students/comp311/u1142984:/bin/bash
+u1143191:x:542:66:Alaa_Zubaidi:/home/students/comp311/u1143191:/bin/bash
+u1150129:x:503:66:Mohammad_Kahala:/home/students/comp311/u1150129:/bin/bash
+u1150279:x:504:66:Tareq_Qahoush:/home/students/comp311/u1150279:/bin/bash
+u1150312:x:505:66:Ahmad_Thabet:/home/students/comp311/u1150312:/bin/bash
+u1150357:x:506:66:Mohammad_Alqayem:/home/students/comp311/u1150357:/bin/bash
+u1150383:x:523:66:Rami_Yahya:/home/students/comp311/u1150383:/bin/bash
+u1150383:x:523:66:Rami_Yahya:/home/students/comp311/u1150383:/bin/sh
+u1150409:x:507:66:Ahmad_Jamal:/home/students/comp311/u1150409:/bin/bash
+u1150523:x:508:66:Tarik_Suid:/home/students/comp311/u1150523:/bin/bash
+u1150845:x:569:66:Haneen_Taweel:/home/students/comp311/u1150845:/bin/bash
+u1151283:x:546:66:Mustafa_Salah:/home/students/comp311/u1151283:/bin/bash
+u1151429:x:570:66:Amer_Aldaghamin:/home/students/comp311/u1151429:/bin/bash
+u1151432:x:571:66:Yanal_Abdeljawwad:/home/students/comp311/u1151432:/bin/bash
+u1151913:x:524:66:Ahmad_Salah:/home/students/comp311/u1151913:/bin/bash
+u1151913:x:524:66:Ahmad_Salah:/home/students/comp311/u1151913:/bin/bash
+u1152185:x:544:66:Mahmoud_AbdelKader:/home/students/comp311/u1152185:/bin/bash
+u1152270:x:509:66:Atheer_Mohammad:/home/students/comp311/u1152270:/bin/bash
+u1152329:x:553:66:Ibrahim_Rifaie:/home/students/comp311/u1152329:/bin/bash
+u1152477:x:554:66:Rami_Salman:/home/students/comp311/u1152477:/bin/bash
+u1152484:x:510:66:Mohammad_Asad:/home/students/comp311/u1152484:/bin/bash
+u1152679:x:511:66:Haneen_Ashkar:/home/students/comp311/u1152679:/bin/bash
+u1152901:x:582:66:Darin_Jojas:/home/students/comp322/u1152901:/bin/bash
+u1153026:x:512:66:Noor_Abuhijleh:/home/students/comp311/u1153026:/bin/bash
+u1153160:x:541:66:Muayed_Mafarjeh:/home/students/comp311/u1153160:/bin/bash
+u1153216:x:525:66:Isra_Hamed:/home/students/comp311/u1153216:/bin/bash
+u1153216:x:525:66:Isra_Hamed:/home/students/comp322/u1153216:/bin/bash
+u1153279:x:557:66:Yazeed_Nofal:/home/students/comp311/u1153279:/bin/bash
+u1160034:x:572:66:Taqwa_AbuAsbah:/home/students/comp311/u1160034:/bin/bash
+u1160063:x:558:66:Ayah_Sa'Fin:/home/students/comp311/u1160063:/bin/bash
+u1160076:x:526:66:Adnan_Assali:/home/students/comp322/u1160076:/bin/bash
+u1160155:x:527:66:Hani_Yaaqbeh:/home/students/comp311/u1160155:/bin/sh
+u1160170:x:528:66:Shadi_Mohammad:/home/students/comp311/u1160170:/bin/bash
+u1160305:x:513:66:Rebhiya_Sbeih:/home/students/comp311/u1160305:/bin/bash
+u1160343:x:559:66:Mousa_Mtera:/home/students/comp322/u1160343:/bin/bash
+u1160394:x:560:66:Laith_Al-Budeiri:/home/students/comp311/u1160394:/bin/bash
+u1160440:x:514:66:Marah_Hamad:/home/students/comp311/u1160440:/bin/bash
+u1160455:x:515:66:Ahmad_Basheer:/home/students/comp311/u1160455:/bin/bash
+u1160481:x:516:66:Suhaib_AbuGhannam:/home/students/comp311/u1160481:/bin/bash
+u1160643:x:529:66:Fatima_Ayyash:/home/students/comp311/u1160643:/bin/bash
+u1160658:x:530:66:Kamaleddin_Shaer:/home/students/comp311/u1160658:/bin/bash
+u1160707:x:531:66:Malak_Shoubi:/home/students/comp322/u1160707:/bin/bash
+u1160766:x:543:66:Ahmad_Ghannam:/home/students/comp311/u1160766:/bin/bash
+u1161044:x:532:66:Fida_Zohour:/home/students/comp311/u1161044:/bin/bash
+u1161196:x:561:66:Jeries_Nasrawi:/home/students/comp311/u1161196:/bin/bash
+u1161333:x:576:66:Roa'A_Injass:/home/students/comp311/u1161333:/bin/bash
+u1161357:x:517:66:Bara_Ibrahim:/home/students/comp311/u1161357:/bin/bash
+u1161390:x:533:66:Noor_Kharoubi:/home/students/comp311/u1161390:/bin/bash
+u1161405:x:518:66:Rawan_Alimi:/home/students/comp311/u1161405:/bin/bash
+u1161444:x:534:66:Salah_Suliman:/home/students/comp322/u1161444:/bin/bash
+u1161564:x:577:66:Abdallah_Zyoud:/home/students/comp322/u1161564:/bin/bash
+u1161721:x:562:66:Mohammad_Dar-Ahmad:/home/students/comp311/u1161721:/bin/bash
+u1162074:x:535:66:Sabry_Alawy:/home/students/comp311/u1162074:/bin/bash
+u1162147:x:519:66:Nada_Zalloum:/home/students/comp311/u1162147:/bin/bash
+u1162213:x:536:66:Noor_Hmeidan:/home/students/comp311/u1162213:/bin/bash
+u1162230:x:537:66:Jehad_AlMutan:/home/students/comp311/u1162230:/bin/bash
+u1162309:x:538:66:Hammam_Hamad:/home/students/comp311/u1162309:/bin/bash
+u1162314:x:539:66:Samer_Almasloot:/home/students/comp311/u1162314:/bin/bash
+u1162344:x:563:66:Tawfiq_Abdulraziq:/home/students/comp311/u1162344:/bin/bash
+u1162422:x:520:66:Reem_Shamasnah:/home/students/comp311/u1162422:/bin/bash
+u1162505:x:579:66:Mohammed_Issa:/home/students/comp311/u1162505:/bin/bash
+u1162651:x:545:66:Aya_Khateeb:/home/students/comp311/u1162651:/bin/bash
+u1162949:x:564:66:Basil_Al-Sa`Ed:/home/students/comp311/u1162949:/bin/sh
+u1163095:x:540:66:AbdelRahim_Ahmad:/home/students/comp311/u1163095:/bin/bash
+u1163149:x:580:66:Ibraheem_Issa:/home/students/comp311/u1163149:/bin/bash
+u12345:x:565:66:Hafez_AlBarghouthi:/home/students/comp311/u12345:/bin/bash
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sort prj2_passwd | grep -i u116 | cut -d: 0[K-f5 | wc  -l
+37
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sort prj2_passwd | grep -i u116 | cut -d: -f5 | wc -l[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cat oldkshusers[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chmod +x oldkshusers sort prj2_passwd | sed 's/ksh/bash/ig' >oldkshusers [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@g[1@r[1@e[1@p[1@ [1@k[C[1@s[1@h[1@$[1@ [1@p[1@a[1P[1@r[1@j[1@2[1@_[1@p[1@a[C[1@s[Csed 's/ksh/bash/ig' >oldkshusers [A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwsed 's/ksh/bash/ig' >oldkshusers[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdsed 's/ksh/bash/ig' >oldkshusers[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C sed 's/ksh/bash/ig' >oldkshusers[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C|sed 's/ksh/bash/ig' >oldkshusers[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C sed 's/ksh/bash/ig' >oldkshusers[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep ksh$ prj2_passwd | sed 's/ksh/bash/ig' >oldkshusers[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sort prj2_passwd | grep -i u116 | cut -d: -f5 | wc -l[K[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cat oldkshusers[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chmod +x oldkshusers 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ chmod +x oldkshusers grep ksh$ prj2_passwd | sed 's/ksh/bash/ig' >oldkshusers[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sort prj2_passwd | grep -i u116 | cut -d: -f5 | wc -l[K[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cat oldkshusers[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+u1161405:x:518:66:Rawan_Alimi:/home/students/comp311/u1161405:/bin/bash
+u1131589:x:522:66:Yara_Hussien:/home/students/comp311/u1131589:/bin/bash
+u1153160:x:541:66:Muayed_Mafarjeh:/home/students/comp311/u1153160:/bin/bash
+u1151283:x:546:66:Mustafa_Salah:/home/students/comp311/u1151283:/bin/bash
+u1152477:x:554:66:Rami_Salman:/home/students/comp311/u1152477:/bin/bash
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep ^u[1[[K][1][6][0-9][0-9][0-9][1-4] prj2_passwd |  cut -d"[K: -f5
+Roa'A_Injass
+Abdallah_Zyoud
+Suhaib_AbuGhannam
+Reem_Shamasnah
+Sabry_Alawy
+Noor_Hmeidan
+Samer_Almasloot
+Aya_Khateeb
+Ayah_Sa'Fin
+Mousa_Mtera
+Laith_Al-Budeiri
+Mohammad_Dar-Ahmad
+Tawfiq_Abdulraziq
+Taqwa_AbuAsbah
+Fatima_Ayyash
+Fida_Zohour
+Salah_Suliman
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -d: -f5 prj2_passwd | cut -d: -f1 | cut -c1
+A
+C
+S
+M
+T
+A
+M
+A
+T
+A
+M
+H
+N
+R
+A
+M
+I
+S
+R
+M
+A
+S
+B
+R
+N
+R
+I
+Y
+S
+N
+J
+H
+S
+A
+M
+A
+A
+M
+A
+M
+A
+M
+R
+M
+H
+D
+I
+R
+Y
+A
+M
+L
+J
+M
+T
+B
+H
+R
+A
+A
+H
+A
+Y
+T
+R
+A
+I
+R
+A
+I
+A
+H
+S
+F
+K
+M
+F
+N
+S
+D
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -d: -f5 prj2_passwd | cut -d: -f1 | cut -c1[C[C[1P[1@2
+A
+C
+S
+M
+T
+A
+M
+A
+T
+A
+M
+H
+N
+R
+A
+M
+I
+S
+R
+M
+A
+S
+B
+R
+N
+R
+I
+Y
+S
+N
+J
+H
+S
+A
+M
+A
+A
+M
+A
+M
+A
+M
+R
+M
+H
+D
+I
+R
+Y
+A
+M
+L
+J
+M
+T
+B
+H
+R
+A
+A
+H
+A
+Y
+T
+R
+A
+I
+R
+A
+I
+A
+H
+S
+F
+K
+M
+F
+N
+S
+D
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [K]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [K]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -d: -f5 prj2_passwd | cut -d: -f2 | cut -c1[1P[1@_
+A
+A
+A
+K
+Q
+T
+A
+J
+S
+M
+A
+A
+A
+I
+Z
+I
+I
+S
+S
+H
+B
+A
+I
+A
+Z
+S
+N
+H
+A
+H
+A
+H
+A
+A
+M
+Z
+G
+A
+K
+S
+Q
+M
+K
+F
+I
+F
+R
+S
+N
+S
+M
+A
+N
+D
+A
+A
+A
+S
+R
+G
+T
+A
+A
+A
+Y
+S
+H
+Y
+S
+H
+A
+Y
+M
+A
+S
+S
+Z
+K
+S
+J
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ vi pr[K[Kq2_answers 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;22r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[22;1H"q2_answers" 24L, 800C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HQuestion 2
+
+(Task 1) grep -i Mohammad_ prj2_passwd[4;10Hgrep -i Mohammad_ prj2_passwd | cut -d: -f5 | tr '_' ' '
+
+(Task 2) grep -i comp322* prj2_passwd | cut -d: -f5 | sort -t: -k2
+
+(Task 3) sed 's/Mohamad/Mohmoud/ig' prj2_passwd | cut -d: -f5 >Mahmoud_passwdd[9;1H 
+
+(Task 4) cut -d: -f5 prj2_passwd | tail -2 | tr '_' ' '
+
+(Task 5) sort prj2_passwd | uniq -d > cleanprh2_passwd
+
+(Task 6) cut -d: -f5 prj2_passwd | cut -d_ -f2 | tr 'a-z' 'A-Z' | sort -n -r  [16;1H| grep -iv u116
+
+(Task 7) sort prj2_passwd | grep -i u116 | cut -d: -f5 | wc -l
+
+(Task 8) grep ksh$ prj2_passwd | sed's/ksh/bash/ig' > oldkshusers[22;60H1,1[11CTop[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1HQuestion 2
+
+(Task 1) grep -i Mohammad_ prj2_passwd[4;10Hgrep -i Mohammad_ prj2_passwd | cut -d: -f5 | tr '_' ' '
+
+(Task 2) grep -i comp322* prj2_passwd | cut -d: -f5 | sort -t: -k2
+
+(Task 3) sed 's/Mohamad/Mohmoud/ig' prj2_passwd | cut -d: -f5 >Mahmoud_passwdd[9;1H 
+
+(Task 4) cut -d: -f5 prj2_passwd | tail -2 | tr '_' ' '
+
+(Task 5) sort prj2_passwd | uniq -d > cleanprh2_passwd
+
+(Task 6) cut -d: -f5 prj2_passwd | cut -d_ -f2 | tr 'a-z' 'A-Z' | sort -n -r  [16;1H| grep -iv u116
+
+(Task 7) sort prj2_passwd | grep -i u116 | cut -d: -f5 | wc -l
+
+(Task 8) grep ksh$ prj2_passwd | sed's/ksh/bash/ig' > oldkshusers[22;60H1,1[11CTop"q2_answers" 24L, 800C[1;1H[?25h[?25l[22;60H2,0-1[2;1H[?25h[?25l
+[46m([mTask 1[46m)[m[22;60H3,1  [3;1H[?25h[?25l(Task 1)[22;60H4,1-8[4;8H[?25h[?25l[22;60H5,0-1[5;1H[?25h[?25l
+[46m([mTask 2[46m)[m[22;60H6,1  [6;1H[?25h[?25l(Task 2)[22;60H7,0-1[7;1H[?25h[?25l
+[46m([mTask 3[46m)[m[68Cdd[9;1H [22;60H8,1  [8;1H[?25h[?25l(Task 3)[68Cdd[9;1H [22;60H9,0-1[10;1H[?25h[?25l
+[46m([mTask 4[46m)[m[22;60H10,1 [11;1H[?25h[?25l(Task 4)[22;61H1,0-1[12;1H[?25h[?25l
+[46m([mTask 5[46m)[m[22;61H2,1  [13;1H[?25h[?25l(Task 5)[22;61H3,0-1[14;1H[?25h[?25l
+[46m([mTask 6[46m)[m[68C  [16;1H|[22;61H4,1  [15;1H[?25h[?25l(Task 6)[68C  [16;1H|[22;61H5,0-1[17;1H[?25h[?25l
+[46m([mTask 7[46m)[m[22;61H6,1  [18;1H[?25h[?25l(Task 7)[22;61H7,0-1[19;1H[?25h[?25l
+[46m([mTask 8[46m)[m[22;61H8,1  [20;1H[?25h[?25l(Task 8)[22;61H9,0-1[21;1H[?25h[?25l[1;21r[21;1H
+[1;22r[21;1H[46m([mTask 9[46m)[m grep ^u[1][1][6][0-9][0-9][0-9][0-9][0-4] prj2_passwd | cut -d: -f5[22;1H[K[22;60H20,1[10C20%[21;1H[?25h[?25l[1;21r[21;1H
+[1;22r[20;1H(Task 9)[22;60H[K[22;60H21,0-1[8C40%[21;1H[?25h[?25l[1;21r[21;1H
+[1;22r[21;1H[46m([mTask 10[46m)[m  cut -d: -f5 prj2_passwd | cut -d: -f1 | cut -c1[22;60H[K[22;60H22,1[10C60%[21;1H[?25h[?25l[1;21r[21;1H
+[1;22r[20;1H([7C)[21;12Hcut -d: -f5 prj2_passwd | cut -d: -f2 | cut -c1[22;60H[K[22;60H23,1-8[8C80%[21;8H[?25h[?25l[1;21r[21;1H
+[1;22r[21;2H#exit[22;60H[K[22;60H24,1[10CBot[21;1H[?25h[?25l[22;61H3,1-8[20;8H[?25h[?25l[22;63H2-9[20;9H[?25h[?25l[22;63H3-10[20;10H[?25h[?25l[22;63H4-11[20;11H[?25h[?25l[22;63H5-12[20;12H[?25h[?25l[22;63H6-13[20;13H[?25h[?25l[22;63H7-14[20;14H[?25h[?25l[22;63H8-15[20;15H[?25h[?25l[22;63H9-16[20;16H[?25h[?25l[22;63H10-17[20;17H[?25h[?25l[22;64H1-18[20;18H[?25h[?25l[22;64H2-19[20;19H[?25h[?25l[22;64H3-20[20;20H[?25h[?25l[22;64H4-21[20;21H[?25h[?25l[22;64H5-22[20;22H[?25h[?25l[22;64H6-23[20;23H[?25h[?25l[22;64H7-24[20;24H[?25h[?25l[22;64H8-25[20;25H[?25h[?25l[22;64H9-26[20;26H[?25h[?25l[22;63H20-27[20;27H[?25h[?25l[22;64H1-28[20;28H[?25h[?25l[22;64H2-29[20;29H[?25h[?25l[22;64H3-30[20;30H[?25h[?25l[22;64H4-31[20;31H[?25h[?25l[22;64H5-32[20;32H[?25h[?25l[22;64H6-33[20;33H[?25h[?25l[22;64H7-34[20;34H[?25h[?25l[22;64H8-35[20;35H[?25h[?25l[22;64H9-36[20;36H[?25h[?25l[22;63H30-37[20;37H[?25h[?25l[22;64H1-38[20;38H[?25h[?25l[22;64H2-39[20;39H[?25h[?25l[22;64H3-40[20;40H[?25h[?25l[22;64H4-41[20;41H[?25h[?25l[22;64H5-42[20;42H[?25h[?25l[22;64H6-43[20;43H[?25h[?25l[22;64H7-44[20;44H[?25h[?25l[22;64H8-45[20;45H[?25h[?25l
+
+[1m-- INSERT --[m[22;60H[K[22;60H23,38-45      Bot[20;45H[?25h[?25l -f2 | cut -c1[20;58H[K[22;64H7-44[20;44H[?25h[?25l_ -f2 | cut -c1[22;64H8-45[20;45H[?25h[22;1H[K[20;44H[?25l[22;60H23,37-44      Bot[20;44H[?25h[?25l[22;60H[K[22;1H:[?2004h[?25hwq![?25l[?2004l"q2_answers" 24L, 800C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ unab[Kmw [K[Ke -a
+Linux hoson-VirtualBox 5.4.0-52-generic #57-Ubuntu SMP Thu Oct 15 10:57:00 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cd; pwd; whoami; finger 
+/home/hoson
+hoson
+Login     Name       Tty      Idle  Login Time   Office     Office Phone
+hoson     Hoson     *:0             Dec  8 02:30 (:0)
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ tail -2 /etc/passwd
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+postfix:x:126:133::/var/spool/postfix:/usr/sbin/nologin
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ echo hoson yousef hasw[Kqoor 
+hoson yousef hasqoor
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ echo id = 1191003
+id = 1191003
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ q2_answerscq2_answershq2_answersmq2_answersoq2_answersdq2_answers q2_answers+q2_answersxq2_answers q2_answers
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cat q2_passwd
+cat: q2_passwd: No such file or directory
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cat q2_passwd[K[K[K[K[K[Kanswers 
+Question 2 
+
+(Task 1) grep -i Mohammad_ prj2_passwd 
+	 grep -i Mohammad_ prj2_passwd | cut -d: -f5 | tr '_' ' '
+
+(Task 2) grep -i comp322* prj2_passwd | cut -d: -f5 | sort -t: -k2
+
+(Task 3) sed 's/Mohamad/Mohmoud/ig' prj2_passwd | cut -d: -f5 >Mahmoud_passwd 
+
+(Task 4) cut -d: -f5 prj2_passwd | tail -2 | tr '_' ' '
+
+(Task 5) sort prj2_passwd | uniq -d > cleanprh2_passwd 
+
+(Task 6) cut -d: -f5 prj2_passwd | cut -d_ -f2 | tr 'a-z' 'A-Z' | sort -n -r | grep -iv u116
+
+(Task 7) sort prj2_passwd | grep -i u116 | cut -d: -f5 | wc -l 
+
+(Task 8) grep ksh$ prj2_passwd | sed's/ksh/bash/ig' > oldkshusers 
+
+(Task 9) grep ^u[1][1][6][0-9][0-9][0-9][0-9][0-4] prj2_passwd | cut -d: -f5 
+
+(Task 10)  cut -d: -f5 prj2_passwd | cut -d: -f1 | cut -c1
+	   cut -d: -f5 prj2_passwd | cut -d_ -f2 | cut -c1
+ #exit 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ vi q2_as[Knswers 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;22r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[22;1H"q2_answers" 24L, 800C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HQuestion 2
+
+(Task 1) grep -i Mohammad_ prj2_passwd[4;10Hgrep -i Mohammad_ prj2_passwd | cut -d: -f5 | tr '_' ' '
+
+(Task 2) grep -i comp322* prj2_passwd | cut -d: -f5 | sort -t: -k2
+
+(Task 3) sed 's/Mohamad/Mohmoud/ig' prj2_passwd | cut -d: -f5 >Mahmoud_passwdd[9;1H 
+
+(Task 4) cut -d: -f5 prj2_passwd | tail -2 | tr '_' ' '
+
+(Task 5) sort prj2_passwd | uniq -d > cleanprh2_passwd
+
+(Task 6) cut -d: -f5 prj2_passwd | cut -d_ -f2 | tr 'a-z' 'A-Z' | sort -n -r  [16;1H| grep -iv u116
+
+(Task 7) sort prj2_passwd | grep -i u116 | cut -d: -f5 | wc -l
+
+(Task 8) grep ksh$ prj2_passwd | sed's/ksh/bash/ig' > oldkshusers[22;60H1,1[11CTop[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1HQuestion 2
+
+(Task 1) grep -i Mohammad_ prj2_passwd[4;10Hgrep -i Mohammad_ prj2_passwd | cut -d: -f5 | tr '_' ' '
+
+(Task 2) grep -i comp322* prj2_passwd | cut -d: -f5 | sort -t: -k2
+
+(Task 3) sed 's/Mohamad/Mohmoud/ig' prj2_passwd | cut -d: -f5 >Mahmoud_passwdd[9;1H 
+
+(Task 4) cut -d: -f5 prj2_passwd | tail -2 | tr '_' ' '
+
+(Task 5) sort prj2_passwd | uniq -d > cleanprh2_passwd
+
+(Task 6) cut -d: -f5 prj2_passwd | cut -d_ -f2 | tr 'a-z' 'A-Z' | sort -n -r  [16;1H| grep -iv u116
+
+(Task 7) sort prj2_passwd | grep -i u116 | cut -d: -f5 | wc -l
+
+(Task 8) grep ksh$ prj2_passwd | sed's/ksh/bash/ig' > oldkshusers[22;60H1,1[11CTop"q2_answers" 24L, 800C[1;1H[?25h[?25l[22;60H2,0-1[2;1H[?25h[?25l
+[46m([mTask 1[46m)[m[22;60H3,1  [3;1H[?25h[?25l(Task 1)[22;60H4,1-8[4;8H[?25h[?25l[22;60H5,0-1[5;1H[?25h[?25l
+[46m([mTask 2[46m)[m[22;60H6,1  [6;1H[?25h[?25l(Task 2)[22;60H7,0-1[7;1H[?25h[?25l
+[46m([mTask 3[46m)[m[68Cdd[9;1H [22;60H8,1  [8;1H[?25h[?25l(Task 3)[68Cdd[9;1H [22;60H9,0-1[10;1H[?25h[?25l
+[46m([mTask 4[46m)[m[22;60H10,1 [11;1H[?25h[?25l(Task 4)[22;61H1,0-1[12;1H[?25h[?25l
+[46m([mTask 5[46m)[m[22;61H2,1  [13;1H[?25h[?25l(Task 5)[22;61H3,0-1[14;1H[?25h[?25l
+[46m([mTask 6[46m)[m[68C  [16;1H|[22;61H4,1  [15;1H[?25h[?25l(Task 6)[68C  [16;1H|[22;61H5,0-1[17;1H[?25h[?25l
+[46m([mTask 7[46m)[m[22;61H6,1  [18;1H[?25h[?25l(Task 7)[22;61H7,0-1[19;1H[?25h[?25l
+[46m([mTask 8[46m)[m[22;61H8,1  [20;1H[?25h[?25l(Task 8)[22;61H9,0-1[21;1H[?25h[?25l[1;21r[21;1H
+[1;22r[21;1H[46m([mTask 9[46m)[m grep ^u[1][1][6][0-9][0-9][0-9][0-9][0-4] prj2_passwd | cut -d: -f5[22;1H[K[22;60H20,1[10C20%[21;1H[?25h[?25l[1;21r[21;1H
+[1;22r[20;1H(Task 9)[22;60H[K[22;60H21,0-1[8C40%[21;1H[?25h[?25l[1;21r[21;1H
+[1;22r[21;1H[46m([mTask 10[46m)[m  cut -d: -f5 prj2_passwd | cut -d: -f1 | cut -c1[22;60H[K[22;60H22,1[10C60%[21;1H[?25h[?25l[1;21r[21;1H
+[1;22r[20;1H([7C)[21;12Hcut -d: -f5 prj2_passwd | cut -d_ -f2 | cut -c1[22;60H[K[22;60H23,1-8[8C80%[21;8H[?25h[?25l[1;21r[21;1H
+[1;22r[21;2H#exit[22;60H[K[22;60H24,1[10CBot[21;1H[?25h[?25l[22;63H2[21;2H[?25h[?25l[22;63H3[21;3H[?25h[?25l[22;61H3,1-8[20;8H[?25h[?25l[22;63H2-9[20;9H[?25h[?25l[19;1H[46m([7C)[m[22;61H2,9  [19;9H[?25h[?25l([7C)[22;63H10[19;10H[?25h[?25l[22;64H1[19;11H[?25h[?25l[22;64H2[19;12H[?25h[?25l[22;64H3[19;13H[?25h[?25l[22;64H4[19;14H[?25h[?25l[22;64H5[19;15H[?25h[?25l[22;64H6[19;16H[?25h[?25l[22;64H7[19;17H[?25h[?25l[22;64H8[19;18H[?25h[?25l[22;64H9[19;19H[?25h[?25l[22;63H20[19;20H[?25h[?25l[22;64H1[19;21H[?25h[?25l[22;64H2[19;22H[?25h[?25l[22;64H3[19;23H[?25h[?25l[22;64H4[19;24H[?25h[?25l[22;64H5[19;25H[?25h[?25l[22;64H6[19;26H[?25h[?25l[22;64H7[19;27H[?25h[?25l[22;64H8[19;28H[?25h[?25l[22;64H9[19;29H[?25h[?25l[22;63H30[19;30H[?25h[?25l[22;64H1[19;31H[?25h[?25l[22;64H2[19;32H[?25h[?25l[22;64H3[19;33H[?25h[?25l[22;64H4[19;34H[?25h[?25l[22;64H5[19;35H[?25h[?25l[22;64H6[19;36H[?25h[?25l[22;64H7[19;37H[?25h[?25l[22;64H8[19;38H[?25h[?25l[22;64H9[19;39H[?25h[?25l[22;63H40[19;40H[?25h[?25l[22;61H1,0-1[18;1H[?25h[?25l[17;36H[46m[[m0-9[46m][m[22;61H0,40 [17;40H[?25h[?25l[0-9][46m[[m0-9[46m][m[22;64H1[17;41H[?25h[?25l[0-9][22;64H2[17;42H[?25h[?25l[22;64H3[17;43H[?25h[?25l[22;64H4[17;44H[?25h[?25l[46m[[m0-9[46m][m[22;64H5[17;45H[?25h[?25l[0-9][46m[[m0-4[46m][m[22;64H6[17;46H[?25h[?25l[0-4][22;64H7[17;47H[?25h[?25l[22;64H8[17;48H[?25h[?25l[22;1H[1m-- INSERT --[m[22;60H[K[22;60H20,48[9CBot[17;48H[?25h[?25l[46m[[m-4[46m][m prj2_passwd | cut -d: -f5 [22;64H7[17;47H[?25h[?25l[1-4] prj2_passwd | cut -d: -f5[22;64H8[17;48H[?25h[22;1H[K[17;47H[?25l[22;60H20,47[9CBot[17;47H[?25h[?25l[22;60H[K[22;1H:[?2004h[?25hwq![?25l[?2004l"q2_answers" 24L, 800C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ vi q2_answers [1@cat[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgrep ^u[1][1][6][0-9][0-9][0-9][0-9][0-4] prj2_passwd | cut -d: -f5[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-4] prj2_passwd[1P[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1-4] prj2_passw[1@d[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep ^u[1][1][6][0-9][0-9][0-9][0-9][1-4] prj2_passwd | cut -d: -f5[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu[1][1][6][0-9][0-9][0-9][0-9][1-4] prj2_passwd[1P[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep u[1][1][6][0-9][0-9][0-9][0-9][1-4] prj2_passwd | cut -d: -f5[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1-4] prj2_passwd [1P[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1-4] prj2_passwd |[1P[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1-4] prj2_passwd | [1P[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1-4] prj2_passwd | c[1P[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1-4] prj2_passwd | cu[1P[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Roa'A_Injass
+Abdallah_Zyoud
+Suhaib_AbuGhannam
+Reem_Shamasnah
+Sabry_Alawy
+Noor_Hmeidan
+Samer_Almasloot
+Aya_Khateeb
+Ayah_Sa'Fin
+Mousa_Mtera
+Laith_Al-Budeiri
+Mohammad_Dar-Ahmad
+Tawfiq_Abdulraziq
+Taqwa_AbuAsbah
+Fatima_Ayyash
+Fida_Zohour
+Salah_Suliman
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep u[1][1][6][0-9][0-9][0-9][1-4] prj2_passwd | cut -d: -f5[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0-9][1-4] prj2_passwd[5@ | cu[C[C[C[C[C[C[C[C[C[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C^u[1][1][6][0-9][0-9][0-9][0-9][1-4] prj2_passw[1@d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ vi q2_answers [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;22r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[22;1H"q2_answers" 24L, 800C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HQuestion 2
+
+(Task 1) grep -i Mohammad_ prj2_passwd[4;10Hgrep -i Mohammad_ prj2_passwd | cut -d: -f5 | tr '_' ' '
+
+(Task 2) grep -i comp322* prj2_passwd | cut -d: -f5 | sort -t: -k2
+
+(Task 3) sed 's/Mohamad/Mohmoud/ig' prj2_passwd | cut -d: -f5 >Mahmoud_passwdd[9;1H 
+
+(Task 4) cut -d: -f5 prj2_passwd | tail -2 | tr '_' ' '
+
+(Task 5) sort prj2_passwd | uniq -d > cleanprh2_passwd
+
+(Task 6) cut -d: -f5 prj2_passwd | cut -d_ -f2 | tr 'a-z' 'A-Z' | sort -n -r  [16;1H| grep -iv u116
+
+(Task 7) sort prj2_passwd | grep -i u116 | cut -d: -f5 | wc -l
+
+(Task 8) grep ksh$ prj2_passwd | sed's/ksh/bash/ig' > oldkshusers[22;60H1,1[11CTop[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1HQuestion 2
+
+(Task 1) grep -i Mohammad_ prj2_passwd[4;10Hgrep -i Mohammad_ prj2_passwd | cut -d: -f5 | tr '_' ' '
+
+(Task 2) grep -i comp322* prj2_passwd | cut -d: -f5 | sort -t: -k2
+
+(Task 3) sed 's/Mohamad/Mohmoud/ig' prj2_passwd | cut -d: -f5 >Mahmoud_passwdd[9;1H 
+
+(Task 4) cut -d: -f5 prj2_passwd | tail -2 | tr '_' ' '
+
+(Task 5) sort prj2_passwd | uniq -d > cleanprh2_passwd
+
+(Task 6) cut -d: -f5 prj2_passwd | cut -d_ -f2 | tr 'a-z' 'A-Z' | sort -n -r  [16;1H| grep -iv u116
+
+(Task 7) sort prj2_passwd | grep -i u116 | cut -d: -f5 | wc -l
+
+(Task 8) grep ksh$ prj2_passwd | sed's/ksh/bash/ig' > oldkshusers[22;60H1,1[11CTop"q2_answers" 24L, 800C[1;1H[?25h[?25l[22;60H2,0-1[2;1H[?25h[?25l
+[46m([mTask 1[46m)[m[22;60H3,1  [3;1H[?25h[?25l(Task 1)[22;60H4,1-8[4;8H[?25h[?25l[22;60H5,0-1[5;1H[?25h[?25l
+[46m([mTask 2[46m)[m[22;60H6,1  [6;1H[?25h[?25l(Task 2)[22;60H7,0-1[7;1H[?25h[?25l
+[46m([mTask 3[46m)[m[68Cdd[9;1H [22;60H8,1  [8;1H[?25h[?25l(Task 3)[68Cdd[9;1H [22;60H9,0-1[10;1H[?25h[?25l
+[46m([mTask 4[46m)[m[22;60H10,1 [11;1H[?25h[?25l(Task 4)[22;61H1,0-1[12;1H[?25h[?25l
+[46m([mTask 5[46m)[m[22;61H2,1  [13;1H[?25h[?25l(Task 5)[22;61H3,0-1[14;1H[?25h[?25l
+[46m([mTask 6[46m)[m[68C  [16;1H|[22;61H4,1  [15;1H[?25h[?25l(Task 6)[68C  [16;1H|[22;61H5,0-1[17;1H[?25h[?25l
+[46m([mTask 7[46m)[m[22;61H6,1  [18;1H[?25h[?25l(Task 7)[22;61H7,0-1[19;1H[?25h[?25l
+[46m([mTask 8[46m)[m[22;61H8,1  [20;1H[?25h[?25l(Task 8)[22;61H9,0-1[21;1H[?25h[?25l[20;1H[46m([mTask 8[46m)[m[22;61H8,1  [20;1H[?25h[?25l(Task 8)[22;61H7,0-1[19;1H[?25h[?25l[18;1H[46m([mTask 7[46m)[m[22;61H6,1  [18;1H[?25h[?25l(Task 7)[22;61H7,0-1[19;1H[?25h[?25l
+[46m([mTask 8[46m)[m[22;61H8,1  [20;1H[?25h[?25l(Task 8)[22;61H9,0-1[21;1H[?25h[?25l[1;21r[21;1H
+[1;22r[21;1H[46m([mTask 9[46m)[m grep ^u[1][1][6][0-9][0-9][0-9][0-9][1-4] prj2_passwd | cut -d: -f5[22;1H[K[22;60H20,1[10C20%[21;1H[?25h[?25l[1;21r[21;1H
+[1;22r[20;1H(Task 9)[22;60H[K[22;60H21,0-1[8C40%[21;1H[?25h[?25l[1;21r[21;1H
+[1;22r[21;1H[46m([mTask 10[46m)[m  cut -d: -f5 prj2_passwd | cut -d: -f1 | cut -c1[22;60H[K[22;60H22,1[10C60%[21;1H[?25h[?25l[1;21r[21;1H
+[1;22r[20;1H([7C)[21;12Hcut -d: -f5 prj2_passwd | cut -d_ -f2 | cut -c1[22;60H[K[22;60H23,1-8[8C80%[21;8H[?25h[?25l[1;21r[21;1H
+[1;22r[21;2H#exit[22;60H[K[22;60H24,1[10CBot[21;1H[?25h[?25l[22;61H3,1-8[20;8H[?25h[?25l[19;1H[46m([7C)[m[22;61H2,1  [19;1H[?25h[?25l([7C)[22;61H1,0-1[18;1H[?25h[?25l[17;1H[46m([mTask 9[46m)[m[22;61H0,1  [17;1H[?25h[?25l(Task 9)[22;63H2[17;2H[?25h[?25l[22;63H3[17;3H[?25h[?25l[22;63H4[17;4H[?25h[?25l[22;63H5[17;5H[?25h[?25l[22;63H6[17;6H[?25h[?25l[22;63H7[17;7H[?25h[?25l[46m([mTask 9[46m)[m[22;63H8[17;8H[?25h[?25l(Task 9)[22;63H9[17;9H[?25h[?25l[22;63H10[17;10H[?25h[?25l[22;64H1[17;11H[?25h[?25l[22;64H2[17;12H[?25h[?25l[22;64H3[17;13H[?25h[?25l[22;64H4[17;14H[?25h[?25l[22;64H5[17;15H[?25h[?25l[22;64H6[17;16H[?25h[?25lu[46m[[m1[46m][m[22;64H7[17;17H[?25h[?25l[1][22;64H8[17;18H[?25h[?25l[46m[[m1[46m][m[22;64H9[17;19H[?25h[?25l[1][46m[[m1[46m][m[22;63H20[17;20H[?25h[?25l[1][22;64H1[17;21H[?25h[?25l[46m[[m1[46m][m[22;64H2[17;22H[?25h[?25l[1][46m[[m6[46m][m[22;64H3[17;23H[?25h[?25l[6][22;64H4[17;24H[?25h[?25l[46m[[m6[46m][m[22;64H5[17;25H[?25h[?25l[6][46m[[m0-9[46m][m[22;64H6[17;26H[?25h[?25l[0-9][22;64H7[17;27H[?25h[?25l[22;64H8[17;28H[?25h[?25l[22;64H9[17;29H[?25h[?25l[46m[[m0-9[46m][m[22;63H30[17;30H[?25h[?25l[0-9][46m[[m0-9[46m][m[22;64H1[17;31H[?25h[?25l[0-9][22;64H2[17;32H[?25h[?25l[22;64H3[17;33H[?25h[?25l[22;64H4[17;34H[?25h[?25l[46m[[m0-9[46m][m[22;64H5[17;35H[?25h[?25l[0-9][46m[[m0-9[46m][m[22;64H6[17;36H[?25h[?25l[0-9][22;64H7[17;37H[?25h[?25l[22;64H8[17;38H[?25h[?25l[22;64H9[17;39H[?25h[?25l[46m[[m0-9[46m][m[22;63H40[17;40H[?25h[?25l[0-9][46m[[m0-9[46m][m[22;64H1[17;41H[?25h[?25l[0-9][22;64H2[17;42H[?25h[?25l[22;64H3[17;43H[?25h[?25l[22;64H4[17;44H[?25h[?25l[46m[[m0-9[46m][m[22;64H5[17;45H[?25h[?25l[0-9][46m[[m1-4[46m][m[22;64H6[17;46H[?25h[?25l[1-4][22;64H7[17;47H[?25h[?25l[22;64H8[17;48H[?25h[?25l[22;64H7[17;47H[?25h[?25l[46m[[m1-4[46m][m[22;64H6[17;46H[?25h[?25l[22;1H[1m-- INSERT --[m[22;60H[K[22;60H20,46[9CBot[17;46H[?25h[?25l[46m[[m1-4[46m][m prj2_passwd | cut -d: -f5 [22;64H5[17;45H[?25h[?25l[46m[[m1-4[46m][m prj2_passwd | cut -d: -f5 [22;64H4[17;44H[?25h[?25l[46m[[m1-4[46m][m prj2_passwd | cut -d: -f5 [22;64H3[17;43H[?25h[?25l[46m[[m1-4[46m][m prj2_passwd | cut -d: -f5 [22;64H2[17;42H[?25h[?25l[46m[[m1-4[46m][m prj2_passwd | cut -d: -f5 [22;64H1[17;41H[?25h[22;1H[K[17;40H[?25l[46m[[m0-9[46m][m[1-4][22;60H20,40[9CBot[17;40H[?25h[?25l[22;60H[K[22;1H:[?2004h[?25hwq![?25l[?2004l"q2_answers" 24L, 795C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ vi q2_answers grep u[1][1][6][0-9][0-9][0-9][1-4] prj2_passwd | cut -d: -f5[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0-9][1-4] prj2_passwd[5@ | cu[C[C[C[C[C[C[C[C[C[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C^u[1][1][6][0-9][0-9][0-9][0-9][1-4] prj2_passw[1@d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ vi q2_answers [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@cat[C[C[C[C[C[C[C[C[C[C[C[C
+Question 2 
+
+(Task 1) grep -i Mohammad_ prj2_passwd 
+	 grep -i Mohammad_ prj2_passwd | cut -d: -f5 | tr '_' ' '
+
+(Task 2) grep -i comp322* prj2_passwd | cut -d: -f5 | sort -t: -k2
+
+(Task 3) sed 's/Mohamad/Mohmoud/ig' prj2_passwd | cut -d: -f5 >Mahmoud_passwd 
+
+(Task 4) cut -d: -f5 prj2_passwd | tail -2 | tr '_' ' '
+
+(Task 5) sort prj2_passwd | uniq -d > cleanprh2_passwd 
+
+(Task 6) cut -d: -f5 prj2_passwd | cut -d_ -f2 | tr 'a-z' 'A-Z' | sort -n -r | grep -iv u116
+
+(Task 7) sort prj2_passwd | grep -i u116 | cut -d: -f5 | wc -l 
+
+(Task 8) grep ksh$ prj2_passwd | sed's/ksh/bash/ig' > oldkshusers 
+
+(Task 9) grep ^u[1][1][6][0-9][0-9][0-9][1-4] prj2_passwd | cut -d: -f5 
+
+(Task 10)  cut -d: -f5 prj2_passwd | cut -d: -f1 | cut -c1
+	   cut -d: -f5 prj2_passwd | cut -d_ -f2 | cut -c1
+ #exit 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ exit 
+exit
+
+Script done on 2020-12-08 11:46:12+02:00 [COMMAND_EXIT_CODE="0"]

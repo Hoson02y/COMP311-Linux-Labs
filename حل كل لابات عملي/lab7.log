@@ -1,0 +1,328 @@
+Script started on 2020-10-28 18:00:21+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ uname -a
+Linux hoson-VirtualBox 5.4.0-52-generic #57-Ubuntu SMP Thu Oct 15 10:57:00 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cd;
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ p[Kcd ;whoami; finger
+hoson
+
+Command 'finger' not found, but can be installed with:
+
+sudo apt install finger
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sudo apt install finger
+[sudo] password for hoson: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  linux-headers-5.4.0-48 linux-headers-5.4.0-48-generic
+  linux-image-5.4.0-48-generic linux-modules-5.4.0-48-generic
+  linux-modules-extra-5.4.0-48-generic
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  finger
+0 upgraded, 1 newly installed, 0 to remove and 145 not upgraded.
+Need to get 16.9 kB of archives.
+After this operation, 51.2 kB of additional disk space will be used.
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Connecting to il.archive.ubuntu.com][0m[33m                                        0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Get:1 http://il.archive.ubuntu.com/ubuntu focal/universe amd64 finger amd64 0.17-17 [16.9 kB]
+[33m0% [1 finger 0 B/16.9 kB 0%][0m[33m12% [1 finger 2,584 B/16.9 kB 15%]                                  414 B/s 34s[0m[33m32% [1 finger 6,844 B/16.9 kB 40%]                                  414 B/s 24s[0m[33m100% [Working]                                                       414 B/s 0s[0m                                                                               Fetched 16.9 kB in 7s (2,389 B/s)
+
+7[0;23r8[1ASelecting previously unselected package finger.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 218308 files and directories currently installed.)
+Preparing to unpack .../finger_0.17-17_amd64.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [ 20%][49m[39m [###########...............................................] 8Unpacking finger (0.17-17) ...
+7[24;0f[42m[30mProgress: [ 40%][49m[39m [#######################...................................] 8Setting up finger (0.17-17) ...
+7[24;0f[42m[30mProgress: [ 60%][49m[39m [##################################........................] 87[24;0f[42m[30mProgress: [ 80%][49m[39m [##############################################............] 8Processing triggers for man-db (2.9.1-1) ...
+
+7[0;24r8[1A[J]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ tail -2[K[K[K[K[K[K[Ksinger
+
+Command 'singer' not found, did you mean:
+
+  command 'finger' from deb finger (0.17-17)
+
+Try: sudo apt install <deb name>
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ tail -2 /etc/passwd
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+postfix:x:126:133::/var/spool/postfix:/usr/sbin/nologin
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ echo hoson yoused [K[Kf hasqoor 
+hoson yousef hasqoor
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ echo 1191003
+1191003
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ xlogo 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ xlogo &
+[1] 3771
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ xlogo &
+[2] 3772
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ xlogo &
+[3] 3773
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs
+[1]   Running                 xlogo &
+[2]-  Running                 xlogo &
+[3]+  Running                 xlogo &
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ fg %2
+xlogo
+^Z
+[2]+  Stopped                 xlogo
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs
+[1]   Running                 xlogo &
+[2]+  Stopped                 xlogo
+[3]-  Running                 xlogo &
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ bg %2
+[2]+ xlogo &
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ k[Kjobs
+[1]   Running                 xlogo &
+[2]-  Running                 xlogo &
+[3]+  Running                 xlogo &
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill %3
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs
+[1]   Running                 xlogo &
+[2]-  Running                 xlogo &
+[3]+  Terminated              xlogo
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill %1 %2 %3
+bash: kill: %3: no such job
+[1]-  Terminated              xlogo
+[2]+  Terminated              xlogo
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill %1 %2 %3jobs[K
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobskill %1 %2 %3jobs[Kkill %3[3Pjobsbg %2[1Pjobsfg %2[1Pjobsxlogo &[K&
+[1] 3948
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ fg %1
+xlogo
+^Z
+[1]+  Stopped                 xlogo
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ fg %1xlogo &
+[2] 3949
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ xlogo &
+[3] 3950
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs
+[1]+  Stopped                 xlogo
+[2]   Running                 xlogo &
+[3]-  Running                 xlogo &
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill %2;bg %3; jobs
+bash: bg: job 3 already in background
+[1]+  Stopped                 xlogo
+[2]   Running                 xlogo &
+[3]-  Running                 xlogo &
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill %2;bg %3; jobs[1@ [C[C[C[C[C[C[C[1P jobs[1P jobs[1P jobs[1Pjobs[1P jobs[1P jobs[1P jobs; jobs
+bash: kill: (3949) - No such process
+[1]+  Stopped                 xlogo
+[2]   Terminated              xlogo
+[3]-  Running                 xlogo &
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ps -f[K[K[K
+    PID TTY          TIME CMD
+   2917 pts/1    00:00:00 bash
+   3948 pts/1    00:00:00 xlogo
+   3950 pts/1    00:00:00 xlogo
+   3954 pts/1    00:00:00 ps
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ps -f
+UID          PID    PPID  C STIME TTY          TIME CMD
+hoson       2917    2916  0 18:00 pts/1    00:00:00 bash -i
+hoson       3948    2917  0 18:07 pts/1    00:00:00 xlogo
+hoson       3950    2917  0 18:07 pts/1    00:00:00 xlogo
+hoson       3981    2917  0 18:11 pts/1    00:00:00 ps -f
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ var1=first
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ var2=seconf[Kd
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ export var2
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ set | greo[Kp "var1\
+> bash: unexpected EOF while looking for matching `"'
+bash: syntax error: unexpected end of file
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ set | grep "var1\|var2"
+_=[01;31m[Kvar2[m[K
+[01;31m[Kvar1[m[K=first
+[01;31m[Kvar2[m[K=second
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ env | greo[Kp"var1\|var2"
+grepvar1\|var2: command not found
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ env | grep"var1\|var2" "var1\|var2"
+[01;31m[Kvar2[m[K=second
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ksh
+
+Command 'ksh' not found, but can be installed with:
+
+sudo apt install ksh    # version 2020.0.0-5, or
+sudo apt install ksh93  # version 93u+20120801-7
+sudo apt install mksh   # version 58-1
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sudo apt install ksh
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  linux-headers-5.4.0-48 linux-headers-5.4.0-48-generic
+  linux-image-5.4.0-48-generic linux-modules-5.4.0-48-generic
+  linux-modules-extra-5.4.0-48-generic
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  binfmt-support
+The following NEW packages will be installed:
+  binfmt-support ksh
+0 upgraded, 2 newly installed, 0 to remove and 145 not upgraded.
+Need to get 856 kB of archives.
+After this operation, 3,046 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m[33m0% [Connecting to il.archive.ubuntu.com (192.115.211.70)][0m                                                         Get:1 http://il.archive.ubuntu.com/ubuntu focal/universe amd64 binfmt-support amd64 2.2.0-2 [58.2 kB]
+[33m                                                         0% [1 binfmt-support 0 B/58.2 kB 0%][0m[33m2% [1 binfmt-support 18.2 kB/58.2 kB 31%][0m[33m5% [1 binfmt-support 56.5 kB/58.2 kB 97%][0m[33m                                         15% [Working][0m             Get:2 http://il.archive.ubuntu.com/ubuntu focal/universe amd64 ksh amd64 2020.0.0-5 [798 kB]
+[33m15% [2 ksh 0 B/798 kB 0%][0m[33m18% [2 ksh 26.7 kB/798 kB 3%][0m[33m20% [2 ksh 49.4 kB/798 kB 6%][0m[33m22% [2 ksh 65.1 kB/798 kB 8%][0m[33m23% [2 ksh 79.3 kB/798 kB 10%][0m[33m23% [2 ksh 84.9 kB/798 kB 11%][0m[33m                              25% [2 ksh 102 kB/798 kB 13%][0m[33m26% [2 ksh 109 kB/798 kB 14%][0m[33m26% [2 ksh 118 kB/798 kB 15%]                                     28.0 kB/s 24s[0m[33m28% [2 ksh 137 kB/798 kB 17%]                                     28.0 kB/s 23s[0m[33m30% [2 ksh 152 kB/798 kB 19%]                                     28.0 kB/s 23s[0m[33m30% [2 ksh 160 kB/798 kB 20%]                                     28.0 kB/s 22s[0m[33m32% [2 ksh 179 kB/798 kB 22%]                                     28.0 kB/s 22s[0m[33m32% [2 ksh 179 kB/798 kB 22%]                                     28.0 kB/s 22s[0m[33m34% [2 ksh 197 kB/798 kB 25%]                                     28.0 kB/s 21s[0m[33m35% [2 ksh 210 kB/798 kB 26%]                                     28.0 kB/s 21s[0m[33m37% [2 ksh 228 kB/798 kB 29%]                                     28.0 kB/s 20s[0m[33m38% [2 ksh 241 kB/798 kB 30%]                                     28.0 kB/s 19s[0m[33m40% [2 ksh 264 kB/798 kB 33%]                                     28.0 kB/s 19s[0m[33m42% [2 ksh 281 kB/798 kB 35%]                                     28.0 kB/s 18s[0m[33m42% [2 ksh 287 kB/798 kB 36%]                                     28.1 kB/s 18s[0m[33m44% [2 ksh 305 kB/798 kB 38%]                                     28.1 kB/s 17s[0m[33m45% [2 ksh 312 kB/798 kB 39%]                                     28.1 kB/s 17s[0m[33m45% [2 ksh 315 kB/798 kB 39%]                                     28.1 kB/s 17s[0m[33m46% [2 ksh 324 kB/798 kB 41%]                                     28.1 kB/s 16s[0m[33m47% [2 ksh 335 kB/798 kB 42%]                                     28.1 kB/s 16s[0m[33m48% [2 ksh 345 kB/798 kB 43%]                                     28.1 kB/s 16s[0m[33m48% [2 ksh 350 kB/798 kB 44%]                                     28.1 kB/s 15s[0m[33m50% [2 ksh 365 kB/798 kB 46%]                                     28.1 kB/s 15s[0m[33m51% [2 ksh 385 kB/798 kB 48%]                                     28.1 kB/s 14s[0m[33m52% [2 ksh 387 kB/798 kB 49%]                                     28.1 kB/s 14s[0m[33m53% [2 ksh 397 kB/798 kB 50%]                                     28.1 kB/s 14s[0m[33m54% [2 ksh 414 kB/798 kB 52%]                                     21.3 kB/s 18s[0m[33m55% [2 ksh 427 kB/798 kB 54%]                                     21.3 kB/s 17s[0m[33m57% [2 ksh 441 kB/798 kB 55%]                                     21.3 kB/s 16s[0m[33m58% [2 ksh 450 kB/798 kB 56%]                                     21.3 kB/s 16s[0m[33m59% [2 ksh 468 kB/798 kB 59%]                                     21.3 kB/s 15s[0m[33m60% [2 ksh 477 kB/798 kB 60%]                                     21.3 kB/s 15s[0m[33m61% [2 ksh 487 kB/798 kB 61%]                                     21.3 kB/s 14s[0m[33m63% [2 ksh 508 kB/798 kB 64%]                                     21.3 kB/s 13s[0m[33m65% [2 ksh 527 kB/798 kB 66%]                                     21.3 kB/s 12s[0m[33m66% [2 ksh 545 kB/798 kB 68%]                                     21.3 kB/s 11s[0m[33m68% [2 ksh 559 kB/798 kB 70%]                                     21.3 kB/s 11s[0m[33m70% [2 ksh 583 kB/798 kB 73%]                                     21.3 kB/s 10s[0m[33m73% [2 ksh 610 kB/798 kB 77%]                                      32.6 kB/s 5s[0m[33m74% [2 ksh 623 kB/798 kB 78%]                                      32.6 kB/s 5s[0m[33m75% [2 ksh 637 kB/798 kB 80%]                                      32.6 kB/s 4s[0m[33m78% [2 ksh 664 kB/798 kB 83%]                                      32.6 kB/s 4s[0m[33m80% [2 ksh 693 kB/798 kB 87%]                                      32.6 kB/s 3s[0m[33m83% [2 ksh 720 kB/798 kB 90%]                                      32.6 kB/s 2s[0m[33m86% [2 ksh 757 kB/798 kB 95%]                                      32.6 kB/s 1s[0m[33m100% [Working]                                                     32.6 kB/s 0s[0m                                                                               Fetched 856 kB in 28s (30.8 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package binfmt-support.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 218314 files and directories currently installed.)
+Preparing to unpack .../binfmt-support_2.2.0-2_amd64.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [ 11%][49m[39m [######....................................................] 8Unpacking binfmt-support (2.2.0-2) ...
+7[24;0f[42m[30mProgress: [ 22%][49m[39m [############..............................................] 8Selecting previously unselected package ksh.
+Preparing to unpack .../ksh_2020.0.0-5_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [###################.......................................] 8Unpacking ksh (2020.0.0-5) ...
+7[24;0f[42m[30mProgress: [ 44%][49m[39m [#########################.................................] 8Setting up binfmt-support (2.2.0-2) ...
+7[24;0f[42m[30mProgress: [ 56%][49m[39m [################################..........................] 8Created symlink /etc/systemd/system/multi-user.target.wants/binfmt-support.service → /lib/systemd/system/binfmt-support.service.
+7[24;0f[42m[30mProgress: [ 67%][49m[39m [######################################....................] 8Setting up ksh (2020.0.0-5) ...
+7[24;0f[42m[30mProgress: [ 78%][49m[39m [#############################################.............] 8update-alternatives: using /usr/bin/ksh2020 to provide /bin/ksh (ksh) in auto mode
+update-alternatives: using /usr/bin/shcomp2020 to provide /usr/bin/shcomp (shcomp) in auto mode
+7[24;0f[42m[30mProgress: [ 89%][49m[39m [###################################################.......] 8Processing triggers for mime-support (3.64ubuntu1) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu1) ...
+Processing triggers for systemd (245.4-4ubuntu3.2) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for desktop-file-utils (0.24-1ubuntu3) ...
+
+7[0;24r8[1A[J]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ksh
+$ ps -f
+UID          PID    PPID  C STIME TTY          TIME CMD
+hoson       2917    2916  0 18:00 pts/1    00:00:00 bash -i
+hoson       3948    2917  0 18:07 pts/1    00:00:00 xlogo
+hoson       3950    2917  0 18:07 pts/1    00:00:00 xlogo
+hoson       5311    2917  0 18:15 pts/1    00:00:00 ksh
+hoson       5317    5311  0 18:15 pts/1    00:00:00 ps -f
+$ set |n  grep "var1\|var2"
+var2=second
+$ ^[[A^[[A        env | grep "var\|^[[D^[[D        ^[[D     ^?  2\| ^?   1\|var2"
+var2=second
+$ ps -f
+UID          PID    PPID  C STIME TTY          TIME CMD
+hoson       2917    2916  0 18:00 pts/1    00:00:00 bash -i
+hoson       3948    2917  0 18:07 pts/1    00:00:00 xlogo
+hoson       3950    2917  0 18:07 pts/1    00:00:00 xlogo
+hoson       5311    2917  0 18:15 pts/1    00:00:00 ksh
+hoson       5493    5311  0 18:19 pts/1    00:00:00 ps -f
+$ exec ps -f
+UID          PID    PPID  C STIME TTY          TIME CMD
+hoson       2917    2916  0 18:00 pts/1    00:00:00 bash -i
+hoson       3948    2917  0 18:07 pts/1    00:00:00 xlogo
+hoson       3950    2917  0 18:07 pts/1    00:00:00 xlogo
+hoson       5311    2917  0 18:15 pts/1    00:00:00 ps -f
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ps -l
+F S   UID     PID    PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000    2917    2916  0  80   0 -  4854 do_wai pts/1    00:00:00 bash
+0 T  1000    3948    2917  0  80   0 -  4271 do_sig pts/1    00:00:00 xlogo
+0 S  1000    3950    2917  0  80   0 -  4271 poll_s pts/1    00:00:00 xlogo
+0 R  1000    5496    2917  0  80   0 -  5007 -      pts/1    00:00:00 ps
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ nice -8[K6 ps -l
+F S   UID     PID    PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000    2917    2916  0  80   0 -  4854 do_wai pts/1    00:00:00 bash
+0 T  1000    3948    2917  0  80   0 -  4271 do_sig pts/1    00:00:00 xlogo
+0 S  1000    3950    2917  0  80   0 -  4271 poll_s pts/1    00:00:00 xlogo
+0 R  1000    5527    2917  0  86   6 -  5007 -      pts/1    00:00:00 ps
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ nice --8 ps -l
+nice: cannot set niceness: Permission denied
+F S   UID     PID    PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000    2917    2916  0  80   0 -  4854 do_wai pts/1    00:00:00 bash
+0 T  1000    3948    2917  0  80   0 -  4271 do_sig pts/1    00:00:00 xlogo
+0 S  1000    3950    2917  0  80   0 -  4271 poll_s pts/1    00:00:00 xlogo
+0 R  1000    5543    2917  0  80   0 -  5007 -      pts/1    00:00:00 ps
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ man 7 signal
+[?1049h[22;0;0t[?1h=SIGNAL(7)                  Linux Programmer's Manual                 SIGNAL(7)[m
+[m
+[1mNAME[0m[m
+       signal - overview of signals[m
+[m
+[1mDESCRIPTION[0m[m
+       Linux  supports both POSIX reliable signals (hereinafter "standard sig‐[m
+       nals") and POSIX real-time signals.[m
+[m
+   [1mSignal[0m [1mdispositions[0m[m
+       Each signal has a current [4mdisposition[24m, which determines how the process[m
+       behaves when it is delivered the signal.[m
+[m
+       The  entries  in the "Action" column of the table below specify the de‐[m
+       fault disposition for each signal, as follows:[m
+[m
+       Term   Default action is to terminate the process.[m
+[m
+       Ign    Default action is to ignore the signal.[m
+[7m Manual page signal(7) line 1 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page signal(7) line 2 (press h for help or q to quit)[27m[K[K       Core   Default action is to terminate the process and  dump  core  (see[m
+              [1mcore[0m(5)).[m
+[m
+       Stop   Default action is to stop the process.[m
+[m
+       Cont   Default  action  is  to  continue the process if it is currently[m
+              stopped.[m
+[m
+       A process can change the disposition of a signal using [1msigaction[0m(2)  or[m
+       [1msignal[0m(2).   (The  latter  is  less portable when establishing a signal[m
+       handler; see [1msignal[0m(2) for  details.)   Using  these  system  calls,  a[m
+       process  can  elect one of the following behaviors to occur on delivery[m
+       of the signal: perform the default action; ignore the signal; or  catch[m
+       the signal with a [4msignal[24m [4mhandler[24m, a programmer-defined function that is[m
+       automatically invoked when the signal is delivered.[m
+[m
+       By default, a signal handler is invoked on the  normal  process  stack.[m
+       It  is  possible  to  arrange that the signal handler uses an alternate[m
+       stack; see [1msigaltstack[0m(2) for a discussion of how to do this  and  when[m
+[7m Manual page signal(7) line 21 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs
+[1]+  Stopped                 xlogo
+[3]-  Running                 xlogo &
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ killall xlogo
+[3]-  Terminated              xlogo
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill %3
+bash: kill: %3: no such job
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill %3all xlogojobs[K
+[1]+  Stopped                 xlogo
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobskill %3[K1
+
+[1]+  Stopped                 xlogo
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill %1[3Pjobs
+[1]+  Terminated              xlogo
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ xlogo &
+[1] 5592
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill 5592
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill 5592[2Pxlogo &[3Pjobs
+[1]+  Terminated              xlogo
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ xlogo &
+[1] 5596
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill -15 5596
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill -15 5596[6Pxlogo &
+[2] 5597
+[1]   Terminated              xlogo
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill -TERN[KM 5597
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill -TERM 5597[8Pxlogo &kill -15 5596[6Pxlogo &[3Pjobs
+[2]+  Terminated              xlogo
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobskill -TERM 5597jobs[K
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobskill -TERM 5597[8Pxlogo &kill -TERM 5597[8Pxlogo &
+[1] 5598
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill -SIGTERM 5598
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill -SIGTERM 5598[11Pxlogo &[3Pjobs
+[1]+  Terminated              xlogo
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ jobs
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ps -[K[K
+    PID TTY          TIME CMD
+   2917 pts/1    00:00:00 bash
+   5599 pts/1    00:00:00 ps
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ps -f
+UID          PID    PPID  C STIME TTY          TIME CMD
+hoson       2917    2916  0 18:00 pts/1    00:00:00 bash -i
+hoson       5622    2917  0 18:24 pts/1    00:00:00 ps -f
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ps aux | grep bash
+hoson       2891  0.0  0.4  19240  4040 pts/0    Ss   17:59   0:00 [01;31m[Kbash[m[K
+hoson       2917  0.0  0.4  19416  4180 pts/1    Ss   18:00   0:00 [01;31m[Kbash[m[K -i
+hoson       5612  0.0  0.4  19240  4768 pts/2    Ss+  18:24   0:00 [01;31m[Kbash[m[K
+hoson       5626  0.0  0.0  17664   664 pts/1    S+   18:24   0:00 grep --color=auto [01;31m[Kbash[m[K
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill -15 5612
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ kill -9[K[K[K[K[K[K[Kkill -15 5612ps aux | grep bash
+hoson       2891  0.0  0.4  19240  4040 pts/0    Ss   17:59   0:00 [01;31m[Kbash[m[K
+hoson       2917  0.0  0.4  19416  4180 pts/1    Ss   18:00   0:00 [01;31m[Kbash[m[K -i
+hoson       5640  0.1  0.4  19240  4740 pts/2    Ss+  18:25   0:00 [01;31m[Kbash[m[K
+hoson       5651  0.0  0.0  17532   724 pts/1    S+   18:25   0:00 grep --color=auto [01;31m[Kbash[m[K
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ps aux | grep bash[5Pkill -15 5612[1P 5612[1P 56129 5612[1P 5612[1P 5612[C[C[C[C[C[K[K[K[K[K[K -9 5640
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ exit 
+exit
+
+Script done on 2020-10-28 18:27:14+02:00 [COMMAND_EXIT_CODE="0"]

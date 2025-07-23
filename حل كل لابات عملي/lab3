@@ -1,0 +1,343 @@
+Script started on 2020-10-03 16:37:34+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="79" LINES="27"]
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev              474256       0    474256   0% /dev
+tmpfs             100488    1336     99152   2% /run
+/dev/sda5        9736500 6776328   2445868  74% /
+tmpfs             502424       0    502424   0% /dev/shm
+tmpfs               5120       4      5116   1% /run/lock
+tmpfs             502424       0    502424   0% /sys/fs/cgroup
+/dev/loop0         56320   56320         0 100% /snap/core18/1880
+/dev/loop1         56704   56704         0 100% /snap/core18/1885
+/dev/loop2        261760  261760         0 100% /snap/gnome-3-34-1804/36
+/dev/loop3         51072   51072         0 100% /snap/snap-store/467
+/dev/loop4         30720   30720         0 100% /snap/snapd/8790
+/dev/loop5         31104   31104         0 100% /snap/snapd/9279
+/dev/loop6         63616   63616         0 100% /snap/gtk-common-themes/1506
+/dev/sda1         523248       4    523244   1% /boot/efi
+tmpfs             100484      36    100448   1% /run/user/1000
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev            464M     0  464M   0% /dev
+tmpfs            99M  1.4M   97M   2% /run
+/dev/sda5       9.3G  6.5G  2.4G  74% /
+tmpfs           491M     0  491M   0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           491M     0  491M   0% /sys/fs/cgroup
+/dev/loop0       55M   55M     0 100% /snap/core18/1880
+/dev/loop1       56M   56M     0 100% /snap/core18/1885
+/dev/loop2      256M  256M     0 100% /snap/gnome-3-34-1804/36
+/dev/loop3       50M   50M     0 100% /snap/snap-store/467
+/dev/loop4       30M   30M     0 100% /snap/snapd/8790
+/dev/loop5       31M   31M     0 100% /snap/snapd/9279
+/dev/loop6       63M   63M     0 100% /snap/gtk-common-themes/1506
+/dev/sda1       511M  4.0K  511M   1% /boot/efi
+tmpfs            99M   36K   99M   1% /run/user/1000
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mkdir newdir
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cd newdir
+]0;hoson@hoson-VirtualBox: ~/newdir[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/newdir[00m$ rmdir newdir
+rmdir: failed to remove 'newdir': No such file or directory
+]0;hoson@hoson-VirtualBox: ~/newdir[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/newdir[00m$ cd[K[Krm -rf new[K[K[K[K[K[K[K[K[K[Kcd
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ rmdir newdir
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ rm -rf newdir
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ pwd
+/home/hoson
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mkdir mytree
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cd mytree
+]0;hoson@hoson-VirtualBox: ~/mytree[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/mytree[00m$ mkdir dir1 dir2 dir3
+]0;hoson@hoson-VirtualBox: ~/mytree[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/mytree[00m$ cd dir [K1
+]0;hoson@hoson-VirtualBox: ~/mytree/dir1[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/mytree/dir1[00m$ mkdir dir4 dir5
+]0;hoson@hoson-VirtualBox: ~/mytree/dir1[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/mytree/dir1[00m$ cd dir5
+]0;hoson@hoson-VirtualBox: ~/mytree/dir1/dir5[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/mytree/dir1/dir5[00m$ mkdir dir6
+]0;hoson@hoson-VirtualBox: ~/mytree/dir1/dir5[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/mytree/dir1/dir5[00m$ touch file1
+]0;hoson@hoson-VirtualBox: ~/mytree/dir1/dir5[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/mytree/dir1/dir5[00m$ cd
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ls -R mytree
+mytree:
+[0m[01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m
+
+mytree/dir1:
+[01;34mdir4[0m  [01;34mdir5[0m
+
+mytree/dir1/dir4:
+
+mytree/dir1/dir5:
+[01;34mdir6[0m  file1
+
+mytree/dir1/dir5/dir6:
+
+mytree/dir2:
+
+mytree/dir3:
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ rm -rf mytree 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mkdir -p mytree/{dir3,dir2,dir1/{dir4,dir5/dir6}};tou ch mytree/dir1/dir5/file1
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ rm -rf mytree
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mkdir mytree
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mkdir mytree/dir1
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mkdir mytree/dir2
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mkdir mytree/dir2[K3
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mkdir mytree/dir3[K1/dir4
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mkdir mytree/dir1/dir4[K5
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mkdir mytree/dir1/dir5/dir5[K6
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ touch mkdir mytree/dir1/dir5/dir6[1@t[1@o[1@u[1@c[1@h[1@ [C[C[C[C[C[1P mytree/dir1/dir5/dir6[1P mytree/dir1/dir5/dir6[1P mytree/dir1/dir5/dir6[1P mytree/dir1/dir5/dir6[1P mytree/dir1/dir5/dir6[1Pmytree/dir1/dir5/dir6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Kfile1
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ls -al n[Kmytree
+total 20
+drwxrwxr-x  5 hoson hoson 4096 Oct  3 19:21 [0m[01;34m.[0m
+drwxr-xr-x 20 hoson hoson 4096 Oct  3 19:24 [01;34m..[0m
+drwxrwxr-x  4 hoson hoson 4096 Oct  3 19:21 [01;34mdir1[0m
+drwxrwxr-x  2 hoson hoson 4096 Oct  3 19:21 [01;34mdir2[0m
+drwxrwxr-x  2 hoson hoson 4096 Oct  3 19:21 [01;34mdir3[0m
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ls -al on the /dev
+ls: cannot access 'on': No such file or directory
+ls: cannot access 'the': No such file or directory
+/dev:
+total 4
+drwxr-xr-x  18 root  root        4020 Oct  2 22:15 [0m[01;34m.[0m
+drwxr-xr-x  20 root  root        4096 Sep 10 17:00 [01;34m..[0m
+crw-r--r--   1 root  root     10, 235 Oct  1 08:00 [40;33;01mautofs[0m
+drwxr-xr-x   2 root  root         300 Oct  1 08:00 [01;34mblock[0m
+drwxr-xr-x   2 root  root          80 Oct  1 08:00 [01;34mbsg[0m
+crw-------   1 root  root     10, 234 Oct  1 08:00 [40;33;01mbtrfs-control[0m
+drwxr-xr-x   3 root  root          60 Oct  1 08:00 [01;34mbus[0m
+lrwxrwxrwx   1 root  root           3 Oct  1 08:00 [01;36mcdrom[0m -> [40;33;01msr0[0m
+drwxr-xr-x   2 root  root        3560 Oct  2 22:16 [01;34mchar[0m
+crw--w----   1 root  tty       5,   1 Oct  1 08:00 [40;33;01mconsole[0m
+lrwxrwxrwx   1 root  root          11 Oct  1 08:00 [01;36mcore[0m -> /proc/kcore
+crw-------   1 root  root     10,  59 Oct  1 08:00 [40;33;01mcpu_dma_latency[0m
+crw-------   1 root  root     10, 203 Oct  1 08:00 [40;33;01mcuse[0m
+drwxr-xr-x   6 root  root         120 Oct  1 08:00 [01;34mdisk[0m
+drwxr-xr-x   3 root  root         100 Oct  1 08:00 [01;34mdri[0m
+lrwxrwxrwx   1 root  root           3 Oct  1 08:00 [01;36mdvd[0m -> [40;33;01msr0[0m
+crw-------   1 root  root     10,  62 Oct  1 08:00 [40;33;01mecryptfs[0m
+crw-rw----   1 root  video    29,   0 Oct  1 08:00 [40;33;01mfb0[0m
+lrwxrwxrwx   1 root  root          13 Oct  1 08:00 [01;36mfd[0m -> [01;34m/proc/self/fd[0m
+crw-rw-rw-   1 root  root      1,   7 Oct  1 08:00 [40;33;01mfull[0m
+crw-rw-rw-   1 root  root     10, 229 Oct  1 08:00 [40;33;01mfuse[0m
+crw-------   1 root  root     10, 228 Oct  1 08:00 [40;33;01mhpet[0m
+drwxr-xr-x   2 root  root           0 Oct  1 08:00 [01;34mhugepages[0m
+crw-------   1 root  root     10, 183 Oct  1 08:00 [40;33;01mhwrng[0m
+crw-------   1 root  root     89,   0 Oct  1 08:00 [40;33;01mi2c-0[0m
+lrwxrwxrwx   1 root  root          12 Oct  1 08:00 [01;36minitctl[0m -> [40;33m/run/initctl[0m
+drwxr-xr-x   3 root  root         240 Oct  2 22:15 [01;34minput[0m
+crw-r--r--   1 root  root      1,  11 Oct  1 08:00 [40;33;01mkmsg[0m
+drwxr-xr-x   2 root  root          60 Oct  1 08:00 [01;34mlightnvm[0m
+lrwxrwxrwx   1 root  root          28 Oct  1 08:00 [01;36mlog[0m -> [01;35m/run/systemd/journal/dev-log[0m
+brw-rw----   1 root  disk      7,   0 Oct  1 08:00 [40;33;01mloop0[0m
+brw-rw----   1 root  disk      7,   1 Oct  1 08:00 [40;33;01mloop1[0m
+brw-rw----   1 root  disk      7,   2 Oct  1 08:00 [40;33;01mloop2[0m
+brw-rw----   1 root  disk      7,   3 Oct  1 08:00 [40;33;01mloop3[0m
+brw-rw----   1 root  disk      7,   4 Oct  1 08:00 [40;33;01mloop4[0m
+brw-rw----   1 root  disk      7,   5 Oct  1 08:00 [40;33;01mloop5[0m
+brw-rw----   1 root  disk      7,   6 Oct  1 08:00 [40;33;01mloop6[0m
+brw-rw----   1 root  disk      7,   7 Oct  1 08:00 [40;33;01mloop7[0m
+crw-rw----   1 root  disk     10, 237 Oct  1 08:00 [40;33;01mloop-control[0m
+drwxr-xr-x   2 root  root          60 Oct  1 08:00 [01;34mmapper[0m
+crw-------   1 root  root     10, 227 Oct  1 08:00 [40;33;01mmcelog[0m
+crw-r-----   1 root  kmem      1,   1 Oct  1 08:00 [40;33;01mmem[0m
+drwxrwxrwt   2 root  root          40 Oct  1 08:00 [30;42mmqueue[0m
+drwxr-xr-x   2 root  root          60 Oct  1 08:00 [01;34mnet[0m
+crw-rw-rw-   1 root  root      1,   3 Oct  1 08:00 [40;33;01mnull[0m
+crw-------   1 root  root     10, 144 Oct  1 08:00 [40;33;01mnvram[0m
+crw-r-----   1 root  kmem      1,   4 Oct  1 08:00 [40;33;01mport[0m
+crw-------   1 root  root    108,   0 Oct  1 08:00 [40;33;01mppp[0m
+crw-------   1 root  root     10,   1 Oct  1 08:00 [40;33;01mpsaux[0m
+crw-rw-rw-   1 root  tty       5,   2 Oct  3  2020 [40;33;01mptmx[0m
+drwxr-xr-x   2 root  root           0 Oct  1 08:00 [01;34mpts[0m
+crw-rw-rw-   1 root  root      1,   8 Oct  1 08:00 [40;33;01mrandom[0m
+crw-rw-r--+  1 root  root     10, 242 Oct  1 08:00 [40;33;01mrfkill[0m
+lrwxrwxrwx   1 root  root           4 Oct  1 08:00 [01;36mrtc[0m -> [40;33;01mrtc0[0m
+crw-------   1 root  root    249,   0 Oct  1 08:00 [40;33;01mrtc0[0m
+brw-rw----   1 root  disk      8,   0 Oct  1 08:00 [40;33;01msda[0m
+brw-rw----   1 root  disk      8,   1 Oct  1 08:00 [40;33;01msda1[0m
+brw-rw----   1 root  disk      8,   2 Oct  1 08:00 [40;33;01msda2[0m
+brw-rw----   1 root  disk      8,   5 Oct  1 08:00 [40;33;01msda5[0m
+crw-rw----+  1 root  cdrom    21,   0 Oct  1 08:00 [40;33;01msg0[0m
+crw-rw----   1 root  disk     21,   1 Oct  1 08:00 [40;33;01msg1[0m
+drwxrwxrwt   2 root  root          40 Oct  1 08:00 [30;42mshm[0m
+crw-------   1 root  root     10, 231 Oct  1 08:00 [40;33;01msnapshot[0m
+drwxr-xr-x   3 root  root         180 Oct  1 08:00 [01;34msnd[0m
+brw-rw----+  1 root  cdrom    11,   0 Oct  1 08:00 [40;33;01msr0[0m
+lrwxrwxrwx   1 root  root          15 Oct  1 08:00 [01;36mstderr[0m -> [40;33;01m/proc/self/fd/2[0m
+lrwxrwxrwx   1 root  root          15 Oct  1 08:00 [01;36mstdin[0m -> [40;33;01m/proc/self/fd/0[0m
+lrwxrwxrwx   1 root  root          15 Oct  1 08:00 [01;36mstdout[0m -> [40;33;01m/proc/self/fd/1[0m
+crw-rw-rw-   1 root  tty       5,   0 Oct  1 08:00 [40;33;01mtty[0m
+crw--w----   1 root  tty       4,   0 Oct  1 08:00 [40;33;01mtty0[0m
+crw--w----   1 root  tty       4,   1 Oct  1 08:00 [40;33;01mtty1[0m
+crw--w----   1 root  tty       4,  10 Oct  1 08:00 [40;33;01mtty10[0m
+crw--w----   1 root  tty       4,  11 Oct  1 08:00 [40;33;01mtty11[0m
+crw--w----   1 root  tty       4,  12 Oct  1 08:00 [40;33;01mtty12[0m
+crw--w----   1 root  tty       4,  13 Oct  1 08:00 [40;33;01mtty13[0m
+crw--w----   1 root  tty       4,  14 Oct  1 08:00 [40;33;01mtty14[0m
+crw--w----   1 root  tty       4,  15 Oct  1 08:00 [40;33;01mtty15[0m
+crw--w----   1 root  tty       4,  16 Oct  1 08:00 [40;33;01mtty16[0m
+crw--w----   1 root  tty       4,  17 Oct  1 08:00 [40;33;01mtty17[0m
+crw--w----   1 root  tty       4,  18 Oct  1 08:00 [40;33;01mtty18[0m
+crw--w----   1 root  tty       4,  19 Oct  1 08:00 [40;33;01mtty19[0m
+crw--w----   1 hoson tty       4,   2 Oct  1 08:01 [40;33;01mtty2[0m
+crw--w----   1 root  tty       4,  20 Oct  1 08:00 [40;33;01mtty20[0m
+crw--w----   1 root  tty       4,  21 Oct  1 08:00 [40;33;01mtty21[0m
+crw--w----   1 root  tty       4,  22 Oct  1 08:00 [40;33;01mtty22[0m
+crw--w----   1 root  tty       4,  23 Oct  1 08:00 [40;33;01mtty23[0m
+crw--w----   1 root  tty       4,  24 Oct  1 08:00 [40;33;01mtty24[0m
+crw--w----   1 root  tty       4,  25 Oct  1 08:00 [40;33;01mtty25[0m
+crw--w----   1 root  tty       4,  26 Oct  1 08:00 [40;33;01mtty26[0m
+crw--w----   1 root  tty       4,  27 Oct  1 08:00 [40;33;01mtty27[0m
+crw--w----   1 root  tty       4,  28 Oct  1 08:00 [40;33;01mtty28[0m
+crw--w----   1 root  tty       4,  29 Oct  1 08:00 [40;33;01mtty29[0m
+crw--w----   1 root  tty       4,   3 Oct  1 08:00 [40;33;01mtty3[0m
+crw--w----   1 root  tty       4,  30 Oct  1 08:00 [40;33;01mtty30[0m
+crw--w----   1 root  tty       4,  31 Oct  1 08:00 [40;33;01mtty31[0m
+crw--w----   1 root  tty       4,  32 Oct  1 08:00 [40;33;01mtty32[0m
+crw--w----   1 root  tty       4,  33 Oct  1 08:00 [40;33;01mtty33[0m
+crw--w----   1 root  tty       4,  34 Oct  1 08:00 [40;33;01mtty34[0m
+crw--w----   1 root  tty       4,  35 Oct  1 08:00 [40;33;01mtty35[0m
+crw--w----   1 root  tty       4,  36 Oct  1 08:00 [40;33;01mtty36[0m
+crw--w----   1 root  tty       4,  37 Oct  1 08:00 [40;33;01mtty37[0m
+crw--w----   1 root  tty       4,  38 Oct  1 08:00 [40;33;01mtty38[0m
+crw--w----   1 root  tty       4,  39 Oct  1 08:00 [40;33;01mtty39[0m
+crw--w----   1 root  tty       4,   4 Oct  1 08:00 [40;33;01mtty4[0m
+crw--w----   1 root  tty       4,  40 Oct  1 08:00 [40;33;01mtty40[0m
+crw--w----   1 root  tty       4,  41 Oct  1 08:00 [40;33;01mtty41[0m
+crw--w----   1 root  tty       4,  42 Oct  1 08:00 [40;33;01mtty42[0m
+crw--w----   1 root  tty       4,  43 Oct  1 08:00 [40;33;01mtty43[0m
+crw--w----   1 root  tty       4,  44 Oct  1 08:00 [40;33;01mtty44[0m
+crw--w----   1 root  tty       4,  45 Oct  1 08:00 [40;33;01mtty45[0m
+crw--w----   1 root  tty       4,  46 Oct  1 08:00 [40;33;01mtty46[0m
+crw--w----   1 root  tty       4,  47 Oct  1 08:00 [40;33;01mtty47[0m
+crw--w----   1 root  tty       4,  48 Oct  1 08:00 [40;33;01mtty48[0m
+crw--w----   1 root  tty       4,  49 Oct  1 08:00 [40;33;01mtty49[0m
+crw--w----   1 root  tty       4,   5 Oct  1 08:00 [40;33;01mtty5[0m
+crw--w----   1 root  tty       4,  50 Oct  1 08:00 [40;33;01mtty50[0m
+crw--w----   1 root  tty       4,  51 Oct  1 08:00 [40;33;01mtty51[0m
+crw--w----   1 root  tty       4,  52 Oct  1 08:00 [40;33;01mtty52[0m
+crw--w----   1 root  tty       4,  53 Oct  1 08:00 [40;33;01mtty53[0m
+crw--w----   1 root  tty       4,  54 Oct  1 08:00 [40;33;01mtty54[0m
+crw--w----   1 root  tty       4,  55 Oct  1 08:00 [40;33;01mtty55[0m
+crw--w----   1 root  tty       4,  56 Oct  1 08:00 [40;33;01mtty56[0m
+crw--w----   1 root  tty       4,  57 Oct  1 08:00 [40;33;01mtty57[0m
+crw--w----   1 root  tty       4,  58 Oct  1 08:00 [40;33;01mtty58[0m
+crw--w----   1 root  tty       4,  59 Oct  1 08:00 [40;33;01mtty59[0m
+crw--w----   1 root  tty       4,   6 Oct  1 08:00 [40;33;01mtty6[0m
+crw--w----   1 root  tty       4,  60 Oct  1 08:00 [40;33;01mtty60[0m
+crw--w----   1 root  tty       4,  61 Oct  1 08:00 [40;33;01mtty61[0m
+crw--w----   1 root  tty       4,  62 Oct  1 08:00 [40;33;01mtty62[0m
+crw--w----   1 root  tty       4,  63 Oct  1 08:00 [40;33;01mtty63[0m
+crw--w----   1 root  tty       4,   7 Oct  1 08:00 [40;33;01mtty7[0m
+crw--w----   1 root  tty       4,   8 Oct  1 08:00 [40;33;01mtty8[0m
+crw--w----   1 root  tty       4,   9 Oct  1 08:00 [40;33;01mtty9[0m
+crw-------   1 root  root      5,   3 Oct  1 08:00 [40;33;01mttyprintk[0m
+crw-rw----   1 root  dialout   4,  64 Oct  1 08:00 [40;33;01mttyS0[0m
+crw-rw----   1 root  dialout   4,  65 Oct  1 08:00 [40;33;01mttyS1[0m
+crw-rw----   1 root  dialout   4,  74 Oct  1 08:00 [40;33;01mttyS10[0m
+crw-rw----   1 root  dialout   4,  75 Oct  1 08:00 [40;33;01mttyS11[0m
+crw-rw----   1 root  dialout   4,  76 Oct  1 08:00 [40;33;01mttyS12[0m
+crw-rw----   1 root  dialout   4,  77 Oct  1 08:00 [40;33;01mttyS13[0m
+crw-rw----   1 root  dialout   4,  78 Oct  1 08:00 [40;33;01mttyS14[0m
+crw-rw----   1 root  dialout   4,  79 Oct  1 08:00 [40;33;01mttyS15[0m
+crw-rw----   1 root  dialout   4,  80 Oct  1 08:00 [40;33;01mttyS16[0m
+crw-rw----   1 root  dialout   4,  81 Oct  1 08:00 [40;33;01mttyS17[0m
+crw-rw----   1 root  dialout   4,  82 Oct  1 08:00 [40;33;01mttyS18[0m
+crw-rw----   1 root  dialout   4,  83 Oct  1 08:00 [40;33;01mttyS19[0m
+crw-rw----   1 root  dialout   4,  66 Oct  1 08:00 [40;33;01mttyS2[0m
+crw-rw----   1 root  dialout   4,  84 Oct  1 08:00 [40;33;01mttyS20[0m
+crw-rw----   1 root  dialout   4,  85 Oct  1 08:00 [40;33;01mttyS21[0m
+crw-rw----   1 root  dialout   4,  86 Oct  1 08:00 [40;33;01mttyS22[0m
+crw-rw----   1 root  dialout   4,  87 Oct  1 08:00 [40;33;01mttyS23[0m
+crw-rw----   1 root  dialout   4,  88 Oct  1 08:00 [40;33;01mttyS24[0m
+crw-rw----   1 root  dialout   4,  89 Oct  1 08:00 [40;33;01mttyS25[0m
+crw-rw----   1 root  dialout   4,  90 Oct  1 08:00 [40;33;01mttyS26[0m
+crw-rw----   1 root  dialout   4,  91 Oct  1 08:00 [40;33;01mttyS27[0m
+crw-rw----   1 root  dialout   4,  92 Oct  1 08:00 [40;33;01mttyS28[0m
+crw-rw----   1 root  dialout   4,  93 Oct  1 08:00 [40;33;01mttyS29[0m
+crw-rw----   1 root  dialout   4,  67 Oct  1 08:00 [40;33;01mttyS3[0m
+crw-rw----   1 root  dialout   4,  94 Oct  1 08:00 [40;33;01mttyS30[0m
+crw-rw----   1 root  dialout   4,  95 Oct  1 08:00 [40;33;01mttyS31[0m
+crw-rw----   1 root  dialout   4,  68 Oct  1 08:00 [40;33;01mttyS4[0m
+crw-rw----   1 root  dialout   4,  69 Oct  1 08:00 [40;33;01mttyS5[0m
+crw-rw----   1 root  dialout   4,  70 Oct  1 08:00 [40;33;01mttyS6[0m
+crw-rw----   1 root  dialout   4,  71 Oct  1 08:00 [40;33;01mttyS7[0m
+crw-rw----   1 root  dialout   4,  72 Oct  1 08:00 [40;33;01mttyS8[0m
+crw-rw----   1 root  dialout   4,  73 Oct  1 08:00 [40;33;01mttyS9[0m
+crw-rw----   1 root  kvm      10,  60 Oct  1 08:00 [40;33;01mudmabuf[0m
+crw-------   1 root  root     10, 239 Oct  1 08:00 [40;33;01muhid[0m
+crw-------   1 root  root     10, 223 Oct  1 08:00 [40;33;01muinput[0m
+crw-rw-rw-   1 root  root      1,   9 Oct  1 08:00 [40;33;01murandom[0m
+crw-------   1 root  root     10, 240 Oct  1 08:00 [40;33;01muserio[0m
+crw-------   1 root  root     10,  58 Oct  1 08:00 [40;33;01mvboxguest[0m
+crw-------   1 root  root     10,  57 Oct  1 08:00 [40;33;01mvboxuser[0m
+crw-rw----   1 root  tty       7,   0 Oct  1 08:00 [40;33;01mvcs[0m
+crw-rw----   1 root  tty       7,   1 Oct  1 08:00 [40;33;01mvcs1[0m
+crw-rw----   1 root  tty       7,   2 Oct  1 08:00 [40;33;01mvcs2[0m
+crw-rw----   1 root  tty       7,   3 Oct  1 08:00 [40;33;01mvcs3[0m
+crw-rw----   1 root  tty       7,   4 Oct  1 08:00 [40;33;01mvcs4[0m
+crw-rw----   1 root  tty       7,   5 Oct  1 08:00 [40;33;01mvcs5[0m
+crw-rw----   1 root  tty       7,   6 Oct  1 08:00 [40;33;01mvcs6[0m
+crw-rw----   1 root  tty       7, 128 Oct  1 08:00 [40;33;01mvcsa[0m
+crw-rw----   1 root  tty       7, 129 Oct  1 08:00 [40;33;01mvcsa1[0m
+crw-rw----   1 root  tty       7, 130 Oct  1 08:00 [40;33;01mvcsa2[0m
+crw-rw----   1 root  tty       7, 131 Oct  1 08:00 [40;33;01mvcsa3[0m
+crw-rw----   1 root  tty       7, 132 Oct  1 08:00 [40;33;01mvcsa4[0m
+crw-rw----   1 root  tty       7, 133 Oct  1 08:00 [40;33;01mvcsa5[0m
+crw-rw----   1 root  tty       7, 134 Oct  1 08:00 [40;33;01mvcsa6[0m
+crw-rw----   1 root  tty       7,  64 Oct  1 08:00 [40;33;01mvcsu[0m
+crw-rw----   1 root  tty       7,  65 Oct  1 08:00 [40;33;01mvcsu1[0m
+crw-rw----   1 root  tty       7,  66 Oct  1 08:00 [40;33;01mvcsu2[0m
+crw-rw----   1 root  tty       7,  67 Oct  1 08:00 [40;33;01mvcsu3[0m
+crw-rw----   1 root  tty       7,  68 Oct  1 08:00 [40;33;01mvcsu4[0m
+crw-rw----   1 root  tty       7,  69 Oct  1 08:00 [40;33;01mvcsu5[0m
+crw-rw----   1 root  tty       7,  70 Oct  1 08:00 [40;33;01mvcsu6[0m
+drwxr-xr-x   2 root  root          60 Oct  1 08:00 [01;34mvfio[0m
+crw-------   1 root  root     10,  63 Oct  1 08:00 [40;33;01mvga_arbiter[0m
+crw-------   1 root  root     10, 137 Oct  1 08:00 [40;33;01mvhci[0m
+crw-------   1 root  root     10, 238 Oct  1 08:00 [40;33;01mvhost-net[0m
+crw-------   1 root  root     10, 241 Oct  1 08:00 [40;33;01mvhost-vsock[0m
+crw-rw-rw-   1 root  root      1,   5 Oct  1 08:00 [40;33;01mzero[0m
+crw-------   1 root  root     10, 249 Oct  1 08:00 [40;33;01mzfs[0m
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mkdir links; cd links
+]0;hoson@hoson-VirtualBox: ~/links[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/links[00m$ vi original
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;27r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[27;1H"original" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [m[27;62H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [m[27;62H0,0-1[9CAll"original" [New File][1;1H[?25h[?25l[27;1H[1m-- INSERT --[m[27;13H[K[27;62H0,1[11CAll[1;1H[?25h[?25lt[27;62H1,2[1;2H[?25h[?25lh[27;64H3[1;3H[?25h[?25li[27;64H4[1;4H[?25h[?25ls[27;64H5[1;5H[?25h[?25l[27;64H6[1;6H[?25h[?25li[27;64H7[1;7H[?25h[?25ls[27;64H8[1;8H[?25h[?25l[27;64H9[1;9H[?25h[?25lo[27;64H10[1;10H[?25h[?25lr[27;65H1[1;11H[?25h[?25li[27;65H2[1;12H[?25h[?25lg[27;65H3[1;13H[?25h[?25li[27;65H4[1;14H[?25h[?25ln[27;65H5[1;15H[?25h[?25la[27;65H6[1;16H[?25h[?25ll[27;65H7[1;17H[?25h[27;1H[K[1;16H[?25l[27;62H1,16[10CAll[1;16H[?25h[?25l[27;62H[K[27;1H:[?2004h[?25hwq[?25l[?2004l"original" [New] 1L, 17C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;hoson@hoson-VirtualBox: ~/links[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/links[00m$ mkdir mydir
+]0;hoson@hoson-VirtualBox: ~/links[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/links[00m$ ln original filelink
+]0;hoson@hoson-VirtualBox: ~/links[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/links[00m$ ls -ali
+total 20
+271529 drwxrwxr-x  3 hoson hoson 4096 Oct  3 19:36 [0m[01;34m.[0m
+262378 drwxr-xr-x 22 hoson hoson 4096 Oct  3 19:35 [01;34m..[0m
+271565 -rw-rw-r--  2 hoson hoson   17 Oct  3 19:32 filelink
+271528 drwxrwxr-x  2 hoson hoson 4096 Oct  3 19:33 [01;34mmydir[0m
+271565 -rw-rw-r--  2 hoson hoson   17 Oct  3 19:32 original
+]0;hoson@hoson-VirtualBox: ~/links[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/links[00m$ k[Kln mydir dirhlink
+ln: mydir: hard link not allowed for directory
+]0;hoson@hoson-VirtualBox: ~/links[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/links[00m$ cd
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ l[Kcdln mydir dirhlink
+ln: failed to access 'mydir': No such file or directory
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cd links
+]0;hoson@hoson-VirtualBox: ~/links[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/links[00m$ ln mydir filelink
+ln: mydir: hard link not allowed for directory
+]0;hoson@hoson-VirtualBox: ~/links[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/links[00m$ ln /etc/pmydir filelink[9Pcd linksln mydir dirhlinkcd[Kln mydir dirhlink[10Ps -alin original filelink[9Pmkdir mydirvi originalmkdir links; cd links[3Pls -al on the /dev[5Pmytreetouch mytree/dir1/dir5/file1[1Pmkdir mytree/dir1/dir5/dir6touch mytree/dir1/dir5/file1[15Pls -al mytreeon the /devmkdir links; cd links[10Pvi originalmkdir mydirln original filelinks -ali[Kn mydir dirhlinkcd[K[K[Kln /etc/passwd passwdhlink
+ln: failed to create hard link 'passwdhlink' => '/etc/passwd': Operation not permitted
+]0;hoson@hoson-VirtualBox: ~/links[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/links[00m$ rm filelink
+]0;hoson@hoson-VirtualBox: ~/links[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/links[00m$ ln -s original filelink
+]0;hoson@hoson-VirtualBox: ~/links[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/links[00m$ ls ls [K[K[K-ali
+total 16
+271529 drwxrwxr-x  3 hoson hoson 4096 Oct  3 19:46 [0m[01;34m.[0m
+262378 drwxr-xr-x 22 hoson hoson 4096 Oct  3 19:35 [01;34m..[0m
+275619 lrwxrwxrwx  1 hoson hoson    8 Oct  3 19:46 [01;36mfilelink[0m -> original
+271528 drwxrwxr-x  2 hoson hoson 4096 Oct  3 19:33 [01;34mmydir[0m
+271565 -rw-rw-r--  1 hoson hoson   17 Oct  3 19:32 original
+]0;hoson@hoson-VirtualBox: ~/links[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/links[00m$ ln -s mydir dirslink
+]0;hoson@hoson-VirtualBox: ~/links[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/links[00m$ ln -s /etc/passwd passwdslink
+]0;hoson@hoson-VirtualBox: ~/links[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/links[00m$ more original
+this is original
+]0;hoson@hoson-VirtualBox: ~/links[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/links[00m$ cd
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cd mytree/dir3
+]0;hoson@hoson-VirtualBox: ~/mytree/dir3[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/mytree/dir3[00m$ ln .//[K../dir1/dir5/file1 file1link
+]0;hoson@hoson-VirtualBox: ~/mytree/dir3[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/mytree/dir3[00m$ cd mytree/dir1/dir5/dir6
+bash: cd: mytree/dir1/dir5/dir6: No such file or directory
+]0;hoson@hoson-VirtualBox: ~/mytree/dir3[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/mytree/dir3[00m$ i[Kln[K[Kcd
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cd mytree/dir1/dir5/dir6
+]0;hoson@hoson-VirtualBox: ~/mytree/dir1/dir5/dir6[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/mytree/dir1/dir5/dir6[00m$ ln -s ./../../../dir3 dir3link
+]0;hoson@hoson-VirtualBox: ~/mytree/dir1/dir5/dir6[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/mytree/dir1/dir5/dir6[00m$ v[Kcd
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ln -srf mytree/dir1/dir5/file1 mytree/dir3
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ec[K[Kexit
+exit
+
+Script done on 2020-10-03 19:59:23+03:00 [COMMAND_EXIT_CODE="0"]

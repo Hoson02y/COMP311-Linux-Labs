@@ -1,0 +1,300 @@
+Script started on 2020-11-05 20:31:31+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ unmame -a [K[K[K[K[K[K[K[Kame -a
+Linux hoson-VirtualBox 5.4.0-52-generic #57-Ubuntu SMP Thu Oct 15 10:57:00 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cd [K; pwd; whoami; finger
+/home/hoson
+hoson
+Login     Name       Tty      Idle  Login Time   Office     Office Phone
+hoson     Hoson     *:0             Nov  5 20:25 (:0)
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ tail -2 /etc/passq[Kwd
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+postfix:x:126:133::/var/spool/postfix:/usr/sbin/nologin
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ echo hoson ye[K[Kyea[K[Koused[Kf hasqoor 
+hoson yousef hasqoor
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ echo 1191003
+1191003
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ vi students 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"students" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"students" [New File][1;1H[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[38;5;81m^[m [?25l[38;5;81m^?[m[24;63H1,2-3[1;3H[?25h[?25l[1;1H[K[24;65H1  [1;1H[?25h[?25la[24;65H2[1;2H[?25h[?25lh[24;65H3[1;3H[?25h[?25l6[24;65H4[1;4H[?25h[?25l;[24;65H5[1;5H[?25h[?25l[1;4H[K[24;65H4[1;4H[?25h[?25l:[24;65H5[1;5H[?25h[?25l5[24;65H6[1;6H[?25h[?25l0[24;65H7[1;7H[?25h[?25l9[24;65H8[1;8H[?25h[?25l[1;7H[K[24;65H7[1;7H[?25h[?25l6[24;65H8[1;8H[?25h[?25l:[24;65H9[1;9H[?25h[?25lA[24;65H10[1;10H[?25h[?25lh[24;66H1[1;11H[?25h[?25lm[24;66H2[1;12H[?25h[?25la[24;66H3[1;13H[?25h[?25ld[24;66H4[1;14H[?25h[?25l_[24;66H5[1;15H[?25h[?25lH[24;66H6[1;16H[?25h[?25la[24;66H7[1;17H[?25h[?25lm[24;66H8[1;18H[?25h[?25ld[24;66H9[1;19H[?25h[?25lo[24;65H20[1;20H[?25h[?25ln[24;66H1[1;21H[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?25h[?25ls[24;65H2[2;2H[?25h[?25lh[24;65H3[2;3H[?25h[?25l5[24;65H4[2;4H[?25h[?25l:[24;65H5[2;5H[?25h[?25l3[24;65H6[2;6H[?25h[?25l4[24;65H7[2;7H[?25h[?25l5[24;65H8[2;8H[?25h[?25l:[24;65H9[2;9H[?25h[?25lS[24;65H10[2;10H[?25h[?25lu[24;66H1[2;11H[?25h[?25lh[24;66H2[2;12H[?25h[?25la[24;66H3[2;13H[?25h[?25l_[24;66H4[2;14H[?25h[?25lH[24;66H5[2;15H[?25h[?25lA[24;66H6[2;16H[?25h[?25lM[24;66H7[2;17H[?25h[?25lD[24;66H8[2;18H[?25h[?25lA[24;66H9[2;19H[?25h[?25lN[24;65H20[2;20H[?25h[?25l[3;1H[K[24;63H3,1 [3;1H[?25h[?25lr[24;65H2[3;2H[?25h[?25ld[24;65H3[3;3H[?25h[?25l7[24;65H4[3;4H[?25h[?25l:[24;65H5[3;5H[?25h[?25l4[24;65H6[3;6H[?25h[?25l2[24;65H7[3;7H[?25h[?25l7[24;65H8[3;8H[?25h[?25l:[24;65H9[3;9H[?25h[?25lR[24;65H10[3;10H[?25h[?25li[24;66H1[3;11H[?25h[?25lb[24;66H2[3;12H[?25h[?25lh[24;66H3[3;13H[?25h[?25li[24;66H4[3;14H[?25h[?25l_[24;66H5[3;15H[?25h[?25l_[24;66H6[3;16H[?25h[?25l[3;15H[K[24;66H5[3;15H[?25h[?25la[24;66H6[3;16H[?25h[?25lh[24;66H7[3;17H[?25h[?25lm[24;66H8[3;18H[?25h[?25la[24;66H9[3;19H[?25h[?25ld[24;65H20[3;20H[?25h[?25l[4;1H[K[24;63H4,1 [4;1H[?25h[?25lh[24;65H2[4;2H[?25h[?25lr[24;65H3[4;3H[?25h[?25l4[24;65H4[4;4H[?25h[?25l:[24;65H5[4;5H[?25h[?25l2[24;65H6[4;6H[?25h[?25l3[24;65H7[4;7H[?25h[?25l4[24;65H8[4;8H[?25h[?25l:[24;65H9[4;9H[?25h[?25lh[24;65H10[4;10H[?25h[?25la[24;66H1[4;11H[?25h[?25lm[24;66H2[4;12H[?25h[?25ld[24;66H3[4;13H[?25h[?25la[24;66H4[4;14H[?25h[?25ln[24;66H5[4;15H[?25h[?25l_[24;66H6[4;16H[?25h[?25lr[24;66H7[4;17H[?25h[?25li[24;66H8[4;18H[?25h[?25lb[24;66H9[4;19H[?25h[?25lh[24;65H20[4;20H[?25h[?25li[24;66H1[4;21H[?25h[?25l[5;1H[K[24;63H5,1 [5;1H[?25h[?25la[24;65H2[5;2H[?25h[?25ld[24;65H3[5;3H[?25h[?25l6[24;65H4[5;4H[?25h[?25l:[24;65H5[5;5H[?25h[?25l3[24;65H6[5;6H[?25h[?25l8[24;65H7[5;7H[?25h[?25l6[24;65H8[5;8H[?25h[?25l:[24;65H9[5;9H[?25h[?25lA[24;65H10[5;10H[?25h[?25lH[24;66H1[5;11H[?25h[?25lM[24;66H2[5;12H[?25h[?25lA[24;66H3[5;13H[?25h[?25lD[24;66H4[5;14H[?25h[?25l[5;13H[K[24;66H3[5;13H[?25h[?25l[5;12H[K[24;66H2[5;12H[?25h[?25l[5;11H[K[24;66H1[5;11H[?25h[?25l[5;10H[K[24;66H0[5;10H[?25h[?25l[5;9H[K[24;65H9 [5;9H[?25h[?25lA[24;65H10[5;10H[?25h[?25lr[24;66H1[5;11H[?25h[?25lw[24;66H2[5;12H[?25h[?25la[24;66H3[5;13H[?25h[?25l_[24;66H4[5;14H[?25h[?25lA[24;66H5[5;15H[?25h[?25lh[24;66H6[5;16H[?25h[?25lm[24;66H7[5;17H[?25h[?25la[24;66H8[5;18H[?25h[?25ld[24;66H9[5;19H[?25h[?25l[6;1H[K[24;63H6,1 [6;1H[?25h[?25la[24;65H2[6;2H[?25h[?25ld[24;65H3[6;3H[?25h[?25l5[24;65H4[6;4H[?25h[?25l:[24;65H5[6;5H[?25h[?25l2[24;65H6[6;6H[?25h[?25l8[24;65H7[6;7H[?25h[?25l5[24;65H8[6;8H[?25h[?25l:[24;65H9[6;9H[?25h[?25la[24;65H10[6;10H[?25h[?25lh[24;66H1[6;11H[?25h[?25lm[24;66H2[6;12H[?25h[?25la[24;66H3[6;13H[?25h[?25ld[24;66H4[6;14H[?25h[?25l_[24;66H5[6;15H[?25h[?25lA[24;66H6[6;16H[?25h[?25lh[24;66H7[6;17H[?25h[?25lm[24;66H8[6;18H[?25h[?25la[24;66H9[6;19H[?25h[?25ld[24;65H20[6;20H[?25h[?25l[24;65H19[6;19H[?25h[?25l[24;66H8[6;18H[?25h[?25l[24;66H7[6;17H[?25h[?25l[24;66H6[6;16H[?25h[?25l[24;66H5[6;15H[?25h[?25l[24;66H4[6;14H[?25h[?25li_Ahmad[24;66H5[6;15H[?25h[?25l[24;66H6[6;16H[?25h[?25l[24;66H7[6;17H[?25h[?25l[24;66H8[6;18H[?25h[?25l[24;66H9[6;19H[?25h[?25l[24;65H20[6;20H[?25h[?25l[24;66H1[6;21H[?25h[24;1H[K[6;20H[?25l[24;63H6,20[10CAll[6;20H[?25h[?25l[24;63H[K[24;1H:[?2004h[?25hwq![?25l[?2004l"students" [New] 6L, 122C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ head students
+ah6:506:Ahmad_Hamdon
+sh5:345:Suha_HAMDAN
+rd7:427:Ribhi_ahmad
+hr4:234:hamdan_ribhi
+ad6:386:Arwa_Ahmad
+ad5:285:ahmadi_Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ tail students
+ah6:506:Ahmad_Hamdon
+sh5:345:Suha_HAMDAN
+rd7:427:Ribhi_ahmad
+hr4:234:hamdan_ribhi
+ad6:386:Arwa_Ahmad
+ad5:285:ahmadi_Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ headd [K[K[Kd -2 students
+ah6:506:Ahmad_Hamdon
+sh5:345:Suha_HAMDAN
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ head -2 students[1P[1P[1P[1P[1@t[1@a[1@i[1@l
+ad6:386:Arwa_Ahmad
+ad5:285:ahmadi_Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ tail -2 students[1P students3 students[C[C[C[C[C[C[C[C[C
+hr4:234:hamdan_ribhi
+ad6:386:Arwa_Ahmad
+ad5:285:ahmadi_Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ head -4 students | tail -1
+hr4:234:hamdan_ribhi
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cat students
+ah6:506:Ahmad_Hamdon
+sh5:345:Suha_HAMDAN
+rd7:427:Ribhi_ahmad
+hr4:234:hamdan_ribhi
+ad6:386:Arwa_Ahmad
+ad5:285:ahmadi_Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ greo[Kp students
+^C
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep students ahmad[K[K[K[K[K[1@a[1@h[1@m[1@a[1@d[1@ 
+rd7:427:Ribhi_[01;31m[Kahmad[m[K
+ad5:285:[01;31m[Kahmad[m[Ki_Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cay[Kt students }[K| grep ahmas[Kdw[K
+rd7:427:Ribhi_[01;31m[Kahmad[m[K
+ad5:285:[01;31m[Kahmad[m[Ki_Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep ahmad students
+rd7:427:Ribhi_[01;31m[Kahmad[m[K
+ad5:285:[01;31m[Kahmad[m[Ki_Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep -i Ahmad[K[K[Kmad studn[Kde[K[K[K[K[K[Kstudent [Ks
+ah6:506:[01;31m[KAhmad[m[K_Hamdon
+rd7:427:Ribhi_[01;31m[Kahmad[m[K
+ad6:386:Arwa_[01;31m[KAhmad[m[K
+ad5:285:[01;31m[Kahmad[m[Ki_[01;31m[KAhmad[m[K
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ gre[[Kp -l Ribhi*
+
+^C
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep -v Ribhi students
+ah6:506:Ahmad_Hamdon
+sh5:345:Suha_HAMDAN
+hr4:234:hamdan_ribhi
+ad6:386:Arwa_Ahmad
+ad5:285:ahmadi_Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep -v [Ki hamdan students
+ah6:506:Ahmad_Hamdon
+rd7:427:Ribhi_ahmad
+ad6:386:Arwa_Ahmad
+ad5:285:ahmadi_Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -d: -f3[K2 students
+506
+345
+427
+234
+386
+285
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cur[Kt -d [K: -f3 studem[Knts | cut -d: -f3[K[K[K[K[K_ -f1
+Ahmad
+Suha
+Ribhi
+hamdan
+Arwa
+ahmadi
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -d: -f3 students | cut -d_ -f1[C[Kd
+cut: invalid field value ‘d’
+Try 'cut --help' for more information.
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -d: -f3 students | cut -d_ -fd[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgrep -i hamdan students | cur[Kt -d: -f3 | cut -d_ -f1
+Suha
+hamdan
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep -i hamdan students | cut -d: -f3 | cut -d_ -f1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P
+hamdan
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep  hamdan students | cut -d: -f3 | cut -d_ -f1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@-i[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Suha
+hamdan
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -c2,3 students
+h6
+h5
+d7
+r4
+d6
+d5
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep -i hamdan students | cut -d: -f2 |cur[Ke [K[Kt d_[K[K-c2
+4
+3
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep -i hama[Kdan students |cut -d: -f2
+345
+234
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ tr []a]-]z][C []A]-]Z][C < students 
+tr: extra operand ‘m’
+Try 'tr --help' for more information.
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ tr [a-z] [A-Z] < students [1@ 
+tr: extra operand ‘m’
+Try 'tr --help' for more information.
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ tr
+tr: missing operand
+Try 'tr --help' for more information.
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ttr
+
+Command 'ttr' not found, but there are 15 similar ones.
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ttr[1Pr  [a-z] [A-Z] < students [1@ [C[1P[1@<[C[1P
+tr: extra operand ‘m’
+Try 'tr --help' for more information.
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ tr  [a-z] [A-Z]  <students [1@c[1@a[1@t[1@ 
+bash: cat: No such file or directory
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ tr  [a-z] [A-Z]  <cat students [1P[1P[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1@<[1@ [C[C[C[C[C[C[C[C[C
+tr: extra operand ‘m’
+Try 'tr --help' for more information.
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ tr [a-z] [A-Z] < students [C[1P[1P[C[1P[C[1P
+AH6:506:AHMAD_HAMDON
+SH5:345:SUHA_HAMDAN
+RD7:427:RIBHI_AHMAD
+HR4:234:HAMDAN_RIBHI
+AD6:386:ARWA_AHMAD
+AD5:285:AHMADI_AHMAD
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep -i ahmad students | cut -d: -f3 | cur [K[Kt -d_ -f1 | t r A-Z a-z
+ahmad
+ribhi
+arwa
+ahmadi
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ wc -l students 
+6 students
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ hw[Kead -1 students \ cut [K[K[K[K[K[K| cut -d_ -f2 | wc -c
+7
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ls -A | wc -l
+69
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sort students 
+ad5:285:ahmadi_Ahmad
+ad6:386:Arwa_Ahmad
+ah6:506:Ahmad_Hamdon
+hr4:234:hamdan_ribhi
+rd7:427:Ribhi_ahmad
+sh5:345:Suha_HAMDAN
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sort -0[Ko resy[Kult students 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ort -o [K[Kk2 -t: -n students 
+
+Command 'ort' not found, did you mean:
+
+  command 'ora' from snap ora (2.5.7)
+  command 'prt' from deb prt (0.20-1)
+  command 'srt' from deb python3-pysrt (1.0.1-2)
+  command 'sort' from deb coreutils (8.30-3ubuntu2)
+  command 'art' from deb artemis (17.0.1+dfsg-2)
+  command 'fort' from deb fort-validator (1.2.0-1)
+  command 'rt' from deb rt4-clients (4.4.3-2)
+  command 'opt' from deb llvm (1:10.0-50~exp1)
+
+See 'snap info <snapname>' for additional versions.
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ort -k2 -t: -n students [1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+hr4:234:hamdan_ribhi
+ad5:285:ahmadi_Ahmad
+sh5:345:Suha_HAMDAN
+ad6:386:Arwa_Ahmad
+rd7:427:Ribhi_ahmad
+ah6:506:Ahmad_Hamdon
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -d: -f3 students | ciu[K[Kut -d_-f1 | sort -f -u
+cut: the delimiter must be a single character
+Try 'cut --help' for more information.
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -d: -f3 students | cut -d_-f1 | sort -f -u[C[C[1P[1P[1P[1@g[1@r[1@e[1@p[1P[1P[1P[1P[1@c[1@u[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+cut: the delimiter must be a single character
+Try 'cut --help' for more information.
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -d: -f3 students | cut -d_-f1 | sort -f -u[C[K[K[K[K[K[K[K[K[K[K[K[K[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Psort -k2 -t: -n students [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccut -d: -f3 students | cut -d_-f1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcut -d: -f3 students | cut -d_-f1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Psort -k2 -t: -n students [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csort -o result[C[C[C[C[C[C[C[C[C[Cort -k2 -t: -n[C[C[C[C[C[C[C[C[C[C[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccut -d: -f3 students | cut -d_-f1 \[K| [1@ [C[C[C[C[C[C s o r t [C - f [C - u 
+Ahmad
+ahmadi
+Arwa
+hamdan
+Ribhi
+Suha
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sec [K[Kd 's/ag[Khmad/dn[Kamha/;[K;[K' students 
+ah6:506:Ahmad_Hamdon
+sh5:345:Suha_HAMDAN
+rd7:427:Ribhi_damha
+hr4:234:hamdan_ribhi
+ad6:386:Arwa_Ahmad
+ad5:285:damhai_Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sed [K[K[K[Ksed 's/ahmad/damha/' students [C[1@i[C[C[C[C[C[C
+ah6:506:damha_Hamdon
+sh5:345:Suha_HAMDAN
+rd7:427:Ribhi_damha
+hr4:234:hamdan_ribhi
+ad6:386:Arwa_damha
+ad5:285:damhai_Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sed 's/ahmad/damha/i' students [1@g
+ah6:506:damha_Hamdon
+sh5:345:Suha_HAMDAN
+rd7:427:Ribhi_damha
+hr4:234:hamdan_ribhi
+ad6:386:Arwa_damha
+ad5:285:damhai_damha
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ man regex
+[?1049h[22;0;0t[?1h=REGEX(7)                   Linux Programmer's Manual                  REGEX(7)[m
+[m
+[1mNAME[0m[m
+       regex - POSIX.2 regular expressions[m
+[m
+[1mDESCRIPTION[0m[m
+       Regular  expressions ("RE"s), as defined in POSIX.2, come in two forms:[m
+       modern REs (roughly those of [4megrep[24m; POSIX.2 calls these "extended" REs)[m
+       and  obsolete REs (roughly those of [1med[0m(1); POSIX.2 "basic" REs).  Obso‐[m
+       lete REs mostly exist for backward compatibility in some old  programs;[m
+       they  will  be discussed at the end.  POSIX.2 leaves some aspects of RE[m
+       syntax and semantics open; "(!)" marks decisions on these aspects  that[m
+       may not be fully portable to other POSIX.2 implementations.[m
+[m
+       A (modern) RE is one(!) or more nonempty(!) [4mbranches[24m, separated by '|'.[m
+       It matches anything that matches one of the branches.[m
+[m
+       A branch is one(!) or more [4mpieces[24m, concatenated.  It  matches  a  match[m
+       for the first, followed by a match for the second, and so on.[m
+[m
+       A  piece  is an [4matom[24m possibly followed by a single(!) '*', '+', '?', or[m
+       [4mbound[24m.  An atom followed by '*' matches a sequence of 0 or more matches[m
+       of  the  atom.  An atom followed by '+' matches a sequence of 1 or more[m
+[7m Manual page regex(7) line 1 (press h for help or q to quit)[27m[K[K       matches of the atom.  An atom followed by '?' matches a sequence  of  0[m
+[7m Manual page regex(7) line 2 (press h for help or q to quit)[27m[K[K       or 1 matches of the atom.[m
+[m
+       A  [4mbound[24m  is '{' followed by an unsigned decimal integer, possibly fol‐[m
+       lowed by ',' possibly followed by another unsigned decimal integer, al‐[m
+       ways  followed  by '}'.  The integers must lie between 0 and [1mRE_DUP_MAX[0m[m
+       (255(!)) inclusive, and if there are two of them, the first may not ex‐[m
+       ceed  the second.  An atom followed by a bound containing one integer [4mi[24m[m
+       and no comma matches a sequence of exactly [4mi[24m matches of the  atom.   An[m
+       atom followed by a bound containing one integer [4mi[24m and a comma matches a[m
+       sequence of [4mi[24m or more matches of the atom.  An atom followed by a bound[m
+       containing  two integers [4mi[24m and [4mj[24m matches a sequence of [4mi[24m through [4mj[24m (in‐[m
+       clusive) matches of the atom.[m
+[m
+       An atom is a regular expression enclosed in "[4m()[24m" (matching a match  for[m
+       the  regular  expression),  an  empty  set  of  "[4m()[24m" (matching the null[m
+       string)(!), a [4mbracket[24m [4mexpression[24m (see below), '.' (matching any  single[m
+       character),  '^' (matching the null string at the beginning of a line),[m
+       '$' (matching the null string at the end of a line), a '\' followed  by[m
+       one  of the characters "[4m^.[$()|*+?{\[24m" (matching that character taken as[m
+       an ordinary character),  a  '\'  followed  by  any  other  character(!)[m
+       (matching  that character taken as an ordinary character, as if the '\'[m
+       had not been present(!)), or a single character with no other  signifi‐[m
+       cance  (matching  that character).  A '{' followed by a character other[m
+[7m Manual page regex(7) line 25 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep -i '[K;[K'hm[Kn[Kamdan$'[K' students 
+sh5:345:Suha_[01;31m[KHAMDAN[m[K
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -d [K;[K: -f3 students | grep -i '^ahmad'
+[01;31m[KAhmad[m[K_Hamdon
+[01;31m[Kahmad[m[Ki_Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -d: -f3 students | cut -d_ -f1 | grep -i '^ahmad$; [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K'
+[01;31m[KAhmad[m[K
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -d [K: -f3 studenst [K[K[K[Knts | grep a[]d]h][C[]^]6]
+Ahm[01;31m[Kad_[m[KHamdon
+Ribhi_[01;31m[Kahm[m[Kad
+[01;31m[Kahm[m[K[01;31m[Kadi[m[K_Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cut -d: -f1 students | c[Ksed 's/^ahmad/sameer/ig'
+ah6
+sh5
+rd7
+hr4
+ad6
+ad5
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sed 's/ahmad\[K/Sameer/i; [K[K; [K[K' students 
+ah6:506:Sameer_Hamdon
+sh5:345:Suha_HAMDAN
+rd7:427:Ribhi_Sameer
+hr4:234:hamdan_ribhi
+ad6:386:Arwa_Sameer
+ad5:285:Sameeri_Ahmad
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ 
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ exiy [K[Kt
+exit
+
+Script done on 2020-11-05 21:09:12+02:00 [COMMAND_EXIT_CODE="0"]

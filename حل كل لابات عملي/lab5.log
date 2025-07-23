@@ -1,0 +1,2314 @@
+Script started on 2020-10-17 00:56:01+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ eccho [K[K[K[K[Kcho PATH
+PATH
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ echi[Ko $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ SAVEPATH=$PATH
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ L[Kls
+1191003_hosonHasoor.log  [0m[34;42mfile[0m     [01;34ml[0m         [01;34mMusic[0m     -s
+[01;34mDesktop[0m                  [01;34mh[0m        [01;34mlab4[0m      myfirst   [01;34msnap[0m
+[01;34mdir[0m                      hasqoor  lab5.log  [01;34mmytree[0m    [01;34mTemplates[0m
+[01;34mDocuments[0m                hos      [01;34mlan[0m       [01;34mPictures[0m  testmacros
+[01;34mDownloads[0m                [01;34mhoson[0m    [01;34mlinks[0m     [01;34mPublic[0m    [01;34mVideos[0m
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ PATH=/etc
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ls
+Command 'ls' is available in the following places
+ * /bin/ls
+ * /usr/bin/ls
+The command could not be located because '/usr/bin:/bin' is not included in the PATH environment variable.
+ls: command not found
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ PATH=$SAVEPATH
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ls
+1191003_hosonHasoor.log  [0m[34;42mfile[0m     [01;34ml[0m         [01;34mMusic[0m     -s
+[01;34mDesktop[0m                  [01;34mh[0m        [01;34mlab4[0m      myfirst   [01;34msnap[0m
+[01;34mdir[0m                      hasqoor  lab5.log  [01;34mmytree[0m    [01;34mTemplates[0m
+[01;34mDocuments[0m                hos      [01;34mlan[0m       [01;34mPictures[0m  testmacros
+[01;34mDownloads[0m                [01;34mhoson[0m    [01;34mlinks[0m     [01;34mPublic[0m    [01;34mVideos[0m
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ PATH=$PATH:/etc
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ echo PATH
+PATH
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ echo $PED[K[K[KPWD
+/home/hoson
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cd /etc
+]0;hoson@hoson-VirtualBox: /etc[01;32mhoson@hoson-VirtualBox[00m:[01;34m/etc[00m$ echo $p[KPWD
+/etc
+]0;hoson@hoson-VirtualBox: /etc[01;32mhoson@hoson-VirtualBox[00m:[01;34m/etc[00m$ pwd
+/etc
+]0;hoson@hoson-VirtualBox: /etc[01;32mhoson@hoson-VirtualBox[00m:[01;34m/etc[00m$ cd .. cd[K[K
+]0;hoson@hoson-VirtualBox: /[01;32mhoson@hoson-VirtualBox[00m:[01;34m/[00m$ cd
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cd .. [3Ppwdecho $PWD
+/home/hoson
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ hoson=$PS1
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ PS1="hello>"
+hello>
+hello>
+hello>
+hello>PS1=$hoson
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ PS1='$PWD'[K>'
+/home/hoson>
+/home/hoson>
+/home/hoson>PS1='$PWD>'[1P$hoson
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ set|more
+BASH=/usr/bin/bash
+BASHOPTS=checkwinsize:cmdhist:complete_fullquote:expand_aliases:extglob:extquot
+e:force_fignore:globasciiranges:histappend:interactive_comments:progcomp:prompt
+vars:sourcepath
+BASH_ALIASES=()
+BASH_ARGC=([0]="0")
+BASH_ARGV=()
+BASH_CMDS=()
+BASH_COMPLETION_VERSINFO=([0]="2" [1]="10")
+BASH_LINENO=()
+BASH_SOURCE=()
+BASH_VERSINFO=([0]="5" [1]="0" [2]="17" [3]="1" [4]="release" [5]="x86_64-pc-li
+nux-gnu")
+BASH_VERSION='5.0.17(1)-release'
+CLUTTER_IM_MODULE=ibus
+COLORTERM=truecolor
+COLUMNS=79
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DESKTOP_SESSION=ubuntu
+DIRSTACK=()
+DISPLAY=:0
+EUID=1000
+GDMSESSION=ubuntu
+GJS_DEBUG_OUTPUT=stderr
+GJS_DEBUG_TOPICS='JS ERROR;JS LOG'
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GNOME_SHELL_SESSION_MODE=ubuntu
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/df5ef265_f5f4_46ff_8cab_4f3cfd
+[7m--More--[27mb7f979[K
+[7m--More--[27mGNOME_TERMINAL_SERVICE=:1.136
+[7m--More--[27mGPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+GROUPS=()
+GTK_IM_MODULE=ibus
+GTK_MODULES=gail:atk-bridge
+HISTCONTROL=ignoreboth
+HISTFILE=/home/hoson/.bash_history
+HISTFILESIZE=2000
+HISTSIZE=1000
+HOME=/home/hoson
+HOSTNAME=hoson-VirtualBox
+HOSTTYPE=x86_64
+IFS=$' \t\n'
+IM_CONFIG_PHASE=1
+INVOCATION_ID=f041409ec2a04800af55232018591f69
+JOURNAL_STREAM=9:31848
+LANG=en_IL
+LANGUAGE=en_IL:en
+LESSCLOSE='/usr/bin/lesspipe %s %s'
+LESSOPEN='| /usr/bin/lesspipe %s'
+LINES=29
+LOGNAME=hoson
+LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:
+cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=3
+7;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha
+=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31
+:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31
+:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=0
+1;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.
+[7m--More--[27mear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01
+;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd
+=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01
+;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.t
+if=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01
+;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*
+.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01
+;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.f
+li=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:
+*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=0
+0;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*
+.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=0
+0;36:'
+MACHTYPE=x86_64-pc-linux-gnu
+MAILCHECK=60
+MANAGERPID=1147
+OLDPWD=/
+OPTERR=1
+OPTIND=1
+OSTYPE=linux-gnu
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/u
+sr/local/games:/snap/bin:/etc
+PIPESTATUS=([0]="0")
+PPID=5334
+PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h
+\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+PS2='> '
+PS4='+ '
+[7m--More--[27mPWD=/home/hoson
+QT4_IM_MODULE=ibus
+QT_ACCESSIBILITY=1
+QT_IM_MODULE=ibus
+SAVEPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/game
+s:/usr/local/games:/snap/bin
+SESSION_MANAGER=local/hoson-VirtualBox:@/tmp/.ICE-unix/1393,unix/hoson-VirtualB
+ox:/tmp/.ICE-unix/1393
+SHELL=/bin/bash
+SHELLOPTS=braceexpand:emacs:hashall:histexpand:history:interactive-comments:mon
+itor
+SHLVL=2
+SSH_AGENT_PID=1321
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+TERM=xterm-256color
+UID=1000
+USER=hoson
+USERNAME=hoson
+VTE_VERSION=6003
+WINDOWPATH=2
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/de
+sktop
+XDG_MENU_PREFIX=gnome-
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_SESSION_CLASS=user
+[7m--More--[27mXDG_SESSION_DESKTOP=ubuntu
+XDG_SESSION_TYPE=x11
+XMODIFIERS=@im=ibus
+_=
+_backup_glob='@(#*#|*@(~|.@(bak|orig|rej|swp|dpkg*|rpm@(orig|new|save))))'
+_xspecs=([lokalize]="!*.po" [acroread]="!*.[pf]df" [lbzcat]="!*.?(t)bz?(2)" [mp
+g321]="!*.mp3" [bzcat]="!*.?(t)bz?(2)" [oocalc]="!*.@(sxc|stc|xls?([bmx])|xlw|x
+lt?([mx])|[ct]sv|?(f)ods|ots)" [tex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [unl
+zma]="!*.@(tlz|lzma)" [sxemacs]="*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|
+mp3|mp?(e)g|avi|asf|ogg|class)" [aviplay]="!*.@(avi|asf|wmv)" [lbunzip2]="!*.?(
+t)bz?(2)" [dragon]="!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bi
+n|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web
+[am]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|
+t[ps]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]
+d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM|iso|ISO)|+([0-9]).@(vdr|VDR))?(.@(crdownload
+|part))" [freeamp]="!*.@(mp3|og[ag]|pls|m3u)" [rgvim]="*.@([ao]|so|so.!(conf|*/
+*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [ooimpress]="!*.@(sxi|sti
+|pps?(x)|ppt?([mx])|pot?([mx])|?(f)odp|otp)" [gqmpeg]="!*.@(mp3|og[ag]|pls|m3u)
+" [texi2html]="!*.texi*" [hbpp]="!*.@([Pp][Rr][Gg]|[Cc][Ll][Pp])" [lowriter]="!
+*.@(sxw|stw|sxg|sgl|doc?([mx])|dot?([mx])|rtf|txt|htm|html|?(f)odt|ott|odm|pdf)
+" [qiv]="!*.@(gif|jp?(e)g|tif?(f)|png|p[bgp]m|bmp|x[bp]m|rle|rgb|pcx|fits|pm|sv
+g)" [xanim]="!*.@(mpg|mpeg|avi|mov|qt)" [ps2pdfwr]="!*.@(?(e)ps|pdf)" [harbour]
+="!*.@([Pp][Rr][Gg]|[Cc][Ll][Pp])" [jadetex]="!*.@(?(la)tex|texi|dtx|ins|ltx|db
+j)" [lodraw]="!*.@(sxd|std|sda|sdd|?(f)odg|otg)" [dvitype]="!*.dvi" [lobase]="!
+*.odb" [rpm2cpio]="!*.[rs]pm" [xine]="!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|
+AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv
+|mov|MOV|qt|QT|web[am]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og
+[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX
+[7m--More--[27m|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM)|+([0-9]).@(vdr|VDR))?(.@(
+crdownload|part))" [lualatex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [localc]="!
+*.@(sxc|stc|xls?([bmx])|xlw|xlt?([mx])|[ct]sv|?(f)ods|ots)" [hbrun]="!*.[Hh][Rr
+][Bb]" [amaya]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [gv]="!*.@(@(?(e)ps|?(E)
+PS|pdf|PDF)?(.gz|.GZ|.bz2|.BZ2|.Z))" [unpigz]="!*.@(Z|[gGdz]z|t[ag]z)" [mozilla
+]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [epdfview]="!*.pdf" [dvips]="!*.dvi" 
+[pdfunite]="!*.pdf" [ps2pdf14]="!*.@(?(e)ps|pdf)" [kid3]="!*.@(mp[234c]|og[ag]|
+@(fl|a)ac|m4[abp]|spx|tta|w?(a)v|wma|aif?(f)|asf|ape)" [vi]="*.@([ao]|so|so.!(c
+onf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [ps2pdf]="!*.@(?(e)
+ps|pdf)" [gpdf]="!*.[pf]df" [lilypond]="!*.ly" [texi2dvi]="!*.@(?(la)tex|texi|d
+tx|ins|ltx|dbj)" [modplug123]="!*.@(669|abc|am[fs]|d[bs]m|dmf|far|it|mdl|m[eo]d
+|mid?(i)|mt[2m]|oct|okt?(a)|p[st]m|s[3t]m|ult|umx|wav|xm)" [znew]="*.Z" [ps2pdf
+13]="!*.@(?(e)ps|pdf)" [ps2pdf12]="!*.@(?(e)ps|pdf)" [kwrite]="*.@([ao]|so|so.!
+(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [latex]="!*.@(?(l
+a)tex|texi|dtx|ins|ltx|dbj)" [kate]="*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(
+e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [pbzcat]="!*.?(t)bz?(2)" [poedit]="!*.po" [
+view]="*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|cl
+ass)" [kid3-qt]="!*.@(mp[234c]|og[ag]|@(fl|a)ac|m4[abp]|spx|tta|w?(a)v|wma|aif?
+(f)|asf|ape)" [luatex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [bunzip2]="!*.?(t)
+bz?(2)" [dvipdfm]="!*.dvi" [kbabel]="!*.po" [ly2dvi]="!*.ly" [oodraw]="!*.@(sxd
+|std|sda|sdd|?(f)odg|otg)" [bzme]="!*.@(zip|z|gz|tgz)" [rgview]="*.@([ao]|so|so
+.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [pdftex]="!*.@(
+?(la)tex|texi|dtx|ins|ltx|dbj)" [xemacs]="*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif
+|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [zathura]="!*.@(cb[rz7t]|djv?(u)|?(e)p
+s|pdf)" [unxz]="!*.@(?(t)xz|tlz|lzma)" [rvim]="*.@([ao]|so|so.!(conf|*/*)|[rs]p
+m|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [madplay]="!*.mp3" [xetex]="!*.@(
+?(la)tex|texi|dtx|ins|ltx|dbj)" [gvim]="*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|j
+p?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [kaffeine]="!*@(.@(mp?(e)g|MP?(E)G|wm[av
+[7m--More--[27m]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|v
+iv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[A
+V]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac
+|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM|iso|ISO)|+([0
+-9]).@(vdr|VDR))?(.@(crdownload|part))" [dviselect]="!*.dvi" [kpdf]="!*.@(?(e)p
+s|pdf)" [bibtex]="!*.aux" [realplay]="!*.@(rm?(j)|ra?(m)|smi?(l))" [mpg123]="!*
+.mp3" [netscape]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [lzegrep]="!*.@(tlz|lz
+ma)" [gview]="*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf
+|ogg|class)" [kdvi]="!*.@(dvi|DVI)?(.@(gz|Z|bz2))" [xv]="!*.@(gif|jp?(e)g?(2)|j
+2[ck]|jp[2f]|tif?(f)|png|p[bgp]m|bmp|x[bp]m|rle|rgb|pcx|fits|pm|?(e)ps)" [lzfgr
+ep]="!*.@(tlz|lzma)" [playmidi]="!*.@(mid?(i)|cmf)" [lzless]="!*.@(tlz|lzma)" [
+elinks]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [timidity]="!*.@(mid?(i)|rmi|rc
+p|[gr]36|g18|mod|xm|it|x3m|s[3t]m|kar)" [xdvi]="!*.@(dvi|DVI)?(.@(gz|Z|bz2))" [
+xfig]="!*.fig" [xpdf]="!*.@(pdf|fdf)?(.@(gz|GZ|bz2|BZ2|Z))" [lomath]="!*.@(sxm|
+smf|mml|odf)" [lzcat]="!*.@(tlz|lzma)" [compress]="*.Z" [pdfjadetex]="!*.@(?(la
+)tex|texi|dtx|ins|ltx|dbj)" [kghostview]="!*.@(@(?(e)ps|?(E)PS|pdf|PDF)?(.gz|.G
+Z|.bz2|.BZ2|.Z))" [zcat]="!*.@(Z|[gGd]z|t[ag]z)" [pbunzip2]="!*.?(t)bz?(2)" [oo
+base]="!*.odb" [cdiff]="!*.@(dif?(f)|?(d)patch)?(.@([gx]z|bz2|lzma))" [gtransla
+tor]="!*.po" [lynx]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [emacs]="*.@([ao]|s
+o|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [zipinfo]="
+!*.@(zip|[egjswx]ar|exe|pk3|wsz|zargo|xpi|s[tx][cdiw]|sx[gm]|o[dt][tspgfc]|od[b
+m]|oxt|epub|apk|aab|ipa|do[ct][xm]|p[op]t[mx]|xl[st][xm]|pyz|whl)" [xelatex]="!
+*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [uncompress]="!*.Z" [xzcat]="!*.@(?(t)xz|tl
+z|lzma)" [unzip]="!*.@(zip|[egjswx]ar|exe|pk3|wsz|zargo|xpi|s[tx][cdiw]|sx[gm]|
+o[dt][tspgfc]|od[bm]|oxt|epub|apk|aab|ipa|do[ct][xm]|p[op]t[mx]|xl[st][xm]|pyz|
+whl)" [rview]="*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|as
+f|ogg|class)" [ogg123]="!*.@(og[ag]|m3u|flac|spx)" [lrunzip]="!*.lrz" [lzgrep]=
+"!*.@(tlz|lzma)" [slitex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [vim]="*.@([ao]
+[7m--More--[27m|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [ggv]="!*
+.@(@(?(e)ps|?(E)PS|pdf|PDF)?(.gz|.GZ|.bz2|.BZ2|.Z))" [ee]="!*.@(gif|jp?(e)g|mif
+f|tif?(f)|pn[gm]|p[bgp]m|bmp|xpm|ico|xwd|tga|pcx)" [oomath]="!*.@(sxm|smf|mml|o
+df)" [aaxine]="!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat
+|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|
+WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]
+|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[E
+O]D|s[3t]m|S[3T]M|it|IT|xm|XM)|+([0-9]).@(vdr|VDR))?(.@(crdownload|part))" [dvi
+pdfmx]="!*.dvi" [advi]="!*.dvi" [gunzip]="!*.@(Z|[gGd]z|t[ag]z)" [makeinfo]="!*
+.texi*" [gharbour]="!*.@([Pp][Rr][Gg]|[Cc][Ll][Pp])" [okular]="!*.@(okular|@(?(
+e|x)ps|?(E|X)PS|[pf]df|[PF]DF|dvi|DVI|cb[rz]|CB[RZ]|djv?(u)|DJV?(U)|dvi|DVI|gif
+|jp?(e)g|miff|tif?(f)|pn[gm]|p[bgp]m|bmp|xpm|ico|xwd|tga|pcx|GIF|JP?(E)G|MIFF|T
+IF?(F)|PN[GM]|P[BGP]M|BMP|XPM|ICO|XWD|TGA|PCX|epub|EPUB|odt|ODT|fb?(2)|FB?(2)|m
+obi|MOBI|g3|G3|chm|CHM)?(.?(gz|GZ|bz2|BZ2|xz|XZ)))" [galeon]="!*.@(?([xX]|[sS])
+[hH][tT][mM]?([lL]))" [pdflatex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [lzmore]
+="!*.@(tlz|lzma)" [portecle]="!@(*.@(ks|jks|jceks|p12|pfx|bks|ubr|gkr|cer|crt|c
+ert|p7b|pkipath|pem|p10|csr|crl)|cacerts)" [oowriter]="!*.@(sxw|stw|sxg|sgl|doc
+?([mx])|dot?([mx])|rtf|txt|htm|html|?(f)odt|ott|odm|pdf)" [loimpress]="!*.@(sxi
+|sti|pps?(x)|ppt?([mx])|pot?([mx])|?(f)odp|otp)" [epiphany]="!*.@(?([xX]|[sS])[
+hH][tT][mM]?([lL]))" [modplugplay]="!*.@(669|abc|am[fs]|d[bs]m|dmf|far|it|mdl|m
+[eo]d|mid?(i)|mt[2m]|oct|okt?(a)|p[st]m|s[3t]m|ult|umx|wav|xm)" [dvipdf]="!*.dv
+i" [dillo]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [fbxine]="!*@(.@(mp?(e)g|MP?
+(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV
+|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av
+]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wa
+v|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM)|+(
+[0-9]).@(vdr|VDR))?(.@(crdownload|part))" )
+hoson='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@
+[7m--More--[27m\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+__expand_tilde_by_ref () 
+{ 
+    if [[ ${!1} == \~* ]]; then
+        eval $1=$(printf ~%q "${!1#\~}");
+    fi
+}
+__get_cword_at_cursor_by_ref () 
+{ 
+    local cword words=();
+    __reassemble_comp_words_by_ref "$1" words cword;
+    local i cur index=$COMP_POINT lead=${COMP_LINE:0:$COMP_POINT};
+    if [[ $index -gt 0 && ( -n $lead && -n ${lead//[[:space:]]} ) ]]; then
+        cur=$COMP_LINE;
+        for ((i = 0; i <= cword; ++i ))
+        do
+            while [[ ${#cur} -ge ${#words[i]} && "${cur:0:${#words[i]}}" != "${
+words[i]}" ]]; do
+                cur="${cur:1}";
+                [[ $index -gt 0 ]] && ((index--));
+            done;
+            if [[ $i -lt $cword ]]; then
+                local old_size=${#cur};
+                cur="${cur#"${words[i]}"}";
+                local new_size=${#cur};
+                (( index -= old_size - new_size ));
+            fi;
+        done;
+[7m--More--[27m        [[ -n $cur && ! -n ${cur//[[:space:]]} ]] && cur=;
+        [[ $index -lt 0 ]] && index=0;
+    fi;
+    local "$2" "$3" "$4" && _upvars -a${#words[@]} $2 "${words[@]}" -v $3 "$cwo
+rd" -v $4 "${cur:0:$index}"
+}
+__load_completion () 
+{ 
+    local -a dirs=(${BASH_COMPLETION_USER_DIR:-${XDG_DATA_HOME:-$HOME/.local/sh
+are}/bash-completion}/completions);
+    local OIFS=$IFS IFS=: dir cmd="${1##*/}" compfile;
+    [[ -n $cmd ]] || return 1;
+    for dir in ${XDG_DATA_DIRS:-/usr/local/share:/usr/share};
+    do
+        dirs+=($dir/bash-completion/completions);
+    done;
+    IFS=$OIFS;
+    if [[ $BASH_SOURCE == */* ]]; then
+        dirs+=("${BASH_SOURCE%/*}/completions");
+    else
+        dirs+=(./completions);
+    fi;
+    for dir in "${dirs[@]}";
+    do
+        [[ -d "$dir" ]] || continue;
+        for compfile in "$cmd" "$cmd.bash" "_$cmd";
+        do
+            compfile="$dir/$compfile";
+[7m--More--[27m            [[ -f "$compfile" ]] && . "$compfile" &> /dev/null && return 0;
+        done;
+    done;
+    [[ -n "${_xspecs[$cmd]}" ]] && complete -F _filedir_xspec "$cmd" && return 
+0;
+    return 1
+}
+__ltrim_colon_completions () 
+{ 
+    if [[ "$1" == *:* && "$COMP_WORDBREAKS" == *:* ]]; then
+        local colon_word=${1%"${1##*:}"};
+        local i=${#COMPREPLY[*]};
+        while [[ $((--i)) -ge 0 ]]; do
+            COMPREPLY[$i]=${COMPREPLY[$i]#"$colon_word"};
+        done;
+    fi
+}
+__parse_options () 
+{ 
+    local option option2 i IFS=' 	
+,/|';
+    option=;
+    local -a array=($1);
+    for i in "${array[@]}";
+    do
+        case "$i" in 
+            ---*)
+                break
+[7m--More--[27m            ;;
+            --?*)
+                option=$i;
+                break
+            ;;
+            -?*)
+                [[ -n $option ]] || option=$i
+            ;;
+            *)
+                break
+            ;;
+        esac;
+    done;
+    [[ -n $option ]] || return 0;
+    IFS=' 	
+';
+    if [[ $option =~ (\[((no|dont)-?)\]). ]]; then
+        option2=${option/"${BASH_REMATCH[1]}"/};
+        option2=${option2%%[<{().[]*};
+        printf '%s\n' "${option2/=*/=}";
+        option=${option/"${BASH_REMATCH[1]}"/"${BASH_REMATCH[2]}"};
+    fi;
+    option=${option%%[<{().[]*};
+    printf '%s\n' "${option/=*/=}"
+}
+__reassemble_comp_words_by_ref () 
+{ 
+    local exclude i j line ref;
+[7m--More--[27m    if [[ -n $1 ]]; then
+        exclude="${1//[^$COMP_WORDBREAKS]}";
+    fi;
+    printf -v "$3" %s "$COMP_CWORD";
+    if [[ -n $exclude ]]; then
+        line=$COMP_LINE;
+        for ((i=0, j=0; i < ${#COMP_WORDS[@]}; i++, j++))
+        do
+            while [[ $i -gt 0 && ${COMP_WORDS[$i]} == +([$exclude]) ]]; do
+                [[ $line != [[:blank:]]* ]] && (( j >= 2 )) && ((j--));
+                ref="$2[$j]";
+                printf -v "$ref" %s "${!ref}${COMP_WORDS[i]}";
+                [[ $i == $COMP_CWORD ]] && printf -v "$3" %s "$j";
+                line=${line#*"${COMP_WORDS[$i]}"};
+                [[ $line == [[:blank:]]* ]] && ((j++));
+                (( $i < ${#COMP_WORDS[@]} - 1)) && ((i++)) || break 2;
+            done;
+            ref="$2[$j]";
+            printf -v "$ref" %s "${!ref}${COMP_WORDS[i]}";
+            line=${line#*"${COMP_WORDS[i]}"};
+            [[ $i == $COMP_CWORD ]] && printf -v "$3" %s "$j";
+        done;
+        [[ $i == $COMP_CWORD ]] && printf -v "$3" %s "$j";
+    else
+        for i in "${!COMP_WORDS[@]}";
+        do
+            printf -v "$2[i]" %s "${COMP_WORDS[i]}";
+        done;
+[7m--More--[27m    fi[K
+}
+_allowed_groups () 
+{ 
+    if _complete_as_root; then
+        local IFS='
+';
+        COMPREPLY=($(compgen -g -- "$1"));
+    else
+        local IFS='
+ ';
+        COMPREPLY=($(compgen -W             "$(id -Gn 2>/dev/null || groups 2>/
+dev/null)" -- "$1"));
+    fi
+}
+_allowed_users () 
+{ 
+    if _complete_as_root; then
+        local IFS='
+';
+        COMPREPLY=($(compgen -u -- "${1:-$cur}"));
+    else
+        local IFS='
+ ';
+        COMPREPLY=($(compgen -W             "$(id -un 2>/dev/null || whoami 2>/
+dev/null)" -- "${1:-$cur}"));
+    fi
+}
+[7m--More--[27m_apport-bug () 
+{ 
+    local cur dashoptions prev param;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    dashoptions='-h --help --save -v --version --tag -w --window';
+    case "$prev" in 
+        ubuntu-bug | apport-bug)
+            case "$cur" in 
+                -*)
+                    COMPREPLY=($( compgen -W "$dashoptions" -- $cur ))
+                ;;
+                *)
+                    _apport_parameterless
+                ;;
+            esac
+        ;;
+        --save)
+            COMPREPLY=($( compgen -o default -G "$cur*" ))
+        ;;
+        -w | --window)
+            dashoptions="--save --tag";
+            COMPREPLY=($( compgen -W "$dashoptions" -- $cur ))
+        ;;
+        -h | --help | -v | --version | --tag)
+            return 0
+        ;;
+[7m--More--[27m        *)
+            dashoptions="--tag";
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--save.* ]]; then
+                dashoptions="--save $dashoptions";
+            fi;
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--window.* || "${COMP_WORDS[*]}" =~
+ .*\ -w\ .* ]]; then
+                dashoptions="-w --window $dashoptions";
+            fi;
+            case "$cur" in 
+                -*)
+                    COMPREPLY=($( compgen -W "$dashoptions" -- $cur ))
+                ;;
+                *)
+                    _apport_parameterless
+                ;;
+            esac
+        ;;
+    esac
+}
+_apport-cli () 
+{ 
+    local cur dashoptions prev param;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    dashoptions='-h --help -f --file-bug -u --update-bug -s --symptom \
+                 -c --crash-file --save -v --version --tag -w --window';
+[7m--More--[27m    case "$prev" in 
+        apport-cli)
+            case "$cur" in 
+                -*)
+                    COMPREPLY=($( compgen -W "$dashoptions" -- $cur ))
+                ;;
+                *)
+                    _apport_parameterless
+                ;;
+            esac
+        ;;
+        -f | --file-bug)
+            param="-P --pid -p --package -s --symptom";
+            COMPREPLY=($( compgen -W "$param $(_apport_symptoms)" -- $cur))
+        ;;
+        -s | --symptom)
+            COMPREPLY=($( compgen -W "$(_apport_symptoms)" -- $cur))
+        ;;
+        --save)
+            COMPREPLY=($( compgen -o default -G "$cur*" ))
+        ;;
+        -c | --crash-file)
+            COMPREPLY=($( compgen -G "${cur}*.apport"
+                       compgen -G "${cur}*.crash" ))
+        ;;
+        -w | --window)
+            dashoptions="--save --tag";
+            COMPREPLY=($( compgen -W "$dashoptions" -- $cur ))
+[7m--More--[27m        ;;
+        -h | --help | -v | --version | --tag)
+            return 0
+        ;;
+        *)
+            dashoptions='--tag';
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--save.* ]]; then
+                dashoptions="--save $dashoptions";
+            fi;
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--window.* || "${COMP_WORDS[*]}" =~
+ .*\ -w\ .* ]]; then
+                dashoptions="-w --window $dashoptions";
+            fi;
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--symptom.* || "${COMP_WORDS[*]}" =
+~ .*\ -s\ .* ]]; then
+                dashoptions="-s --symptom $dashoptions";
+            fi;
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--update.* || "${COMP_WORDS[*]}" =~
+ .*\ -u\ .* ]]; then
+                dashoptions="-u --update $dashoptions";
+            fi;
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--file-bug.* || "${COMP_WORDS[*]}" 
+=~ .*\ -f\ .* ]]; then
+                dashoptions="-f --file-bug $dashoptions";
+            fi;
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--crash-file.* || "${COMP_WORDS[*]}
+" =~ .*\ -c\ .* ]]; then
+                dashoptions="-c --crash-file $dashoptions";
+[7m--More--[27m            fi;
+            case "$cur" in 
+                -*)
+                    COMPREPLY=($( compgen -W "$dashoptions" -- $cur ))
+                ;;
+                *)
+                    _apport_parameterless
+                ;;
+            esac
+        ;;
+    esac
+}
+_apport-collect () 
+{ 
+    local cur prev;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    case "$prev" in 
+        apport-collect)
+            COMPREPLY=($( compgen -W "-p --package --tag" -- $cur))
+        ;;
+        -p | --package)
+            COMPREPLY=($( apt-cache pkgnames $cur 2> /dev/null ))
+        ;;
+        --tag)
+            return 0
+        ;;
+[7m--More--[27m        *)
+            if [[ "${COMP_WORDS[*]}" =~ .*\ -p.* || "${COMP_WORDS[*]}" =~ .*--p
+ackage.* ]]; then
+                COMPREPLY=($( compgen -W "--tag" -- $cur));
+            else
+                COMPREPLY=($( compgen -W "-p --package --tag" -- $cur));
+            fi
+        ;;
+    esac
+}
+_apport-unpack () 
+{ 
+    local cur prev;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    case "$prev" in 
+        apport-unpack)
+            COMPREPLY=($( compgen -G "${cur}*.apport"
+                       compgen -G "${cur}*.crash" ))
+        ;;
+    esac
+}
+_apport_parameterless () 
+{ 
+    local param;
+    param="$dashoptions            $( apt-cache pkgnames $cur 2> /dev/null )   
+         $( command ps axo pid | sed 1d )            $( _apport_symptoms )     
+[7m--More--[27m       $( compgen -G "${cur}*" )";
+    COMPREPLY=($( compgen -W "$param" -- $cur))
+}
+_apport_symptoms () 
+{ 
+    local syms;
+    if [ -r /usr/share/apport/symptoms ]; then
+        for FILE in $(ls /usr/share/apport/symptoms);
+        do
+            if [[ ! "$FILE" =~ ^_.* && -n $(egrep "^def run\s*\(.*\):" /usr/sha
+re/apport/symptoms/$FILE) ]]; then
+                syms="$syms ${FILE%.py}";
+            fi;
+        done;
+    fi;
+    echo $syms
+}
+_available_interfaces () 
+{ 
+    local PATH=$PATH:/sbin;
+    COMPREPLY=($({
+        if [[ ${1:-} == -w ]]; then
+            iwconfig
+        elif [[ ${1:-} == -a ]]; then
+            ifconfig || ip link show up
+        else
+            ifconfig -a || ip link show
+        fi
+[7m--More--[27m    } 2>/dev/null | awk         '/^[^ \t]/ { if ($1 ~ /^[0-9]+:/) { print $2 } 
+else { print $1 } }'));
+    COMPREPLY=($(compgen -W '${COMPREPLY[@]/%[[:punct:]]/}' -- "$cur"))
+}
+_cd () 
+{ 
+    local cur prev words cword;
+    _init_completion || return;
+    local IFS='
+' i j k;
+    compopt -o filenames;
+    if [[ -z "${CDPATH:-}" || "$cur" == ?(.)?(.)/* ]]; then
+        _filedir -d;
+        return;
+    fi;
+    local -r mark_dirs=$(_rl_enabled mark-directories && echo y);
+    local -r mark_symdirs=$(_rl_enabled mark-symlinked-directories && echo y);
+    for i in ${CDPATH//:/'
+'};
+    do
+        k="${#COMPREPLY[@]}";
+        for j in $(compgen -d -- $i/$cur);
+        do
+            if [[ ( -n $mark_symdirs && -h $j || -n $mark_dirs && ! -h $j ) && 
+! -d ${j#$i/} ]]; then
+                j+="/";
+            fi;
+            COMPREPLY[k++]=${j#$i/};
+[7m--More--[27m        done;
+    done;
+    _filedir -d;
+    if [[ ${#COMPREPLY[@]} -eq 1 ]]; then
+        i=${COMPREPLY[0]};
+        if [[ "$i" == "$cur" && $i != "*/" ]]; then
+            COMPREPLY[0]="${i}/";
+        fi;
+    fi;
+    return
+}
+_cd_devices () 
+{ 
+    COMPREPLY+=($(compgen -f -d -X "!*/?([amrs])cd*" -- "${cur:-/dev/}"))
+}
+_command () 
+{ 
+    local offset i;
+    offset=1;
+    for ((i=1; i <= COMP_CWORD; i++ ))
+    do
+        if [[ "${COMP_WORDS[i]}" != -* ]]; then
+            offset=$i;
+            break;
+        fi;
+    done;
+    _command_offset $offset
+}
+[7m--More--[27m_command_offset () 
+{ 
+    local word_offset=$1 i j;
+    for ((i=0; i < $word_offset; i++ ))
+    do
+        for ((j=0; j <= ${#COMP_LINE}; j++ ))
+        do
+            [[ "$COMP_LINE" == "${COMP_WORDS[i]}"* ]] && break;
+            COMP_LINE=${COMP_LINE:1};
+            ((COMP_POINT--));
+        done;
+        COMP_LINE=${COMP_LINE#"${COMP_WORDS[i]}"};
+        ((COMP_POINT-=${#COMP_WORDS[i]}));
+    done;
+    for ((i=0; i <= COMP_CWORD - $word_offset; i++ ))
+    do
+        COMP_WORDS[i]=${COMP_WORDS[i+$word_offset]};
+    done;
+    for ((i; i <= COMP_CWORD; i++ ))
+    do
+        unset 'COMP_WORDS[i]';
+    done;
+    ((COMP_CWORD -= $word_offset));
+    COMPREPLY=();
+    local cur;
+    _get_comp_words_by_ref cur;
+    if [[ $COMP_CWORD -eq 0 ]]; then
+        local IFS='
+[7m--More--[27m';[K
+        compopt -o filenames;
+        COMPREPLY=($(compgen -d -c -- "$cur"));
+    else
+        local cmd=${COMP_WORDS[0]} compcmd=${COMP_WORDS[0]};
+        local cspec=$(complete -p $cmd 2>/dev/null);
+        if [[ ! -n $cspec && $cmd == */* ]]; then
+            cspec=$(complete -p ${cmd##*/} 2>/dev/null);
+            [[ -n $cspec ]] && compcmd=${cmd##*/};
+        fi;
+        if [[ ! -n $cspec ]]; then
+            compcmd=${cmd##*/};
+            _completion_loader $compcmd;
+            cspec=$(complete -p $compcmd 2>/dev/null);
+        fi;
+        if [[ -n $cspec ]]; then
+            if [[ ${cspec#* -F } != $cspec ]]; then
+                local func=${cspec#*-F };
+                func=${func%% *};
+                if [[ ${#COMP_WORDS[@]} -ge 2 ]]; then
+                    $func $cmd "${COMP_WORDS[${#COMP_WORDS[@]}-1]}" "${COMP_WOR
+DS[${#COMP_WORDS[@]}-2]}";
+                else
+                    $func $cmd "${COMP_WORDS[${#COMP_WORDS[@]}-1]}";
+                fi;
+                local opt;
+                while [[ $cspec == *" -o "* ]]; do
+                    cspec=${cspec#*-o };
+[7m--More--[27m                    opt=${cspec%% *};
+                    compopt -o $opt;
+                    cspec=${cspec#$opt};
+                done;
+            else
+                cspec=${cspec#complete};
+                cspec=${cspec%%$compcmd};
+                COMPREPLY=($(eval compgen "$cspec" -- '$cur'));
+            fi;
+        else
+            if [[ ${#COMPREPLY[@]} -eq 0 ]]; then
+                _minimal;
+            fi;
+        fi;
+    fi
+}
+_complete_as_root () 
+{ 
+    [[ $EUID -eq 0 || -n ${root_command:-} ]]
+}
+_completion_loader () 
+{ 
+    local cmd="${1:-_EmptycmD_}";
+    __load_completion "$cmd" && return 124;
+    complete -F _minimal -- "$cmd" && return 124
+}
+_configured_interfaces () 
+{ 
+[7m--More--[27m    if [[ -f /etc/debian_version ]]; then
+        COMPREPLY=($(compgen -W "$(command sed -ne 's|^iface \([^ ]\{1,\}\).*$|
+\1|p'            /etc/network/interfaces /etc/network/interfaces.d/* 2>/dev/nul
+l)"             -- "$cur"));
+    else
+        if [[ -f /etc/SuSE-release ]]; then
+            COMPREPLY=($(compgen -W "$(printf '%s\n'             /etc/sysconfig
+/network/ifcfg-* |             command sed -ne 's|.*ifcfg-\([^*].*\)$|\1|p')" -
+- "$cur"));
+        else
+            if [[ -f /etc/pld-release ]]; then
+                COMPREPLY=($(compgen -W "$(command ls -B             /etc/sysco
+nfig/interfaces |             command sed -ne 's|.*ifcfg-\([^*].*\)$|\1|p')" --
+ "$cur"));
+            else
+                COMPREPLY=($(compgen -W "$(printf '%s\n'             /etc/sysco
+nfig/network-scripts/ifcfg-* |             command sed -ne 's|.*ifcfg-\([^*].*\
+)$|\1|p')" -- "$cur"));
+            fi;
+        fi;
+    fi
+}
+_count_args () 
+{ 
+    local i cword words;
+    __reassemble_comp_words_by_ref "$1" words cword;
+    args=1;
+    for ((i=1; i < cword; i++ ))
+[7m--More--[27m    do[K
+        if [[ ${words[i]} != -* && ${words[i-1]} != $2 || ${words[i]} == $3 ]];
+ then
+            (( args++ ));
+        fi;
+    done
+}
+_dvd_devices () 
+{ 
+    COMPREPLY+=($(compgen -f -d -X "!*/?(r)dvd*" -- "${cur:-/dev/}"))
+}
+_expand () 
+{ 
+    if [[ "$cur" == \~*/* ]]; then
+        __expand_tilde_by_ref cur;
+    else
+        if [[ "$cur" == \~* ]]; then
+            _tilde "$cur" || eval COMPREPLY[0]=$(printf ~%q "${COMPREPLY[0]#\~}
+");
+            return ${#COMPREPLY[@]};
+        fi;
+    fi
+}
+_filedir () 
+{ 
+    local IFS='
+';
+    _tilde "$cur" || return;
+[7m--More--[27m    local -a toks;
+    local reset;
+    if [[ "$1" == -d ]]; then
+        reset=$(shopt -po noglob);
+        set -o noglob;
+        toks=($(compgen -d -- "$cur"));
+        IFS=' ';
+        $reset;
+        IFS='
+';
+    else
+        local quoted;
+        _quote_readline_by_ref "$cur" quoted;
+        local xspec=${1:+"!*.@($1|${1^^})"} plusdirs=();
+        local opts=(-f -X "$xspec");
+        [[ -n $xspec ]] && plusdirs=(-o plusdirs);
+        [[ -n ${COMP_FILEDIR_FALLBACK-} ]] || opts+=("${plusdirs[@]}");
+        reset=$(shopt -po noglob);
+        set -o noglob;
+        toks+=($(compgen "${opts[@]}" -- $quoted));
+        IFS=' ';
+        $reset;
+        IFS='
+';
+        [[ -n ${COMP_FILEDIR_FALLBACK:-} && -n "$1" && ${#toks[@]} -lt 1 ]] && 
+{ 
+            reset=$(shopt -po noglob);
+            set -o noglob;
+[7m--More--[27m            toks+=($(compgen -f "${plusdirs[@]}" -- $quoted));
+            IFS=' ';
+            $reset;
+            IFS='
+'
+        };
+    fi;
+    if [[ ${#toks[@]} -ne 0 ]]; then
+        compopt -o filenames 2> /dev/null;
+        COMPREPLY+=("${toks[@]}");
+    fi
+}
+_filedir_xspec () 
+{ 
+    local cur prev words cword;
+    _init_completion || return;
+    _tilde "$cur" || return;
+    local IFS='
+' xspec=${_xspecs[${1##*/}]} tmp;
+    local -a toks;
+    toks=($(
+        compgen -d -- "$(quote_readline "$cur")" | {
+        while read -r tmp; do
+            printf '%s\n' $tmp
+        done
+        }
+        ));
+    eval xspec="${xspec}";
+[7m--More--[27m    local matchop=!;
+    if [[ $xspec == !* ]]; then
+        xspec=${xspec#!};
+        matchop=@;
+    fi;
+    xspec="$matchop($xspec|${xspec^^})";
+    toks+=($(
+        eval compgen -f -X "'!$xspec'" -- "\$(quote_readline "\$cur")" | {
+        while read -r tmp; do
+            [[ -n $tmp ]] && printf '%s\n' $tmp
+        done
+        }
+        ));
+    [[ -n ${COMP_FILEDIR_FALLBACK:-} && ${#toks[@]} -lt 1 ]] && { 
+        local reset=$(shopt -po noglob);
+        set -o noglob;
+        toks+=($(compgen -f -- "$(quote_readline "$cur")"));
+        IFS=' ';
+        $reset;
+        IFS='
+'
+    };
+    if [[ ${#toks[@]} -ne 0 ]]; then
+        compopt -o filenames;
+        COMPREPLY=("${toks[@]}");
+    fi
+}
+_fstypes () 
+[7m--More--[27m{ [K
+    local fss;
+    if [[ -e /proc/filesystems ]]; then
+        fss="$(cut -d'	' -f2 /proc/filesystems)
+             $(awk '! /\*/ { print $NF }' /etc/filesystems 2>/dev/null)";
+    else
+        fss="$(awk '/^[ \t]*[^#]/ { print $3 }' /etc/fstab 2>/dev/null)
+             $(awk '/^[ \t]*[^#]/ { print $3 }' /etc/mnttab 2>/dev/null)
+             $(awk '/^[ \t]*[^#]/ { print $4 }' /etc/vfstab 2>/dev/null)
+             $(awk '{ print $1 }' /etc/dfs/fstypes 2>/dev/null)
+             $([[ -d /etc/fs ]] && command ls /etc/fs)";
+    fi;
+    [[ -n $fss ]] && COMPREPLY+=($(compgen -W "$fss" -- "$cur"))
+}
+_get_comp_words_by_ref () 
+{ 
+    local exclude flag i OPTIND=1;
+    local cur cword words=();
+    local upargs=() upvars=() vcur vcword vprev vwords;
+    while getopts "c:i:n:p:w:" flag "$@"; do
+        case $flag in 
+            c)
+                vcur=$OPTARG
+            ;;
+            i)
+                vcword=$OPTARG
+            ;;
+            n)
+[7m--More--[27m                exclude=$OPTARG
+            ;;
+            p)
+                vprev=$OPTARG
+            ;;
+            w)
+                vwords=$OPTARG
+            ;;
+        esac;
+    done;
+    while [[ $# -ge $OPTIND ]]; do
+        case ${!OPTIND} in 
+            cur)
+                vcur=cur
+            ;;
+            prev)
+                vprev=prev
+            ;;
+            cword)
+                vcword=cword
+            ;;
+            words)
+                vwords=words
+            ;;
+            *)
+                echo "bash_completion: $FUNCNAME: \`${!OPTIND}':" "unknown argu
+ment" 1>&2;
+                return 1
+[7m--More--[27m            ;;
+        esac;
+        (( OPTIND += 1 ));
+    done;
+    __get_cword_at_cursor_by_ref "$exclude" words cword cur;
+    [[ -n $vcur ]] && { 
+        upvars+=("$vcur");
+        upargs+=(-v $vcur "$cur")
+    };
+    [[ -n $vcword ]] && { 
+        upvars+=("$vcword");
+        upargs+=(-v $vcword "$cword")
+    };
+    [[ -n $vprev && $cword -ge 1 ]] && { 
+        upvars+=("$vprev");
+        upargs+=(-v $vprev "${words[cword - 1]}")
+    };
+    [[ -n $vwords ]] && { 
+        upvars+=("$vwords");
+        upargs+=(-a${#words[@]} $vwords "${words[@]}")
+    };
+    (( ${#upvars[@]} )) && local "${upvars[@]}" && _upvars "${upargs[@]}"
+}
+_get_cword () 
+{ 
+    local LC_CTYPE=C;
+    local cword words;
+    __reassemble_comp_words_by_ref "$1" words cword;
+[7m--More--[27m    if [[ -n ${2//[^0-9]/} ]]; then
+        printf "%s" "${words[cword-$2]}";
+    else
+        if [[ "${#words[cword]}" -eq 0 || "$COMP_POINT" == "${#COMP_LINE}" ]]; 
+then
+            printf "%s" "${words[cword]}";
+        else
+            local i;
+            local cur="$COMP_LINE";
+            local index="$COMP_POINT";
+            for ((i = 0; i <= cword; ++i ))
+            do
+                while [[ "${#cur}" -ge ${#words[i]} && "${cur:0:${#words[i]}}" 
+!= "${words[i]}" ]]; do
+                    cur="${cur:1}";
+                    [[ $index -gt 0 ]] && ((index--));
+                done;
+                if [[ "$i" -lt "$cword" ]]; then
+                    local old_size="${#cur}";
+                    cur="${cur#${words[i]}}";
+                    local new_size="${#cur}";
+                    (( index -= old_size - new_size ));
+                fi;
+            done;
+            if [[ "${words[cword]:0:${#cur}}" != "$cur" ]]; then
+                printf "%s" "${words[cword]}";
+            else
+                printf "%s" "${cur:0:$index}";
+[7m--More--[27m            fi;
+        fi;
+    fi
+}
+_get_first_arg () 
+{ 
+    local i;
+    arg=;
+    for ((i=1; i < COMP_CWORD; i++ ))
+    do
+        if [[ "${COMP_WORDS[i]}" != -* ]]; then
+            arg=${COMP_WORDS[i]};
+            break;
+        fi;
+    done
+}
+_get_pword () 
+{ 
+    if [[ $COMP_CWORD -ge 1 ]]; then
+        _get_cword "${@:-}" 1;
+    fi
+}
+_gids () 
+{ 
+    if type getent &> /dev/null; then
+        COMPREPLY=($(compgen -W '$(getent group | cut -d: -f3)' -- "$cur"));
+    else
+        if type perl &> /dev/null; then
+[7m--More--[27m            COMPREPLY=($(compgen -W '$(perl -e '"'"'while (($gid) = (getgrent)[
+2]) { print $gid . "\n" }'"'"')' -- "$cur"));
+        else
+            COMPREPLY=($(compgen -W '$(cut -d: -f3 /etc/group)' -- "$cur"));
+        fi;
+    fi
+}
+_have () 
+{ 
+    PATH=$PATH:/usr/sbin:/sbin:/usr/local/sbin type $1 &> /dev/null
+}
+_included_ssh_config_files () 
+{ 
+    [[ $# -lt 1 ]] && echo "bash_completion: $FUNCNAME: missing mandatory argum
+ent CONFIG" 1>&2;
+    local configfile i f;
+    configfile=$1;
+    local included=($(command sed -ne 's/^[[:blank:]]*[Ii][Nn][Cc][Ll][Uu][Dd][
+Ee][[:blank:]]\{1,\}\([^#%]*\)\(#.*\)\{0,1\}$/\1/p' "${configfile}"));
+    for i in "${included[@]}";
+    do
+        if ! [[ "$i" =~ ^\~.*|^\/.* ]]; then
+            if [[ "$configfile" =~ ^\/etc\/ssh.* ]]; then
+                i="/etc/ssh/$i";
+            else
+                i="$HOME/.ssh/$i";
+            fi;
+        fi;
+[7m--More--[27m        __expand_tilde_by_ref i;
+        for f in ${i};
+        do
+            if [ -r $f ]; then
+                config+=("$f");
+                _included_ssh_config_files $f;
+            fi;
+        done;
+    done
+}
+_init_completion () 
+{ 
+    local exclude="" flag outx errx inx OPTIND=1;
+    while getopts "n:e:o:i:s" flag "$@"; do
+        case $flag in 
+            n)
+                exclude+=$OPTARG
+            ;;
+            e)
+                errx=$OPTARG
+            ;;
+            o)
+                outx=$OPTARG
+            ;;
+            i)
+                inx=$OPTARG
+            ;;
+            s)
+[7m--More--[27m                split=false;
+                exclude+==
+            ;;
+        esac;
+    done;
+    COMPREPLY=();
+    local redir="@(?([0-9])<|?([0-9&])>?(>)|>&)";
+    _get_comp_words_by_ref -n "$exclude<>&" cur prev words cword;
+    _variables && return 1;
+    if [[ $cur == $redir* || $prev == $redir ]]; then
+        local xspec;
+        case $cur in 
+            2'>'*)
+                xspec=$errx
+            ;;
+            *'>'*)
+                xspec=$outx
+            ;;
+            *'<'*)
+                xspec=$inx
+            ;;
+            *)
+                case $prev in 
+                    2'>'*)
+                        xspec=$errx
+                    ;;
+                    *'>'*)
+                        xspec=$outx
+[7m--More--[27m                    ;;
+                    *'<'*)
+                        xspec=$inx
+                    ;;
+                esac
+            ;;
+        esac;
+        cur="${cur##$redir}";
+        _filedir $xspec;
+        return 1;
+    fi;
+    local i skip;
+    for ((i=1; i < ${#words[@]}; 1))
+    do
+        if [[ ${words[i]} == $redir* ]]; then
+            [[ ${words[i]} == $redir ]] && skip=2 || skip=1;
+            words=("${words[@]:0:i}" "${words[@]:i+skip}");
+            [[ $i -le $cword ]] && (( cword -= skip ));
+        else
+            (( i++ ));
+        fi;
+    done;
+    [[ $cword -le 0 ]] && return 1;
+    prev=${words[cword-1]};
+    [[ -n ${split-} ]] && _split_longopt && split=true;
+    return 0
+}
+_installed_modules () 
+[7m--More--[27m{ [K
+    COMPREPLY=($(compgen -W "$(PATH="$PATH:/sbin" lsmod |         awk '{if (NR 
+!= 1) print $1}')" -- "$1"))
+}
+_ip_addresses () 
+{ 
+    local n;
+    case $1 in 
+        -a)
+            n='6\?'
+        ;;
+        -6)
+            n='6'
+        ;;
+    esac;
+    local PATH=$PATH:/sbin;
+    local addrs=$({ LC_ALL=C ifconfig -a || ip addr show; } 2>/dev/null |
+        command sed -e 's/[[:space:]]addr:/ /' -ne             "s|.*inet${n}[[:
+space:]]\{1,\}\([^[:space:]/]*\).*|\1|p");
+    COMPREPLY+=($(compgen -W "$addrs" -- "$cur"))
+}
+_kernel_versions () 
+{ 
+    COMPREPLY=($(compgen -W '$(command ls /lib/modules)' -- "$cur"))
+}
+_known_hosts () 
+{ 
+    local cur prev words cword;
+[7m--More--[27m    _init_completion -n : || return;
+    local options;
+    [[ "$1" == -a || "$2" == -a ]] && options=-a;
+    [[ "$1" == -c || "$2" == -c ]] && options+=" -c";
+    _known_hosts_real $options -- "$cur"
+}
+_known_hosts_real () 
+{ 
+    local configfile flag prefix OIFS=$IFS;
+    local cur user suffix aliases i host ipv4 ipv6;
+    local -a kh tmpkh khd config;
+    local OPTIND=1;
+    while getopts "ac46F:p:" flag "$@"; do
+        case $flag in 
+            a)
+                aliases='yes'
+            ;;
+            c)
+                suffix=':'
+            ;;
+            F)
+                configfile=$OPTARG
+            ;;
+            p)
+                prefix=$OPTARG
+            ;;
+            4)
+                ipv4=1
+[7m--More--[27m            ;;
+            6)
+                ipv6=1
+            ;;
+        esac;
+    done;
+    [[ $# -lt $OPTIND ]] && echo "bash_completion: $FUNCNAME: missing mandatory
+ argument CWORD" 1>&2;
+    cur=${!OPTIND};
+    (( OPTIND += 1 ));
+    [[ $# -ge $OPTIND ]] && echo "bash_completion: $FUNCNAME($*): unprocessed a
+rguments:" $(while [[ $# -ge $OPTIND ]]; do printf '%s\n' ${!OPTIND}; shift; do
+ne) 1>&2;
+    [[ $cur == *@* ]] && user=${cur%@*}@ && cur=${cur#*@};
+    kh=();
+    if [[ -n $configfile ]]; then
+        [[ -r $configfile ]] && config+=("$configfile");
+    else
+        for i in /etc/ssh/ssh_config ~/.ssh/config ~/.ssh2/config;
+        do
+            [[ -r $i ]] && config+=("$i");
+        done;
+    fi;
+    for i in "${config[@]}";
+    do
+        _included_ssh_config_files "$i";
+    done;
+    if [[ ${#config[@]} -gt 0 ]]; then
+[7m--More--[27m        local IFS='
+' j;
+        tmpkh=($(awk 'sub("^[ \t]*([Gg][Ll][Oo][Bb][Aa][Ll]|[Uu][Ss][Ee][Rr])[K
+k][Nn][Oo][Ww][Nn][Hh][Oo][Ss][Tt][Ss][Ff][Ii][Ll][Ee][ \t]+", "") { print $0 }
+' "${config[@]}" | sort -u));
+        IFS=$OIFS;
+        for i in "${tmpkh[@]}";
+        do
+            while [[ $i =~ ^([^\"]*)\"([^\"]*)\"(.*)$ ]]; do
+                i=${BASH_REMATCH[1]}${BASH_REMATCH[3]};
+                j=${BASH_REMATCH[2]};
+                __expand_tilde_by_ref j;
+                [[ -r $j ]] && kh+=("$j");
+            done;
+            for j in $i;
+            do
+                __expand_tilde_by_ref j;
+                [[ -r $j ]] && kh+=("$j");
+            done;
+        done;
+    fi;
+    if [[ -z $configfile ]]; then
+        for i in /etc/ssh/ssh_known_hosts /etc/ssh/ssh_known_hosts2 /etc/known_
+hosts /etc/known_hosts2 ~/.ssh/known_hosts ~/.ssh/known_hosts2;
+        do
+            [[ -r $i ]] && kh+=("$i");
+        done;
+        for i in /etc/ssh2/knownhosts ~/.ssh2/hostkeys;
+[7m--More--[27m        do
+            [[ -d $i ]] && khd+=("$i"/*pub);
+        done;
+    fi;
+    if [[ ${#kh[@]} -gt 0 || ${#khd[@]} -gt 0 ]]; then
+        if [[ ${#kh[@]} -gt 0 ]]; then
+            for i in "${kh[@]}";
+            do
+                while read -ra tmpkh; do
+                    set -- "${tmpkh[@]}";
+                    [[ $1 == [\|\#]* ]] && continue;
+                    [[ $1 == @* ]] && shift;
+                    local IFS=,;
+                    for host in $1;
+                    do
+                        [[ $host == *[*?]* ]] && continue;
+                        host="${host#[}";
+                        host="${host%]?(:+([0-9]))}";
+                        COMPREPLY+=($host);
+                    done;
+                    IFS=$OIFS;
+                done < "$i";
+            done;
+            COMPREPLY=($(compgen -W '${COMPREPLY[@]}' -- "$cur"));
+        fi;
+        if [[ ${#khd[@]} -gt 0 ]]; then
+            for i in "${khd[@]}";
+            do
+[7m--More--[27m                if [[ "$i" == *key_22_$cur*.pub && -r "$i" ]]; then
+                    host=${i/#*key_22_/};
+                    host=${host/%.pub/};
+                    COMPREPLY+=($host);
+                fi;
+            done;
+        fi;
+        for ((i=0; i < ${#COMPREPLY[@]}; i++ ))
+        do
+            COMPREPLY[i]=$prefix$user${COMPREPLY[i]}$suffix;
+        done;
+    fi;
+    if [[ ${#config[@]} -gt 0 && -n "$aliases" ]]; then
+        local hosts=$(command sed -ne 's/^[[:blank:]]*[Hh][Oo][Ss][Tt][[:blank:
+]]\{1,\}\([^#*?%]*\)\(#.*\)\{0,1\}$/\1/p' "${config[@]}");
+        COMPREPLY+=($(compgen -P "$prefix$user"             -S "$suffix" -W "$h
+osts" -- "$cur"));
+    fi;
+    if [[ -n ${COMP_KNOWN_HOSTS_WITH_AVAHI:-} ]] && type avahi-browse &> /dev/n
+ull; then
+        COMPREPLY+=($(compgen -P "$prefix$user" -S "$suffix" -W             "$(
+avahi-browse -cpr _workstation._tcp 2>/dev/null |                awk -F';' '/^=
+/ { print $7 }' | sort -u)" -- "$cur"));
+    fi;
+    COMPREPLY+=($(compgen -W         "$(ruptime 2>/dev/null | awk '!/^ruptime:/
+ { print $1 }')"         -- "$cur"));
+    if [[ -n ${COMP_KNOWN_HOSTS_WITH_HOSTFILE-1} ]]; then
+        COMPREPLY+=($(compgen -A hostname -P "$prefix$user" -S "$suffix" -- "$c
+[7m--More--[27mur"));[K
+    fi;
+    if [[ -n $ipv4 ]]; then
+        COMPREPLY=("${COMPREPLY[@]/*:*$suffix/}");
+    fi;
+    if [[ -n $ipv6 ]]; then
+        COMPREPLY=("${COMPREPLY[@]/+([0-9]).+([0-9]).+([0-9]).+([0-9])$suffix/}
+");
+    fi;
+    if [[ -n $ipv4 || -n $ipv6 ]]; then
+        for i in "${!COMPREPLY[@]}";
+        do
+            [[ -n ${COMPREPLY[i]} ]] || unset -v COMPREPLY[i];
+        done;
+    fi;
+    __ltrim_colon_completions "$prefix$user$cur"
+}
+_longopt () 
+{ 
+    local cur prev words cword split;
+    _init_completion -s || return;
+    case "${prev,,}" in 
+        --help | --usage | --version)
+            return
+        ;;
+        --!(no-*)dir*)
+            _filedir -d;
+            return
+[7m--More--[27m        ;;
+        --!(no-*)@(file|path)*)
+            _filedir;
+            return
+        ;;
+        --+([-a-z0-9_]))
+            local argtype=$(LC_ALL=C $1 --help 2>&1 | command sed -ne          
+       "s|.*$prev\[\{0,1\}=[<[]\{0,1\}\([-A-Za-z0-9_]\{1,\}\).*|\1|p");
+            case ${argtype,,} in 
+                *dir*)
+                    _filedir -d;
+                    return
+                ;;
+                *file* | *path*)
+                    _filedir;
+                    return
+                ;;
+            esac
+        ;;
+    esac;
+    $split && return;
+    if [[ "$cur" == -* ]]; then
+        COMPREPLY=($(compgen -W "$(LC_ALL=C $1 --help 2>&1 |             while 
+read -r line; do                 [[ $line =~ --[-A-Za-z0-9]+=? ]] &&           
+          printf '%s\n' ${BASH_REMATCH[0]}
+            done)" -- "$cur"));
+        [[ $COMPREPLY == *= ]] && compopt -o nospace;
+    else
+[7m--More--[27m        if [[ "$1" == *@(rmdir|chroot) ]]; then
+            _filedir -d;
+        else
+            [[ "$1" == *mkdir ]] && compopt -o nospace;
+            _filedir;
+        fi;
+    fi
+}
+_mac_addresses () 
+{ 
+    local re='\([A-Fa-f0-9]\{2\}:\)\{5\}[A-Fa-f0-9]\{2\}';
+    local PATH="$PATH:/sbin:/usr/sbin";
+    COMPREPLY+=($(        { LC_ALL=C ifconfig -a || ip link show; } 2>/dev/null
+ | command sed -ne         "s/.*[[:space:]]HWaddr[[:space:]]\{1,\}\($re\)[[:spa
+ce:]].*/\1/p" -ne         "s/.*[[:space:]]HWaddr[[:space:]]\{1,\}\($re\)[[:spac
+e:]]*$/\1/p" -ne         "s|.*[[:space:]]\(link/\)\{0,1\}ether[[:space:]]\{1,\}
+\($re\)[[:space:]].*|\2|p" -ne         "s|.*[[:space:]]\(link/\)\{0,1\}ether[[:
+space:]]\{1,\}\($re\)[[:space:]]*$|\2|p"
+        ));
+    COMPREPLY+=($({ arp -an || ip neigh show; } 2>/dev/null | command sed -ne  
+       "s/.*[[:space:]]\($re\)[[:space:]].*/\1/p" -ne         "s/.*[[:space:]]\
+($re\)[[:space:]]*$/\1/p"));
+    COMPREPLY+=($(command sed -ne         "s/^[[:space:]]*\($re\)[[:space:]].*/
+\1/p" /etc/ethers 2>/dev/null));
+    COMPREPLY=($(compgen -W '${COMPREPLY[@]}' -- "$cur"));
+    __ltrim_colon_completions "$cur"
+}
+_minimal () 
+[7m--More--[27m{ [K
+    local cur prev words cword split;
+    _init_completion -s || return;
+    $split && return;
+    _filedir
+}
+_modules () 
+{ 
+    local modpath;
+    modpath=/lib/modules/$1;
+    COMPREPLY=($(compgen -W "$(command ls -RL $modpath 2>/dev/null |         co
+mmand sed -ne 's/^\(.*\)\.k\{0,1\}o\(\.[gx]z\)\{0,1\}$/\1/p')" -- "$cur"))
+}
+_ncpus () 
+{ 
+    local var=NPROCESSORS_ONLN;
+    [[ $OSTYPE == *linux* ]] && var=_$var;
+    local n=$(getconf $var 2>/dev/null);
+    printf %s ${n:-1}
+}
+_parse_help () 
+{ 
+    eval local cmd=$(quote "$1");
+    local line;
+    { 
+        case $cmd in 
+            -)
+                cat
+[7m--More--[27m            ;;
+            *)
+                LC_ALL=C "$(dequote "$cmd")" ${2:---help} 2>&1
+            ;;
+        esac
+    } | while read -r line; do
+        [[ $line == *([[:blank:]])-* ]] || continue;
+        while [[ $line =~ ((^|[^-])-[A-Za-z0-9?][[:space:]]+)\[?[A-Z0-9]+([,_-]
++[A-Z0-9]+)?(\.\.+)?\]? ]]; do
+            line=${line/"${BASH_REMATCH[0]}"/"${BASH_REMATCH[1]}"};
+        done;
+        __parse_options "${line// or /, }";
+    done
+}
+_parse_usage () 
+{ 
+    eval local cmd=$(quote "$1");
+    local line match option i char;
+    { 
+        case $cmd in 
+            -)
+                cat
+            ;;
+            *)
+                LC_ALL=C "$(dequote "$cmd")" ${2:---usage} 2>&1
+            ;;
+        esac
+    } | while read -r line; do
+[7m--More--[27m        while [[ $line =~ \[[[:space:]]*(-[^]]+)[[:space:]]*\] ]]; do
+            match=${BASH_REMATCH[0]};
+            option=${BASH_REMATCH[1]};
+            case $option in 
+                -?(\[)+([a-zA-Z0-9?]))
+                    for ((i=1; i < ${#option}; i++ ))
+                    do
+                        char=${option:i:1};
+                        [[ $char != '[' ]] && printf '%s\n' -$char;
+                    done
+                ;;
+                *)
+                    __parse_options "$option"
+                ;;
+            esac;
+            line=${line#*"$match"};
+        done;
+    done
+}
+_pci_ids () 
+{ 
+    COMPREPLY+=($(compgen -W         "$(PATH="$PATH:/sbin" lspci -n | awk '{pri
+nt $3}')" -- "$cur"))
+}
+_pgids () 
+{ 
+    COMPREPLY=($(compgen -W '$(command ps axo pgid=)' -- "$cur"))
+}
+[7m--More--[27m_pids () 
+{ 
+    COMPREPLY=($(compgen -W '$(command ps axo pid=)' -- "$cur"))
+}
+_pnames () 
+{ 
+    local -a procs;
+    if [[ "$1" == -s ]]; then
+        procs=($(command ps axo comm | command sed -e 1d));
+    else
+        local line i=-1 OIFS=$IFS;
+        IFS='
+';
+        local -a psout=($(command ps axo command=));
+        IFS=$OIFS;
+        for line in "${psout[@]}";
+        do
+            if [[ $i -eq -1 ]]; then
+                if [[ $line =~ ^(.*[[:space:]])COMMAND([[:space:]]|$) ]]; then
+                    i=${#BASH_REMATCH[1]};
+                else
+                    break;
+                fi;
+            else
+                line=${line:$i};
+                line=${line%% *};
+                procs+=($line);
+            fi;
+[7m--More--[27m        done;
+        if [[ $i -eq -1 ]]; then
+            for line in "${psout[@]}";
+            do
+                if [[ $line =~ ^[[(](.+)[])]$ ]]; then
+                    procs+=(${BASH_REMATCH[1]});
+                else
+                    line=${line%% *};
+                    line=${line##@(*/|-)};
+                    procs+=($line);
+                fi;
+            done;
+        fi;
+    fi;
+    COMPREPLY=($(compgen -X "<defunct>" -W '${procs[@]}' -- "$cur" ))
+}
+_quote_readline_by_ref () 
+{ 
+    if [ -z "$1" ]; then
+        printf -v $2 %s "$1";
+    else
+        if [[ $1 == \'* ]]; then
+            printf -v $2 %s "${1:1}";
+        else
+            if [[ $1 == \~* ]]; then
+                printf -v $2 \~%q "${1:1}";
+            else
+                printf -v $2 %q "$1";
+[7m--More--[27m            fi;
+        fi;
+    fi;
+    [[ ${!2} == \$* ]] && eval $2=${!2}
+}
+_realcommand () 
+{ 
+    type -P "$1" > /dev/null && { 
+        if type -p realpath > /dev/null; then
+            realpath "$(type -P "$1")";
+        else
+            if type -p greadlink > /dev/null; then
+                greadlink -f "$(type -P "$1")";
+            else
+                if type -p readlink > /dev/null; then
+                    readlink -f "$(type -P "$1")";
+                else
+                    type -P "$1";
+                fi;
+            fi;
+        fi
+    }
+}
+_rl_enabled () 
+{ 
+    [[ "$(bind -v)" == *$1+([[:space:]])on* ]]
+}
+_root_command () 
+[7m--More--[27m{ [K
+    local PATH=$PATH:/sbin:/usr/sbin:/usr/local/sbin;
+    local root_command=$1;
+    _command
+}
+_service () 
+{ 
+    local cur prev words cword;
+    _init_completion || return;
+    [[ $cword -gt 2 ]] && return;
+    if [[ $cword -eq 1 && $prev == ?(*/)service ]]; then
+        _services;
+        [[ -e /etc/mandrake-release ]] && _xinetd_services;
+    else
+        local sysvdirs;
+        _sysvdirs;
+        COMPREPLY=($(compgen -W '`command sed -e "y/|/ /" \
+            -ne "s/^.*\(U\|msg_u\)sage.*{\(.*\)}.*$/\2/p" \
+            ${sysvdirs[0]}/${prev##*/} 2>/dev/null` start stop' -- "$cur"));
+    fi
+}
+_services () 
+{ 
+    local sysvdirs;
+    _sysvdirs;
+    local IFS=' 	
+' reset=$(shopt -p nullglob);
+    shopt -s nullglob;
+[7m--More--[27m    COMPREPLY=($(printf '%s\n' ${sysvdirs[0]}/!($_backup_glob|functions|README)
+));
+    $reset;
+    COMPREPLY+=($({ systemctl list-units --full --all ||                      s
+ystemctl list-unit-files; } 2>/dev/null |         awk '$1 ~ /\.service$/ { sub(
+"\\.service$", "", $1); print $1 }'));
+    if [[ -x /sbin/upstart-udev-bridge ]]; then
+        COMPREPLY+=($(initctl list 2>/dev/null | cut -d' ' -f1));
+    fi;
+    COMPREPLY=($(compgen -W '${COMPREPLY[@]#${sysvdirs[0]}/}' -- "$cur"))
+}
+_shells () 
+{ 
+    local shell rest;
+    while read -r shell rest; do
+        [[ $shell == /* && $shell == "$cur"* ]] && COMPREPLY+=($shell);
+    done 2> /dev/null < /etc/shells
+}
+_signals () 
+{ 
+    local -a sigs=($(compgen -P "$1" -A signal "SIG${cur#$1}"));
+    COMPREPLY+=("${sigs[@]/#${1}SIG/${1}}")
+}
+_split_longopt () 
+{ 
+    if [[ "$cur" == --?*=* ]]; then
+        prev="${cur%%?(\\)=*}";
+        cur="${cur#*=}";
+[7m--More--[27m        return 0;
+    fi;
+    return 1
+}
+_sysvdirs () 
+{ 
+    sysvdirs=();
+    [[ -d /etc/rc.d/init.d ]] && sysvdirs+=(/etc/rc.d/init.d);
+    [[ -d /etc/init.d ]] && sysvdirs+=(/etc/init.d);
+    [[ -f /etc/slackware-version ]] && sysvdirs=(/etc/rc.d);
+    return 0
+}
+_terms () 
+{ 
+    COMPREPLY+=($(compgen -W "$({         command sed -ne 's/^\([^[:space:]#|]\
+{2,\}\)|.*/\1/p' /etc/termcap;
+        { toe -a || toe; } | awk '{ print $1 }';
+        find /{etc,lib,usr/lib,usr/share}/terminfo/? -type f -maxdepth 1       
+      | awk -F/ '{ print $NF }';
+    } 2>/dev/null)" -- "$cur"))
+}
+_tilde () 
+{ 
+    local result=0;
+    if [[ $1 == \~* && $1 != */* ]]; then
+        COMPREPLY=($(compgen -P '~' -u -- "${1#\~}"));
+        result=${#COMPREPLY[@]};
+        [[ $result -gt 0 ]] && compopt -o filenames 2> /dev/null;
+[7m--More--[27m    fi;[K
+    return $result
+}
+_uids () 
+{ 
+    if type getent &> /dev/null; then
+        COMPREPLY=($(compgen -W '$(getent passwd | cut -d: -f3)' -- "$cur"));
+    else
+        if type perl &> /dev/null; then
+            COMPREPLY=($(compgen -W '$(perl -e '"'"'while (($uid) = (getpwent)[
+2]) { print $uid . "\n" }'"'"')' -- "$cur"));
+        else
+            COMPREPLY=($(compgen -W '$(cut -d: -f3 /etc/passwd)' -- "$cur"));
+        fi;
+    fi
+}
+_upvar () 
+{ 
+    echo "bash_completion: $FUNCNAME: deprecated function," "use _upvars instea
+d" 1>&2;
+    if unset -v "$1"; then
+        if (( $# == 2 )); then
+            eval $1=\"\$2\";
+        else
+            eval $1=\(\"\${@:2}\"\);
+        fi;
+    fi
+}
+[7m--More--[27m_upvars () 
+{ 
+    if ! (( $# )); then
+        echo "bash_completion: $FUNCNAME: usage: $FUNCNAME" "[-v varname value]
+ | [-aN varname [value ...]] ..." 1>&2;
+        return 2;
+    fi;
+    while (( $# )); do
+        case $1 in 
+            -a*)
+                [[ -n ${1#-a} ]] || { 
+                    echo "bash_completion: $FUNCNAME:" "\`$1': missing number s
+pecifier" 1>&2;
+                    return 1
+                };
+                printf %d "${1#-a}" &> /dev/null || { 
+                    echo bash_completion: "$FUNCNAME: \`$1': invalid number spe
+cifier" 1>&2;
+                    return 1
+                };
+                [[ -n "$2" ]] && unset -v "$2" && eval $2=\(\"\${@:3:${1#-a}}\"
+\) && shift $((${1#-a} + 2)) || { 
+                    echo bash_completion: "$FUNCNAME: \`$1${2+ }$2': missing ar
+gument(s)" 1>&2;
+                    return 1
+                }
+            ;;
+            -v)
+[7m--More--[27m                [[ -n "$2" ]] && unset -v "$2" && eval $2=\"\$3\" && shift 3 ||
+ { 
+                    echo "bash_completion: $FUNCNAME: $1:" "missing argument(s)
+" 1>&2;
+                    return 1
+                }
+            ;;
+            *)
+                echo "bash_completion: $FUNCNAME: $1: invalid option" 1>&2;
+                return 1
+            ;;
+        esac;
+    done
+}
+_usb_ids () 
+{ 
+    COMPREPLY+=($(compgen -W         "$(PATH="$PATH:/sbin" lsusb | awk '{print 
+$6}')" -- "$cur"))
+}
+_user_at_host () 
+{ 
+    local cur prev words cword;
+    _init_completion -n : || return;
+    if [[ $cur == *@* ]]; then
+        _known_hosts_real "$cur";
+    else
+        COMPREPLY=($(compgen -u -S @ -- "$cur"));
+        compopt -o nospace;
+[7m--More--[27m    fi[K
+}
+_usergroup () 
+{ 
+    if [[ $cur == *\\\\* || $cur == *:*:* ]]; then
+        return;
+    else
+        if [[ $cur == *\\:* ]]; then
+            local prefix;
+            prefix=${cur%%*([^:])};
+            prefix=${prefix//\\};
+            local mycur="${cur#*[:]}";
+            if [[ $1 == -u ]]; then
+                _allowed_groups "$mycur";
+            else
+                local IFS='
+';
+                COMPREPLY=($(compgen -g -- "$mycur"));
+            fi;
+            COMPREPLY=($(compgen -P "$prefix" -W "${COMPREPLY[@]}"));
+        else
+            if [[ $cur == *:* ]]; then
+                local mycur="${cur#*:}";
+                if [[ $1 == -u ]]; then
+                    _allowed_groups "$mycur";
+                else
+                    local IFS='
+';
+[7m--More--[27m                    COMPREPLY=($(compgen -g -- "$mycur"));
+                fi;
+            else
+                if [[ $1 == -u ]]; then
+                    _allowed_users "$cur";
+                else
+                    local IFS='
+';
+                    COMPREPLY=($(compgen -u -- "$cur"));
+                fi;
+            fi;
+        fi;
+    fi
+}
+_userland () 
+{ 
+    local userland=$(uname -s);
+    [[ $userland == @(Linux|GNU/*) ]] && userland=GNU;
+    [[ $userland == $1 ]]
+}
+_variables () 
+{ 
+    if [[ $cur =~ ^(\$(\{[!#]?)?)([A-Za-z0-9_]*)$ ]]; then
+        if [[ $cur == \${* ]]; then
+            local arrs vars;
+            vars=($(compgen -A variable -P ${BASH_REMATCH[1]} -S '}' -- ${BASH_
+REMATCH[3]})) && arrs=($(compgen -A arrayvar -P ${BASH_REMATCH[1]} -S '[' -- ${
+BASH_REMATCH[3]}));
+[7m--More--[27m            if [[ ${#vars[@]} -eq 1 && -n $arrs ]]; then
+                compopt -o nospace;
+                COMPREPLY+=(${arrs[*]});
+            else
+                COMPREPLY+=(${vars[*]});
+            fi;
+        else
+            COMPREPLY+=($(compgen -A variable -P '$' -- "${BASH_REMATCH[3]}"));
+        fi;
+        return 0;
+    else
+        if [[ $cur =~ ^(\$\{[#!]?)([A-Za-z0-9_]*)\[([^]]*)$ ]]; then
+            local IFS='
+';
+            COMPREPLY+=($(compgen -W '$(printf %s\\n "${!'${BASH_REMATCH[2]}'[@
+]}")'             -P "${BASH_REMATCH[1]}${BASH_REMATCH[2]}[" -S ']}' -- "${BASH
+_REMATCH[3]}"));
+            if [[ ${BASH_REMATCH[3]} == [@*] ]]; then
+                COMPREPLY+=("${BASH_REMATCH[1]}${BASH_REMATCH[2]}[${BASH_REMATC
+H[3]}]}");
+            fi;
+            __ltrim_colon_completions "$cur";
+            return 0;
+        else
+            if [[ $cur =~ ^\$\{[#!]?[A-Za-z0-9_]*\[.*\]$ ]]; then
+                COMPREPLY+=("$cur}");
+                __ltrim_colon_completions "$cur";
+                return 0;
+[7m--More--[27m            else
+                case $prev in 
+                    TZ)
+                        cur=/usr/share/zoneinfo/$cur;
+                        _filedir;
+                        for i in "${!COMPREPLY[@]}";
+                        do
+                            if [[ ${COMPREPLY[i]} == *.tab ]]; then
+                                unset 'COMPREPLY[i]';
+                                continue;
+                            else
+                                if [[ -d ${COMPREPLY[i]} ]]; then
+                                    COMPREPLY[i]+=/;
+                                    compopt -o nospace;
+                                fi;
+                            fi;
+                            COMPREPLY[i]=${COMPREPLY[i]#/usr/share/zoneinfo/};
+                        done;
+                        return 0
+                    ;;
+                    TERM)
+                        _terms;
+                        return 0
+                    ;;
+                    LANG | LC_*)
+                        COMPREPLY=($(compgen -W '$(locale -a 2>/dev/null)'     
+                -- "$cur" ));
+                        return 0
+[7m--More--[27m                    ;;
+                esac;
+            fi;
+        fi;
+    fi;
+    return 1
+}
+_xfunc () 
+{ 
+    set -- "$@";
+    local srcfile=$1;
+    shift;
+    declare -F $1 &> /dev/null || { 
+        __load_completion "$srcfile"
+    };
+    "$@"
+}
+_xinetd_services () 
+{ 
+    local xinetddir=/etc/xinetd.d;
+    if [[ -d $xinetddir ]]; then
+        local IFS=' 	
+' reset=$(shopt -p nullglob);
+        shopt -s nullglob;
+        local -a svcs=($(printf '%s\n' $xinetddir/!($_backup_glob)));
+        $reset;
+        COMPREPLY+=($(compgen -W '${svcs[@]#$xinetddir/}' -- "$cur"));
+    fi
+[7m--More--[27m}[K
+command_not_found_handle () 
+{ 
+    if [ -x /usr/lib/command-not-found ]; then
+        /usr/lib/command-not-found -- "$1";
+        return $?;
+    else
+        if [ -x /usr/share/command-not-found/command-not-found ]; then
+            /usr/share/command-not-found/command-not-found -- "$1";
+            return $?;
+        else
+            printf "%s: command not found\n" "$1" 1>&2;
+            return 127;
+        fi;
+    fi
+}
+dequote () 
+{ 
+    eval printf %s "$1" 2> /dev/null
+}
+quote () 
+{ 
+    local quoted=${1//\'/\'\\\'\'};
+    printf "'%s'" "$quoted"
+}
+quote_readline () 
+{ 
+    local quoted;
+[7m--More--[27m    _quote_readline_by_ref "$1" ret;
+    printf %s "$ret"
+}
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$       [K[K[K[K[K[Kenv|more
+SHELL=/bin/bash
+SESSION_MANAGER=local/hoson-VirtualBox:@/tmp/.ICE-unix/1393,unix/hoson-VirtualB
+ox:/tmp/.ICE-unix/1393
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XDG_MENU_PREFIX=gnome-
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GTK_IM_MODULE=ibus
+LANGUAGE=en_IL:en
+QT4_IM_MODULE=ibus
+GNOME_SHELL_SESSION_MODE=ubuntu
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+XMODIFIERS=@im=ibus
+DESKTOP_SESSION=ubuntu
+SSH_AGENT_PID=1321
+GTK_MODULES=gail:atk-bridge
+PWD=/home/hoson
+XDG_SESSION_DESKTOP=ubuntu
+LOGNAME=hoson
+XDG_SESSION_TYPE=x11
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+WINDOWPATH=2
+HOME=/home/hoson
+USERNAME=hoson
+IM_CONFIG_PHASE=1
+[7m--More--[27mLANG=en_IL
+[7m--More--[27mLS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:c
+d=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37
+;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=
+01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:
+*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:
+*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01
+;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.e
+ar=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;
+31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=
+01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;
+35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.ti
+f=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;
+35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.
+ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;
+35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fl
+i=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*
+.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00
+;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.
+ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00
+;36:
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+VTE_VERSION=6003
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/df5ef265_f5f4_46ff_8cab_4f3cfd
+b7f979
+INVOCATION_ID=f041409ec2a04800af55232018591f69
+MANAGERPID=1147
+CLUTTER_IM_MODULE=ibus
+GJS_DEBUG_OUTPUT=stderr
+[7m--More--[27mLESSCLOSE=/usr/bin/lesspipe %s %s
+XDG_SESSION_CLASS=user
+TERM=xterm-256color
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=hoson
+GNOME_TERMINAL_SERVICE=:1.136
+DISPLAY=:0
+SHLVL=1
+QT_IM_MODULE=ibus
+XDG_RUNTIME_DIR=/run/user/1000
+JOURNAL_STREAM=9:31848
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/de
+sktop
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/u
+sr/local/games:/snap/bin:/etc
+GDMSESSION=ubuntu
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+OLDPWD=/
+_=/usr/bin/env
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ man set
+No manual entry for set
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mkdir project
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mkdir project/myfiles
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ touch pro[K[K[K[K[K[K[K[K[Kmkdir project/myfiles[1P project/myfiles[1P project/myfiles[1P project/myfiles[1P project/myfiles[1P project/myfilest project/myfileso project/myfilesu project/myfilesc project/myfilesh project/myfiles[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/firx[Kstfile
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ myprojfiles=$HOME/project/myfu[Kiles
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ vi $myprojfiles/firstfiles[K
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;29r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[29;1H"~/project/myfiles/firstfile" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [27;1H~                                                                              [28;1H~                                                                              [m[29;62H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [27;1H~                                                                              [28;1H~                                                                              [m[29;62H0,0-1[9CAll"~/project/myfiles/firstfile" 0L, 0C[1;1H[?25h[?25l[29;1H[1m-- INSERT --[m[29;13H[K[29;62H2,1[11CAll[2;1H[K[2;1H[?25h[?25lh[29;64H2[2;2H[?25h[?25lo[29;64H3[2;3H[?25h[?25lw[29;64H4[2;4H[?25h[?25l[29;64H5[2;5H[?25h[?25la[29;64H6[2;6H[?25h[?25lr[29;64H7[2;7H[?25h[?25l[29;64H8[2;8H[?25h[?25l[29;64H7[2;7H[?25h[?25le[29;64H8[2;8H[?25h[?25l[29;64H9[2;9H[?25h[?25ly[29;64H10[2;10H[?25h[?25lo[29;65H1[2;11H[?25h[?25lu[29;65H2[2;12H[?25h[?25l?[29;65H3[2;13H[?25h[?25l[29;65H4[2;14H[?25h[29;1H[K[2;13H[?25l[29;62H2,13[10CAll[2;13H[?25h[?25l[29;62H[K[29;1H:[?2004h[?25hwq![?25l[?2004l"project/myfiles/firstfile" 2L, 15C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ls -aRl project
+project:
+total 12
+drwxrwxr-x  3 hoson hoson 4096 Oct 17 01:09 [0m[01;34m.[0m
+drwxr-xr-x 29 hoson hoson 4096 Oct 17 01:12 [01;34m..[0m
+drwxrwxr-x  2 hoson hoson 4096 Oct 17 01:12 [01;34mmyfiles[0m
+
+project/myfiles:
+total 12
+drwxrwxr-x 2 hoson hoson 4096 Oct 17 01:12 [01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 17 01:09 [01;34m..[0m
+-rw-rw-r-- 1 hoson hoson   15 Oct 17 01:12 firstfile
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cp /etc/passwd $myprojfiles
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ toch goof[Kd; mv[K[K[Kmv $HOME/good $myprojfiles
+
+Command 'toch' not found, did you mean:
+
+  command 'touch' from deb coreutils (8.30-3ubuntu2)
+  command 'loch' from deb therion-viewer (5.4.4ds1-5ubuntu1)
+
+Try: sudo apt install <deb name>
+
+mv: cannot stat '/home/hoson/good': No such file or directory
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ toch good;mv $HOME/good $myprojfiles[1@u
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ touch good;mv $HOME/good $myprojfiles[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pcp /etc/passw[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pls -aRl projectvi $myprojfiles/firstfilemyprojfiles=$HOME/project/myfiles[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Ptouch project/myfiles/firstfile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pmkdir project/myfiles[K[6Pan setenv|moreset|morePS1=$hoson'$PWD>'[1P$hoson"hello>"[2Phoson=$PS1[1Pecho $PWD
+/home/hoson
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ date
+Sat 17 Oct 2020 01:18:52 IDT
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ echo $(date)
+Sat 17 Oct 2020 01:19:05 IDT
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep hoson /etc/passwd | cut -d : -f5 | [K cut -d .[K, -f1) [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P)
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1) [A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Hoson
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ grep hoson /etc/passwd | cut -d : -f5 | cut -d , -f1[C) [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C(grep hoson /etc/passwd | cut -d : -f5 | cut -d , -f1)[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C$(grep hoson /etc/passwd | cut -d : -f5 | cut -d , -f1)[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [Cf$(grep hoson /etc/passwd | cut -d : -f5 | cut -d , -f1)[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [Ci$(grep hoson /etc/passwd | cut -d : -f5 | cut -d , -f1)[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[Cr$(grep hoson /etc/passwd | cut -d : -f5 | cut -d , -f1)[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[Cs$(grep hoson /etc/passwd | cut -d : -f5 | cut -d , -f1)[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[Ct$(grep hoson /etc/passwd | cut -d : -f5 | cut -d , -f1)[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[Cn$(grep hoson /etc/passwd | cut -d : -f5 | cut -d[1@ [A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[Ca$(grep hoson /etc/passwd | cut -d : -f5 | cut -[1@d[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[Cm$(grep hoson /etc/passwd | cut -d : -f5 | cut [1@-[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[Ce$(grep hoson /etc/passwd | cut -d : -f5 | cut[1@ [A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C=$(grep hoson /etc/passwd | cut -d : -f5 | cu[1@t[A]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ echo how are you doing $firstname
+how are you doing Hoson
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ csh
+
+Command 'csh' not found, but can be installed with:
+
+sudo apt install csh   # version 20110502-5, or
+sudo apt install tcsh  # version 6.21.00-1
+
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sudo apt install csh
+[sudo] password for hoson: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  csh
+0 upgraded, 1 newly installed, 0 to remove and 148 not upgraded.
+Need to get 243 kB of archives.
+After this operation, 367 kB of additional disk space will be used.
+[33m0% [Working][0m[33m0% [Connecting to il.archive.ubuntu.com (192.115.211.70)][0m                                                         Get:1 http://il.archive.ubuntu.com/ubuntu focal/universe amd64 csh amd64 20110502-5 [243 kB]
+[33m                                                         0% [1 csh 0 B/243 kB 0%][0m[33m25% [1 csh 75.0 kB/243 kB 31%][0m[33m                              48% [1 csh 146 kB/243 kB 60%][0m[33m74% [1 csh 226 kB/243 kB 93%][0m[33m                             100% [Working][0m              Fetched 243 kB in 2s (104 kB/s)
+
+7[0;28r8[1ASelecting previously unselected package csh.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 181557 files and directories currently installed.)
+Preparing to unpack .../csh_20110502-5_amd64.deb ...
+7[29;0f[42m[30mProgress: [  0%][49m[39m [.........................................................] 87[29;0f[42m[30mProgress: [ 20%][49m[39m [###########..............................................] 8Unpacking csh (20110502-5) ...
+7[29;0f[42m[30mProgress: [ 40%][49m[39m [######################...................................] 8Setting up csh (20110502-5) ...
+7[29;0f[42m[30mProgress: [ 60%][49m[39m [##################################.......................] 8update-alternatives: using /bin/bsd-csh to provide /bin/csh (csh) in auto mode
+7[29;0f[42m[30mProgress: [ 80%][49m[39m [#############################################............] 8Processing triggers for man-db (2.9.1-1) ...
+
+7[0;29r8[1A[J]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ csh
+% 
+% ech $(date)
+Illegal variable name.
+% eho `date`
+eho: Command not found.
+% ^[[A    echo `date`
+Sat 17 Oct 2020 01:36:56 IDT
+% 
+% exit
+% exit
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ls[K[Kls -ali
+total 436
+262378 drwxr-xr-x 29 hoson hoson  4096 Oct 17 01:17 [0m[01;34m.[0m
+393218 drwxr-xr-x  3 root  root   4096 Sep 10 17:07 [01;34m..[0m
+265063 -rw-rw-r--  1 hoson hoson 86016 Oct 17 01:28 1191003_hosonHasoor.log
+271515 -rw-------  1 hoson hoson 10441 Oct 17 00:55 .bash_history
+309454 -rw-r--r--  1 hoson hoson   220 Sep 10 17:07 .bash_logout
+309453 -rw-r--r--  1 hoson hoson  3771 Sep 10 17:07 .bashrc
+263387 drwx------ 15 hoson hoson  4096 Sep 10 23:27 [01;34m.cache[0m
+263474 drwxr-xr-x 16 hoson hoson  4096 Sep 27 06:24 [01;34m.config[0m
+264045 drwxr-xr-x  3 hoson hoson  4096 Sep 20 14:36 [01;34mDesktop[0m
+352379 drwxrwxr-x  2 hoson hoson  4096 Oct 11 11:50 [01;34mdir[0m
+264058 drwxr-xr-x  2 hoson hoson  4096 Sep 10 17:47 [01;34mDocuments[0m
+264055 drwxr-xr-x  2 hoson hoson  4096 Oct 11 12:25 [01;34mDownloads[0m
+274756 -rw-rw-r--  1 hoson hoson    10 Sep 26 17:57 .exrc
+266623 drwxrwxrwx  2 hoson hoson  4096 Oct 11 11:51 [34;42mfile[0m
+268986 -rw-------  1 hoson hoson 12288 Sep 24 01:31 .foo.txt.swp
+263800 drwx------  3 hoson hoson  4096 Sep 26 18:27 [01;34m.gnupg[0m
+268987 drwxrwxr-x  2 hoson hoson  4096 Oct  3 19:26 [01;34mh[0m
+274382 -rw-rw-r--  1 hoson hoson 27183 Oct 11 11:52 hasqoor
+262663 -rw-rw-r--  1 hoson hoson     0 Sep 19 18:32 .hidden
+265038 -rw-rw-r--  1 hoson hoson   368 Oct 17 00:21 hos
+352354 drwxrwxr-x  2 hoson hoson  4096 Oct 11 11:06 [01;34mhoson[0m
+274217 -rw-r--r--  1 hoson hoson 20480 Sep 25 17:33 .hoson22.swn
+268989 -rw-r--r--  1 hoson hoson 20480 Sep 25 15:55 .hoson22.swo
+274475 -rw-r--r--  1 hoson hoson 12288 Sep 25 00:36 .hoson22.swp
+262525 -rw-r--r--  1 hoson hoson 12288 Sep 26 02:09 .hoson33.swo
+264903 -rw-------  1 hoson hoson 12288 Sep 25 22:00 .hoson33.swp
+268985 -rw-r--r--  1 hoson hoson 12288 Sep 24 15:50 .hoson.txt.swn
+264619 -rw-r--r--  1 hoson hoson 12288 Sep 24 15:14 .hoson.txt.swo
+268984 -rw-------  1 hoson hoson 12288 Sep 24 09:34 .hoson.txt.swp
+271527 drwxrwxr-x  3 hoson hoson  4096 Oct  3 19:35 [01;34ml[0m
+352349 drwxrwxr-x  3 hoson hoson  4096 Oct 11 10:04 [01;34mlab4[0m
+265060 -rw-rw-r--  1 hoson hoson  2707 Oct 17 00:22 lab5.log
+303311 drwxrwxr-x  2 hoson hoson  4096 Oct 17 00:21 [01;34mlan[0m
+271529 drwxrwxr-x  3 hoson hoson  4096 Oct  3 19:50 [01;34mlinks[0m
+262861 drwxr-xr-x  3 hoson hoson  4096 Sep 10 17:47 [01;34m.local[0m
+266983 drwx------  5 hoson hoson  4096 Sep 10 23:27 [01;34m.mozilla[0m
+264074 drwxr-xr-x  2 hoson hoson  4096 Sep 10 17:47 [01;34mMusic[0m
+264742 -rw-rw-r--  1 hoson hoson    30 Sep 26 16:56 myfirst
+262527 drwxrwxr-x  5 hoson hoson  4096 Oct  3 19:21 [01;34mmytree[0m
+264085 drwxr-xr-x  2 hoson hoson  4096 Sep 10 17:47 [01;34mPictures[0m
+262380 -rw-r--r--  1 hoson hoson   807 Sep 10 17:07 .profile
+303312 drwxrwxr-x  3 hoson hoson  4096 Oct 17 01:09 [01;34mproject[0m
+264057 drwxr-xr-x  2 hoson hoson  4096 Sep 10 17:47 [01;34mPublic[0m
+276805 -rw-r--r--  1 hoson hoson 12484 Sep 20 14:27 -s
+265013 drwxr-xr-x  3 hoson hoson  4096 Sep 10 23:24 [01;34msnap[0m
+411681 drwx------  2 hoson hoson  4096 Sep 11 00:10 [01;34m.ssh[0m
+264931 -rw-r--r--  1 hoson hoson     0 Sep 25 22:07 .sudo_as_admin_successful
+266574 -rw-------  1 hoson hoson 12288 Sep 24 01:22 .swp
+264056 drwxr-xr-x  2 hoson hoson  4096 Sep 10 17:47 [01;34mTemplates[0m
+262528 -rw-rw-r--  1 hoson hoson   123 Sep 26 17:29 testmacros
+266631 drwx------  6 hoson hoson  4096 Sep 10 23:26 [01;34m.thunderbird[0m
+264086 drwxr-xr-x  2 hoson hoson  4096 Sep 10 17:47 [01;34mVideos[0m
+352355 drwxr----x  2 hoson hoson  4096 Oct 11 11:51 [01;34m.vim[0m
+265064 -rw-------  1 hoson hoson  9775 Oct 17 01:12 .viminfo
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ un[K[Kalias dir="ls -al"
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ dir
+total 440
+drwxr-xr-x 29 hoson hoson  4096 Oct 17 01:17 [0m[01;34m.[0m
+drwxr-xr-x  3 root  root   4096 Sep 10 17:07 [01;34m..[0m
+-rw-rw-r--  1 hoson hoson 90112 Oct 17 01:38 1191003_hosonHasoor.log
+-rw-------  1 hoson hoson 10441 Oct 17 00:55 .bash_history
+-rw-r--r--  1 hoson hoson   220 Sep 10 17:07 .bash_logout
+-rw-r--r--  1 hoson hoson  3771 Sep 10 17:07 .bashrc
+drwx------ 15 hoson hoson  4096 Sep 10 23:27 [01;34m.cache[0m
+drwxr-xr-x 16 hoson hoson  4096 Sep 27 06:24 [01;34m.config[0m
+drwxr-xr-x  3 hoson hoson  4096 Sep 20 14:36 [01;34mDesktop[0m
+drwxrwxr-x  2 hoson hoson  4096 Oct 11 11:50 [01;34mdir[0m
+drwxr-xr-x  2 hoson hoson  4096 Sep 10 17:47 [01;34mDocuments[0m
+drwxr-xr-x  2 hoson hoson  4096 Oct 11 12:25 [01;34mDownloads[0m
+-rw-rw-r--  1 hoson hoson    10 Sep 26 17:57 .exrc
+drwxrwxrwx  2 hoson hoson  4096 Oct 11 11:51 [34;42mfile[0m
+-rw-------  1 hoson hoson 12288 Sep 24 01:31 .foo.txt.swp
+drwx------  3 hoson hoson  4096 Sep 26 18:27 [01;34m.gnupg[0m
+drwxrwxr-x  2 hoson hoson  4096 Oct  3 19:26 [01;34mh[0m
+-rw-rw-r--  1 hoson hoson 27183 Oct 11 11:52 hasqoor
+-rw-rw-r--  1 hoson hoson     0 Sep 19 18:32 .hidden
+-rw-rw-r--  1 hoson hoson   368 Oct 17 00:21 hos
+drwxrwxr-x  2 hoson hoson  4096 Oct 11 11:06 [01;34mhoson[0m
+-rw-r--r--  1 hoson hoson 20480 Sep 25 17:33 .hoson22.swn
+-rw-r--r--  1 hoson hoson 20480 Sep 25 15:55 .hoson22.swo
+-rw-r--r--  1 hoson hoson 12288 Sep 25 00:36 .hoson22.swp
+-rw-r--r--  1 hoson hoson 12288 Sep 26 02:09 .hoson33.swo
+-rw-------  1 hoson hoson 12288 Sep 25 22:00 .hoson33.swp
+-rw-r--r--  1 hoson hoson 12288 Sep 24 15:50 .hoson.txt.swn
+-rw-r--r--  1 hoson hoson 12288 Sep 24 15:14 .hoson.txt.swo
+-rw-------  1 hoson hoson 12288 Sep 24 09:34 .hoson.txt.swp
+drwxrwxr-x  3 hoson hoson  4096 Oct  3 19:35 [01;34ml[0m
+drwxrwxr-x  3 hoson hoson  4096 Oct 11 10:04 [01;34mlab4[0m
+-rw-rw-r--  1 hoson hoson  2707 Oct 17 00:22 lab5.log
+drwxrwxr-x  2 hoson hoson  4096 Oct 17 00:21 [01;34mlan[0m
+drwxrwxr-x  3 hoson hoson  4096 Oct  3 19:50 [01;34mlinks[0m
+drwxr-xr-x  3 hoson hoson  4096 Sep 10 17:47 [01;34m.local[0m
+drwx------  5 hoson hoson  4096 Sep 10 23:27 [01;34m.mozilla[0m
+drwxr-xr-x  2 hoson hoson  4096 Sep 10 17:47 [01;34mMusic[0m
+-rw-rw-r--  1 hoson hoson    30 Sep 26 16:56 myfirst
+drwxrwxr-x  5 hoson hoson  4096 Oct  3 19:21 [01;34mmytree[0m
+drwxr-xr-x  2 hoson hoson  4096 Sep 10 17:47 [01;34mPictures[0m
+-rw-r--r--  1 hoson hoson   807 Sep 10 17:07 .profile
+drwxrwxr-x  3 hoson hoson  4096 Oct 17 01:09 [01;34mproject[0m
+drwxr-xr-x  2 hoson hoson  4096 Sep 10 17:47 [01;34mPublic[0m
+-rw-r--r--  1 hoson hoson 12484 Sep 20 14:27 -s
+drwxr-xr-x  3 hoson hoson  4096 Sep 10 23:24 [01;34msnap[0m
+drwx------  2 hoson hoson  4096 Sep 11 00:10 [01;34m.ssh[0m
+-rw-r--r--  1 hoson hoson     0 Sep 25 22:07 .sudo_as_admin_successful
+-rw-------  1 hoson hoson 12288 Sep 24 01:22 .swp
+drwxr-xr-x  2 hoson hoson  4096 Sep 10 17:47 [01;34mTemplates[0m
+-rw-rw-r--  1 hoson hoson   123 Sep 26 17:29 testmacros
+drwx------  6 hoson hoson  4096 Sep 10 23:26 [01;34m.thunderbird[0m
+drwxr-xr-x  2 hoson hoson  4096 Sep 10 17:47 [01;34mVideos[0m
+drwxr----x  2 hoson hoson  4096 Oct 11 11:51 [01;34m.vim[0m
+-rw-------  1 hoson hoson  9775 Oct 17 01:12 .viminfo
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias dir='ls -al'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ unalias dir
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ dir
+1191003_hosonHasoor.log  file	  l	    Music     Public	  Videos
+Desktop			 h	  lab4	    myfirst   -s
+dir			 hasqoor  lab5.log  mytree    snap
+Documents		 hos	  lan	    Pictures  Templates
+Downloads		 hoson	  links     project   testmacros
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ h[Kn[Kbash
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ .bash_history
+.bash_history: command not found
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ .bash_historyv.bash_historyi.bash_history
+vi.bash_history: command not found
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mv .bash_ho[Kistory .save_historu[Kt[Ky
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mv .bash_history .save_history[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pvi.bash_history[2P.bash_history
+.bash_history: command not found
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ more[K[K[K[K.bash_historym.bash_historyo.bash_historyr.bash_historye.bash_history .bash_history
+more: stat of .bash_history failed: No such file or directory
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ls
+1191003_hosonHasoor.log  [0m[34;42mfile[0m     [01;34ml[0m         [01;34mMusic[0m     [01;34mPublic[0m      [01;34mVideos[0m
+[01;34mDesktop[0m                  [01;34mh[0m        [01;34mlab4[0m      myfirst   -s
+[01;34mdir[0m                      hasqoor  lab5.log  [01;34mmytree[0m    [01;34msnap[0m
+[01;34mDocuments[0m                hos      [01;34mlan[0m       [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDownloads[0m                [01;34mhoson[0m    [01;34mlinks[0m     [01;34mproject[0m   testmacros
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cp 
+1191003_hosonHasoor.log    l/
+.bash_logout               lab4/
+.bashrc                    lab5.log
+.cache/                    lan/
+.config/                   links/
+Desktop/                   .local/
+dir/                       .mozilla/
+Documents/                 Music/
+Downloads/                 myfirst
+.exrc                      mytree/
+file/                      Pictures/
+.foo.txt.swp               .profile
+.gnupg/                    project/
+h/                         Public/
+hasqoor                    -s
+.hidden                    .save_history
+hos                        snap/
+hoson/                     .ssh/
+.hoson22.swn               .sudo_as_admin_successful
+.hoson22.swo               .swp
+.hoson22.swp               Templates/
+.hoson33.swo               testmacros
+.hoson33.swp               .thunderbird/
+.hoson.txt.swn             Videos/
+.hoson.txt.swo             .vim/
+.hoson.txt.swp             .viminfo
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cp abc newfilenmaq[K[K[Kame
+cp: cannot stat 'abc': No such file or directory
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ alias c="cleat[Kr"
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ c[Kunalias c
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ unalias calias c="clear"[K[K[K[K[K[K[K[K[Ksl[K[Kls[K[Ksl="s[Kls"
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ sl
+1191003_hosonHasoor.log  [0m[34;42mfile[0m     [01;34ml[0m         [01;34mMusic[0m     [01;34mPublic[0m      [01;34mVideos[0m
+[01;34mDesktop[0m                  [01;34mh[0m        [01;34mlab4[0m      myfirst   -s
+[01;34mdir[0m                      hasqoor  lab5.log  [01;34mmytree[0m    [01;34msnap[0m
+[01;34mDocuments[0m                hos      [01;34mlan[0m       [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDownloads[0m                [01;34mhoson[0m    [01;34mlinks[0m     [01;34mproject[0m   testmacros
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ ls
+1191003_hosonHasoor.log  [0m[34;42mfile[0m     [01;34ml[0m         [01;34mMusic[0m     [01;34mPublic[0m      [01;34mVideos[0m
+[01;34mDesktop[0m                  [01;34mh[0m        [01;34mlab4[0m      myfirst   -s
+[01;34mdir[0m                      hasqoor  lab5.log  [01;34mmytree[0m    [01;34msnap[0m
+[01;34mDocuments[0m                hos      [01;34mlan[0m       [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDownloads[0m                [01;34mhoson[0m    [01;34mlinks[0m     [01;34mproject[0m   testmacros
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ lsslalias sl="ls"[4Punalias c[Ksl
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ alias f="mkdit[Kr myfile'[K"
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ f
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cd myfile
+]0;hoson@hoson-VirtualBox: ~/myfile[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/myfile[00m$ cd
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cd myfilef[Kalias f="mkdir myfile"[12Punalias sl[K[Kf
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ unalias fcd[K myfilef[Kalias f="mkdir myfile"[12Punalias slls[Kslalias sl="ls"[4Punalias calias c="clear"cp abc newfilenamels[Kmore .bash_history[5P.bash_historymv .bash_history .save_history
+mv: cannot stat '.bash_history': No such file or directory
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mv .bash_history .save_history[C[1P.save_history
+mv: missing destination file operand after '.bash_history.save_history'
+Try 'mv --help' for more information.
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mv .bash_history.save_history[1Psave_history save_history
+mv: cannot stat '.bash_history': No such file or directory
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mv .bash_history save_history[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksave_history bash_history
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cp [K[K[Kexit
+exit
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ [K]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ bash[1Pdirunalias dir[6Palias[2Pdiraliasunalias dirdir[K[K[K[Kexit
+exit
+
+Script done on 2020-10-17 02:09:39+03:00 [COMMAND_EXIT_CODE="0"]

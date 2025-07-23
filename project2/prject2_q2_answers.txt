@@ -1,0 +1,26 @@
+q2_answers                                                                                          000775  001750  001750  00000001466 13764234037 013430  0                                                                                                    ustar 00hoson                           hoson                           000000  000000                                                                                                                                                                         Question 2 
+
+(Task 1) grep -i Mohammad_ prj2_passwd 
+	 grep -i Mohammad_ prj2_passwd | cut -d: -f5 | tr '_' ' '
+
+(Task 2) grep -i comp322* prj2_passwd | cut -d: -f5 | sort -t: -k2
+
+(Task 3) sed 's/Mohamad/Mohmoud/ig' prj2_passwd | cut -d: -f5 >Mahmoud_passwd 
+
+(Task 4) cut -d: -f5 prj2_passwd | tail -2 | tr '_' ' '
+
+(Task 5) sort prj2_passwd | uniq -d > cleanprh2_passwd 
+
+(Task 6) cut -d: -f5 prj2_passwd | cut -d_ -f2 | tr 'a-z' 'A-Z' | sort -n -r | grep -iv u116
+
+(Task 7) sort prj2_passwd | grep -i u116 | cut -d: -f5 | wc -l 
+
+(Task 8) grep ksh$ prj2_passwd | sed's/ksh/bash/ig' > oldkshusers 
+
+(Task 9) grep ^u[1][1][6][0-9][0-9][0-9][1-4] prj2_passwd | cut -d: -f5 
+
+(Task 10) grep -i ksh prj2_passwd | cut -d: -f5 | cut -d: -f1 | cut -c1
+	  grep -i ksh prj2_passwd | cut -d: -f5 | cut -d_ -f2 | cut -c1
+ #exit 
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

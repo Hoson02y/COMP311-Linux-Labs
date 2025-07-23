@@ -1,0 +1,49 @@
+q1_answers                                                                                          000775  001750  001750  00000001234 13763640723 013422  0                                                                                                    ustar 00hoson                           hoson                           000000  000000                                                                                                                                                                         Question 1 :
+
+(Task 1 ) find / -type d >directories.txt 2>errors.txt
+
+(Task 2 ) sleep 5 
+
+(Task 3 ) sleep 5 &
+ 
+(Task 4 ) sleep 80 
+	  ctrl +z 
+	  bg 2 
+	  jobs 
+	  ps
+	  jobs 
+	  fg 
+
+(Task 5 ) sleep 30 & 
+	  jobs 
+	  kill %1 
+          jobs 
+          sleep 30 & 
+          ps 
+	  kill 3696
+	  ps 
+
+(Task 6 ) sleep 40 & 
+	  kill -STOP 3569
+	  ps
+	  bg 
+
+(Task 7 ) sleep 60 & 
+          sleep 60 &
+	  sleep 60 & 
+	  sleep 60 & 
+	  ps 
+	  pkill -KILL sleep 
+
+(Task 8 ) vi myprj2var 
+	  chmod +x myprj2var 
+	  myprj2var="good" 
+	  echo $myprj2var 
+	  
+(Task 9 ) echo $PATH 
+	  $PATH=$PATH=/etc:$PATH:/etc
+
+(Task 10 ) nice -10 gnome-termmal 
+	   exec ls 
+	   exec >tmp 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

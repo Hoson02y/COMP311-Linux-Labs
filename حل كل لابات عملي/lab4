@@ -1,0 +1,806 @@
+Script started on 2020-10-10 02:11:55+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ mkdir lab4;cd lab4
+]0;hoson@hoson-VirtualBox: ~/lab4[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4[00m$ mh[Kkdir myfile
+]0;hoson@hoson-VirtualBox: ~/lab4[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4[00m$ chmod u+w,j[Kg-rw,o+x myfile
+]0;hoson@hoson-VirtualBox: ~/lab4[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4[00m$ ls -al
+total 12
+drwxrwxr-x  3 hoson hoson 4096 Oct 10 02:15 [0m[01;34m.[0m
+drwxr-xr-x 24 hoson hoson 4096 Oct 10 02:12 [01;34m..[0m
+drwx--xr-x  2 hoson hoson 4096 Oct 10 02:15 [01;34mmyfile[0m
+]0;hoson@hoson-VirtualBox: ~/lab4[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4[00m$ chmod u=rw,g+w myfile
+]0;hoson@hoson-VirtualBox: ~/lab4[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4[00m$ ls -al
+total 12
+drwxrwxr-x  3 hoson hoson 4096 Oct 10 02:15 [0m[01;34m.[0m
+drwxr-xr-x 24 hoson hoson 4096 Oct 10 02:12 [01;34m..[0m
+drw--wxr-x  2 hoson hoson 4096 Oct 10 02:15 [01;34mmyfile[0m
+]0;hoson@hoson-VirtualBox: ~/lab4[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4[00m$ rm -rf myfile
+]0;hoson@hoson-VirtualBox: ~/lab4[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4[00m$ mkdir mydir; touch myfile[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdir mode; cd mode
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ mkdir mydir; touch myfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chmod u+rwx,g=rx-w,orw-x mydir; chmod u+rwx ,g=rx-w,or[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C=rw-x mydir; chmod u+rwx,g=rx-w,o[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crw-x mydir; chmod u+rwx,[1Pg=rx-w,o[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C=rw-x mydir; chmod u+rwx,g=rx-w,o[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C=rw-x myfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 12
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:05 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+drwxr-xrw- 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+-rwxr-xrw- 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chmod u+r-wx,g+rw-x,o=x-rw mydir; chmod u+r -wx,g=rw-x,o=x-rw myfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 12
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:05 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+dr--rw---x 2 hoson hoson 4096 Oct 11 10:05 [01;34mmydir[0m
+-r--rw---x 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chmod u_[K-rwx,g+rwx,u+wx-r y[Kmu[Kyfi[K[Kdir; chmod u-e[Krx[Kwx ,u[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cou+wx-r mydir; chmod u-rwx,u[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu+wx-r mydir; chmod u-rwx,[1Pu[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0u+wx-r mydir; chmod u-rwx,u[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu+wx-r mydir; chmod u-rwx,[1Pu[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C+wx-r mydir; chmod u-rwx,u[K[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0+wx-r mydir; chmod u-rwx,u[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cx ,g+rwx,o+wx-r myfile[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0+wx-r mydir; chmod u-rwx,g[1P[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C,0+wx-r mydir; chmod u-rwx,[1@g[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C+wx-r mydir; chmod u-rwx,g[1P[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co+wx-r mydir; chmod u-rwx,[1@g[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 12
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:05 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chmod 734[K[K[K[K[K[K[K[K[Ktouch file
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chmod 734 file
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 12
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:14 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+-rwx-wxr-- 1 hoson hoson    0 Oct 11 10:14 [01;32mfile[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ rm -rf file
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chmod 756 mydir; chmod 756 myfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 12
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:15 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+drwxr-xrw- 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+-rwxr-xrw- 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chmod 461 mydir; chmod 4[K461 myfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 12
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:15 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+dr--rw---x 2 hoson hoson 4096 Oct 11 10:05 [01;34mmydir[0m
+-r--rw---x 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chmod 073 mydir; chom[K[Kmod 073 myfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 12
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:15 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ umask
+0002
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ echo what number did you get : 002 
+what number did you get : 002
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ man 2 umask
+No manual entry for umask in section 2
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ md[Kkdir newdir;touch newfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -a;[Kl newfile
+-rw-rw-r-- 1 hoson hoson 0 Oct 11 10:21 newfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al newdir
+total 8
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [0m[01;34m.[0m
+drwxrwxr-x 4 hoson hoson 4096 Oct 11 10:21 [01;34m..[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 16
+drwxrwxr-x 4 hoson hoson 4096 Oct 11 10:21 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ umask 236
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ umask
+0236
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ umask 625
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ umask
+0625
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ mkdir dir [K
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 20
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 10:24 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -almkdir dir[4Pumask 625 dir
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -la[K[Kal
+total 20
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 10:24 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ umask 034 die[Kr
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 20
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 10:24 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ umask 743 dir
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 20
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 10:24 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ echo try.[K it. Did it work ? yes.
+try it. Did it work ? yes.
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ touvh[K[Kch file
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ umask 204 file
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ k[Kls -al
+total 20
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 10:29 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+-----w-r-- 1 hoson hoson    0 Oct 11 10:29 file
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ umask 4[K[K[K[K[K[K[Krm-rf file
+rm-rf: command not found
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ rm -rf file
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ umask 0[K204
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ toc[Kuch file 
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 20
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 10:31 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+-r--rw--w- 1 hoson hoson    0 Oct 11 10:31 file
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ rm[K[Krm -rf fie[K[Kile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ md[Kkdir file 
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ 0mkdir file rm -rf file
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ umask 036
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ umask 036rm -rf filemkdir file 
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ la[Ks a-al[K[K[Kl[K[K-la[K[Kak[Kl
+total 24
+drwxrwxr-x 6 hoson hoson 4096 Oct 11 10:34 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+drwxr----x 2 hoson hoson 4096 Oct 11 10:34 [01;34mfile[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ tocu[K[Kuch file1 file2 
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ln file1 hlink
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ln -s filr[Ke2 slink
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chmod 774 file1
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 24
+drwxrwxr-x 6 hoson hoson 4096 Oct 11 10:35 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+drwxr----x 2 hoson hoson 4096 Oct 11 10:34 [01;34mfile[0m
+-rwxrwxr-- 2 hoson hoson    0 Oct 11 10:35 [01;32mfile1[0m
+-rw-r----- 1 hoson hoson    0 Oct 11 10:35 file2
+-rwxrwxr-- 2 hoson hoson    0 Oct 11 10:35 [01;32mhlink[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+lrwxrwxrwx 1 hoson hoson    5 Oct 11 10:35 [01;36mslink[0m -> file2
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chmod 701 hlink
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 24
+drwxrwxr-x 6 hoson hoson 4096 Oct 11 10:35 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+drwxr----x 2 hoson hoson 4096 Oct 11 10:34 [01;34mfile[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mfile1[0m
+-rw-r----- 1 hoson hoson    0 Oct 11 10:35 file2
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mhlink[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+lrwxrwxrwx 1 hoson hoson    5 Oct 11 10:35 [01;36mslink[0m -> file2
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ echo what happened to the permissions on fi le1? why ? it change to file1 
+what happened to the permissions on file1? why ? it change to file1
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chomd 654 file2
+
+Command 'chomd' not found, did you mean:
+
+  command 'chmod' from deb coreutils (8.30-3ubuntu2)
+
+Try: sudo apt install <deb name>
+
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chmod 654 file2
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls a[K-al
+total 24
+drwxrwxr-x 6 hoson hoson 4096 Oct 11 10:35 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+drwxr----x 2 hoson hoson 4096 Oct 11 10:34 [01;34mfile[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mfile1[0m
+-rw-r-xr-- 1 hoson hoson    0 Oct 11 10:35 [01;32mfile2[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mhlink[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+lrwxrwxrwx 1 hoson hoson    5 Oct 11 10:35 [01;36mslink[0m -> [01;32mfile2[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ echo e[Kwhat happened to the permissions on sl ink? why? Did not change 
+what happened to the permissions on slink? why? Did not change
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chmod 475 slink 
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 24
+drwxrwxr-x 6 hoson hoson 4096 Oct 11 10:35 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+drwxr----x 2 hoson hoson 4096 Oct 11 10:34 [01;34mfile[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mfile1[0m
+-r--rwxr-x 1 hoson hoson    0 Oct 11 10:35 [01;32mfile2[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mhlink[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+lrwxrwxrwx 1 hoson hoson    5 Oct 11 10:35 [01;36mslink[0m -> [01;32mfile2[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ echo what [4Pls -alchmod 475 slink echo what happened to the permissions on slink? why? Did not change [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[1P[1P[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C? [1P[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C? w[1P[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf? [1@w[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci?[1@ [1@l[1@e[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1@i[C[C[C[C[C[C[C[C
+what happened to the permissions on file2? why? it change
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ echo what happened to the permissions on file2? why? it change [A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod 475 slink echo what happened to the permissions on slink? why? Did not change [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KDid not change 
+what happened to the permissions on slink? Did not change
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ vi [K[K[Kchgrp newgroup file[K[K[K[K[K[K[K[K[K[Kusr[Ker file[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kown newuser file
+chown: invalid user: ‘newuser’
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chown newuser file[1P[1P[1P[1P[1P[1P[1@h[1@e[1@l[1@l[1@o[C[1P file
+chown: invalid user: ‘hello’
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chown hello file[2@newuser[C[C[C[C[Cecho what happened to the permissions on slink? Did not change [A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfile2? why? i[C[C[C[C[C[C[C[C[C[A]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[Kchgrp newgruop file
+chgrp: invalid group: ‘newgruop’
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ vi file
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;29r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[29;1H"file" is a directory[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m" ============================================================================
+" Netrw Directory Listing                                        [m[36m(netrw v165)[m
+[34m"   /home/hoson/lab4/mode/file
+"   Sorted by[m[38;5;130m      name[m
+[34m"   Sort sequence:[m[38;5;130m [\/]$[m[34m,[m[38;5;130m\<core\%(\.\d\+\)\=\>[m[34m,[m[38;5;130m\.h$[m[34m,[m[38;5;130m\.c$[m[34m,[m[38;5;130m\.cpp$[m[34m,[m[38;5;130m\~\=\*$[m[34m,[m[38;5;130m*[m[34m,[m[38;5;130m\.o$[m[34m,[6;1H"   Quick Help: [m[36m<F1>[m[35m:[mhelp  [36m-[m[35m:[mgo up dir  [36mD[m[35m:[mdelete  [36mR[m[35m:[mrename  [36ms[m[35m:[msort-by  [36mx[m[35m:[mspecia[7;1H[34m" =============================================================================[m[8;1H[4m[34m..[m[4m[36m/[m[4m                                                                            [m[9;1H[34m.[m[36m/[m
+[94m~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [27;1H~                                                                              [28;1H~                                                                              [m[29;62H8,1[11CAll[8;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1H[96m" ============================================================================
+" Netrw Directory Listing                                        [m[1m[96m(netrw v165)[m
+[96m"   /home/hoson/lab4/mode/file
+"   Sorted by[m[93m      name[m
+[96m"   Sort sequence:[m[93m [\/]$[m[96m,[m[93m\<core\%(\.\d\+\)\=\>[m[96m,[m[93m\.h$[m[96m,[m[93m\.c$[m[96m,[m[93m\.cpp$[m[96m,[m[93m\~\=\*$[m[96m,[m[93m*[m[96m,[m[93m\.o$[m[96m,[6;1H"   Quick Help: [m[1m[96m<F1>[m[38;5;224m:[mhelp  [1m[96m-[m[38;5;224m:[mgo up dir  [1m[96mD[m[38;5;224m:[mdelete  [1m[96mR[m[38;5;224m:[mrename  [1m[96ms[m[38;5;224m:[msort-by  [1m[96mx[m[38;5;224m:[mspecia[7;1H[96m" =============================================================================[m[8;1H[4m[38;5;159m..[m[1m[4m[96m/[m[4m                                                                            [m[9;1H[38;5;159m.[m[1m[96m/[m
+[94m~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [27;1H~                                                                              [28;1H~                                                                              [m[29;62H8,1[11CAll"file" is a directory[8;1H[?25h[?25l[29;1H[K[29;1H:[?2004h[?25hq[?25l[?2004l[?2004h[?2004l[23;2t[23;1t[29;1H[K[29;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ rm -rf file
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ vi file
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;29r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[29;1H"file" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [27;1H~                                                                              [28;1H~                                                                              [m[29;62H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [27;1H~                                                                              [28;1H~                                                                              [m[29;62H0,0-1[9CAll"file" [New File][1;1H[?25h[?25l[29;1H[1m-- INSERT --[m[29;13H[K[29;62H0,1[11CAll[1;1H[?25h[?25lh[29;62H1,2[1;2H[?25h[?25lo[29;64H3[1;3H[?25h[?25lw[29;64H4[1;4H[?25h[?25l[29;64H5[1;5H[?25h[?25la[29;64H6[1;6H[?25h[?25lr[29;64H7[1;7H[?25h[?25le[29;64H8[1;8H[?25h[?25l[29;64H9[1;9H[?25h[?25ly[29;64H10[1;10H[?25h[?25lo[29;65H1[1;11H[?25h[?25lu[29;65H2[1;12H[?25h[29;1H[K[1;11H[?25l[29;62H1,11[10CAll[1;11H[?25h[?25l[29;62H[K[29;1H:[?2004h[?25hwq1[?25l[29;4H[K[29;4H[?25h![?25l[?2004l"file" [New] 1L, 12C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 24
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 10:56 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+-rw-r----- 1 hoson hoson   12 Oct 11 10:56 file
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mfile1[0m
+-r--rwxr-x 1 hoson hoson    0 Oct 11 10:35 [01;32mfile2[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mhlink[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+lrwxrwxrwx 1 hoson hoson    5 Oct 11 10:35 [01;36mslink[0m -> [01;32mfile2[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ echo what is the size of the file? 12 byte? [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. .. why? 1 char=8bit (ASCL[KII[K[Kll[K[K11[K[Kll[K[Kii[K[Kll)= 1byte, 11 char +1 char end of file.
+bash: syntax error near unexpected token `('
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ cd /dev
+]0;hoson@hoson-VirtualBox: /dev[01;32mhoson@hoson-VirtualBox[00m:[01;34m/dev[00m$ ls -| sda*
+ls: cannot access '-': No such file or directory
+
+Command 'sda' not found, did you mean:
+
+  command 's4a' from snap s4a (1.6)
+  command 'dda' from snap dda (0.1)
+  command 'sdpa' from deb sdpa (7.3.14+dfsg-1)
+  command 'sdb' from deb sdb (1.2-2.1)
+  command 'sa' from deb acct (6.6.4-2)
+  command 'sga' from deb sga (0.10.15-5build1)
+  command 'sdf' from deb sdf (2.001+1-7)
+  command 'sma' from deb sma (1.4-3build1)
+  command 'sdar' from deb sdcc (3.8.0+dfsg-3build1)
+  command 'sta' from deb opensta (0~20191111gitc018cb2+dfsg-1build1)
+  command 'sdc' from deb hpsockd (0.17build3)
+  command 'tda' from deb devtodo (0.1.20-7build1)
+  command 'sds' from deb simh (3.8.1-6)
+  command 'pda' from deb speech-tools (1:2.5.0-8build1)
+
+See 'snap info <snapname>' for additional versions.
+
+]0;hoson@hoson-VirtualBox: /dev[01;32mhoson@hoson-VirtualBox[00m:[01;34m/dev[00m$ ls -| sda*[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[Kcd /devecho what is the size of the file? 12 byte... why? 1 char=8bit (ASCll)= 1byte, 11 char +1 char end of file.[Als -al[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvi file[1Pls -alecho what is the size of the file? 12 byte... why? 1 char=8bit (ASCll)= 1byte, 11 char +1 char end of file.[Acd /dev[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kls -\[K| sda*
+ls: cannot access '-': No such file or directory
+
+Command 'sda' not found, did you mean:
+
+  command 's4a' from snap s4a (1.6)
+  command 'dda' from snap dda (0.1)
+  command 'sma' from deb sma (1.4-3build1)
+  command 'sdf' from deb sdf (2.001+1-7)
+  command 'sa' from deb acct (6.6.4-2)
+  command 'tda' from deb devtodo (0.1.20-7build1)
+  command 'pda' from deb speech-tools (1:2.5.0-8build1)
+  command 'sdb' from deb sdb (1.2-2.1)
+  command 'sga' from deb sga (0.10.15-5build1)
+  command 'sdar' from deb sdcc (3.8.0+dfsg-3build1)
+  command 'sds' from deb simh (3.8.1-6)
+  command 'sta' from deb opensta (0~20191111gitc018cb2+dfsg-1build1)
+  command 'sdpa' from deb sdpa (7.3.14+dfsg-1)
+  command 'sdc' from deb hpsockd (0.17build3)
+
+See 'snap info <snapname>' for additional versions.
+
+]0;hoson@hoson-VirtualBox: /dev[01;32mhoson@hoson-VirtualBox[00m:[01;34m/dev[00m$ ls -al | more
+total 4
+drwxr-xr-x  19 root  root        4060 Oct 10 02:10 .
+drwxr-xr-x  20 root  root        4096 Sep 10 17:00 ..
+crw-r--r--   1 root  root     10, 235 Oct  8 08:07 autofs
+drwxr-xr-x   2 root  root         320 Oct  8 08:07 block
+drwxr-xr-x   2 root  root          80 Oct  8 08:07 bsg
+crw-rw----   1 root  disk     10, 234 Oct  9 15:02 btrfs-control
+drwxr-xr-x   3 root  root          60 Oct  8 08:07 bus
+lrwxrwxrwx   1 root  root           3 Oct  8 08:07 cdrom -> sr0
+drwxr-xr-x   2 root  root        3600 Oct 10 02:10 char
+crw--w----   1 root  tty       5,   1 Oct  8 08:08 console
+lrwxrwxrwx   1 root  root          11 Oct  8 08:07 core -> /proc/kcore
+drwxr-xr-x   3 root  root          60 Oct  9 15:02 cpu
+crw-------   1 root  root     10,  59 Oct  8 08:07 cpu_dma_latency
+crw-------   1 root  root     10, 203 Oct  8 08:07 cuse
+drwxr-xr-x   6 root  root         120 Oct  8 08:07 disk
+drwxr-xr-x   3 root  root         100 Oct  8 08:07 dri
+lrwxrwxrwx   1 root  root           3 Oct  8 08:07 dvd -> sr0
+crw-------   1 root  root     10,  62 Oct  8 08:07 ecryptfs
+crw-rw----   1 root  video    29,   0 Oct  8 08:07 fb0
+lrwxrwxrwx   1 root  root          13 Oct  8 08:07 fd -> /proc/self/fd
+crw-rw-rw-   1 root  root      1,   7 Oct  8 08:07 full
+crw-rw-rw-   1 root  root     10, 229 Oct  8 08:07 fuse
+crw-------   1 root  root     10, 228 Oct  8 08:07 hpet
+drwxr-xr-x   2 root  root           0 Oct  8 08:07 hugepages
+crw-------   1 root  root     10, 183 Oct  8 08:07 hwrng
+crw-------   1 root  root     89,   0 Oct  8 08:07 i2c-0
+lrwxrwxrwx   1 root  root          12 Oct  8 08:07 initctl -> /run/initctl
+[7m--More--[27mdrwxr-xr-x   3 root  root         240 Oct 10 02:10 input
+[7m--More--[27mcrw-r--r--   1 root  root      1,  11 Oct  8 08:07 kmsg
+[7m--More--[27mdrwxr-xr-x   2 root  root          60 Oct  8 08:07 lightnvm
+[7m--More--[27mlrwxrwxrwx   1 root  root          28 Oct  8 08:07 log -> /run/systemd/journal/
+[7m--More--[27mdev-log[K
+[7m--More--[27mbrw-rw----   1 root  disk      7,   0 Oct  8 08:07 loop0
+[7m--More--[27mbrw-rw----   1 root  disk      7,   1 Oct  8 08:07 loop1
+[7m--More--[27mbrw-rw----   1 root  disk      7,   2 Oct  8 08:07 loop2
+[7m--More--[27mbrw-rw----   1 root  disk      7,   3 Oct  8 08:07 loop3
+[7m--More--[27mbrw-rw----   1 root  disk      7,   4 Oct  8 08:07 loop4
+[7m--More--[27mbrw-rw----   1 root  disk      7,   5 Oct  8 08:07 loop5
+[7m--More--[27mbrw-rw----   1 root  disk      7,   6 Oct  8 08:07 loop6
+[7m--More--[27mbrw-rw----   1 root  disk      7,   7 Oct  8 08:07 loop7
+[7m--More--[27mbrw-rw----   1 root  disk      7,   8 Oct  8 08:07 loop8
+crw-rw----   1 root  disk     10, 237 Oct  8 08:07 loop-control
+drwxr-xr-x   2 root  root          60 Oct  8 08:07 mapper
+crw-------   1 root  root     10, 227 Oct  8 08:07 mcelog
+crw-r-----   1 root  kmem      1,   1 Oct  8 08:07 mem
+drwxrwxrwt   2 root  root          40 Oct  8 08:07 mqueue
+drwxr-xr-x   2 root  root          60 Oct  8 08:07 net
+crw-rw-rw-   1 root  root      1,   3 Oct  8 08:07 null
+crw-------   1 root  root     10, 144 Oct  8 08:07 nvram
+crw-r-----   1 root  kmem      1,   4 Oct  8 08:07 port
+crw-------   1 root  root    108,   0 Oct  8 08:07 ppp
+crw-------   1 root  root     10,   1 Oct  8 08:07 psaux
+crw-rw-rw-   1 root  tty       5,   2 Oct 11 11:04 ptmx
+drwxr-xr-x   2 root  root           0 Oct  8 08:07 pts
+crw-rw-rw-   1 root  root      1,   8 Oct  8 08:07 random
+crw-rw-r--+  1 root  root     10, 242 Oct  8 08:07 rfkill
+lrwxrwxrwx   1 root  root           4 Oct  8 08:07 rtc -> rtc0
+crw-------   1 root  root    249,   0 Oct  8 08:07 rtc0
+brw-rw----   1 root  disk      8,   0 Oct  8 08:07 sda
+brw-rw----   1 root  disk      8,   1 Oct  8 08:07 sda1
+brw-rw----   1 root  disk      8,   2 Oct  8 08:07 sda2
+brw-rw----   1 root  disk      8,   5 Oct  8 08:07 sda5
+crw-rw----+  1 root  cdrom    21,   0 Oct  8 08:07 sg0
+crw-rw----   1 root  disk     21,   1 Oct  8 08:07 sg1
+drwxrwxrwt   2 root  root          40 Oct  8 08:07 shm
+crw-------   1 root  root     10, 231 Oct  8 08:07 snapshot
+drwxr-xr-x   3 root  root         180 Oct  8 08:07 snd
+brw-rw----+  1 root  cdrom    11,   0 Oct  8 08:07 sr0
+[7m--More--[27mlrwxrwxrwx   1 root  root          15 Oct  8 08:07 stderr -> /proc/self/fd/2
+lrwxrwxrwx   1 root  root          15 Oct  8 08:07 stdin -> /proc/self/fd/0
+lrwxrwxrwx   1 root  root          15 Oct  8 08:07 stdout -> /proc/self/fd/1
+crw-rw-rw-   1 root  tty       5,   0 Oct  8 08:55 tty
+crw--w----   1 root  tty       4,   0 Oct  8 08:07 tty0
+crw--w----   1 root  tty       4,   1 Oct  8 08:07 tty1
+crw--w----   1 root  tty       4,  10 Oct  8 08:07 tty10
+crw--w----   1 root  tty       4,  11 Oct  8 08:07 tty11
+crw--w----   1 root  tty       4,  12 Oct  8 08:07 tty12
+crw--w----   1 root  tty       4,  13 Oct  8 08:07 tty13
+crw--w----   1 root  tty       4,  14 Oct  8 08:07 tty14
+crw--w----   1 root  tty       4,  15 Oct  8 08:07 tty15
+crw--w----   1 root  tty       4,  16 Oct  8 08:07 tty16
+crw--w----   1 root  tty       4,  17 Oct  8 08:07 tty17
+crw--w----   1 root  tty       4,  18 Oct  8 08:07 tty18
+crw--w----   1 root  tty       4,  19 Oct  8 08:07 tty19
+crw--w----   1 hoson tty       4,   2 Oct  8 08:08 tty2
+crw--w----   1 root  tty       4,  20 Oct  8 08:07 tty20
+crw--w----   1 root  tty       4,  21 Oct  8 08:07 tty21
+crw--w----   1 root  tty       4,  22 Oct  8 08:07 tty22
+crw--w----   1 root  tty       4,  23 Oct  8 08:07 tty23
+crw--w----   1 root  tty       4,  24 Oct  8 08:07 tty24
+crw--w----   1 root  tty       4,  25 Oct  8 08:07 tty25
+crw--w----   1 root  tty       4,  26 Oct  8 08:07 tty26
+crw--w----   1 root  tty       4,  27 Oct  8 08:07 tty27
+crw--w----   1 root  tty       4,  28 Oct  8 08:07 tty28
+crw--w----   1 root  tty       4,  29 Oct  8 08:07 tty29
+crw--w----   1 root  tty       4,   3 Oct  8 08:07 tty3
+[7m--More--[27mcrw--w----   1 root  tty       4,  30 Oct  8 08:07 tty30
+crw--w----   1 root  tty       4,  31 Oct  8 08:07 tty31
+crw--w----   1 root  tty       4,  32 Oct  8 08:07 tty32
+crw--w----   1 root  tty       4,  33 Oct  8 08:07 tty33
+crw--w----   1 root  tty       4,  34 Oct  8 08:07 tty34
+crw--w----   1 root  tty       4,  35 Oct  8 08:07 tty35
+crw--w----   1 root  tty       4,  36 Oct  8 08:07 tty36
+crw--w----   1 root  tty       4,  37 Oct  8 08:07 tty37
+crw--w----   1 root  tty       4,  38 Oct  8 08:07 tty38
+crw--w----   1 root  tty       4,  39 Oct  8 08:07 tty39
+crw--w----   1 root  tty       4,   4 Oct  8 08:07 tty4
+crw--w----   1 root  tty       4,  40 Oct  8 08:07 tty40
+crw--w----   1 root  tty       4,  41 Oct  8 08:07 tty41
+crw--w----   1 root  tty       4,  42 Oct  8 08:07 tty42
+crw--w----   1 root  tty       4,  43 Oct  8 08:07 tty43
+crw--w----   1 root  tty       4,  44 Oct  8 08:07 tty44
+crw--w----   1 root  tty       4,  45 Oct  8 08:07 tty45
+crw--w----   1 root  tty       4,  46 Oct  8 08:07 tty46
+crw--w----   1 root  tty       4,  47 Oct  8 08:07 tty47
+crw--w----   1 root  tty       4,  48 Oct  8 08:07 tty48
+crw--w----   1 root  tty       4,  49 Oct  8 08:07 tty49
+crw--w----   1 root  tty       4,   5 Oct  8 08:07 tty5
+crw--w----   1 root  tty       4,  50 Oct  8 08:07 tty50
+crw--w----   1 root  tty       4,  51 Oct  8 08:07 tty51
+crw--w----   1 root  tty       4,  52 Oct  8 08:07 tty52
+crw--w----   1 root  tty       4,  53 Oct  8 08:07 tty53
+crw--w----   1 root  tty       4,  54 Oct  8 08:07 tty54
+crw--w----   1 root  tty       4,  55 Oct  8 08:07 tty55
+[7m--More--[27mcrw--w----   1 root  tty       4,  56 Oct  8 08:07 tty56
+crw--w----   1 root  tty       4,  57 Oct  8 08:07 tty57
+crw--w----   1 root  tty       4,  58 Oct  8 08:07 tty58
+crw--w----   1 root  tty       4,  59 Oct  8 08:07 tty59
+crw--w----   1 root  tty       4,   6 Oct  8 08:07 tty6
+crw--w----   1 root  tty       4,  60 Oct  8 08:07 tty60
+crw--w----   1 root  tty       4,  61 Oct  8 08:07 tty61
+crw--w----   1 root  tty       4,  62 Oct  8 08:07 tty62
+crw--w----   1 root  tty       4,  63 Oct  8 08:07 tty63
+crw--w----   1 root  tty       4,   7 Oct  8 08:07 tty7
+crw--w----   1 root  tty       4,   8 Oct  8 08:07 tty8
+crw--w----   1 root  tty       4,   9 Oct  8 08:07 tty9
+crw-------   1 root  root      5,   3 Oct  8 08:07 ttyprintk
+crw-rw----   1 root  dialout   4,  64 Oct  8 08:07 ttyS0
+crw-rw----   1 root  dialout   4,  65 Oct  8 08:07 ttyS1
+crw-rw----   1 root  dialout   4,  74 Oct  8 08:07 ttyS10
+crw-rw----   1 root  dialout   4,  75 Oct  8 08:07 ttyS11
+crw-rw----   1 root  dialout   4,  76 Oct  8 08:07 ttyS12
+crw-rw----   1 root  dialout   4,  77 Oct  8 08:07 ttyS13
+crw-rw----   1 root  dialout   4,  78 Oct  8 08:07 ttyS14
+crw-rw----   1 root  dialout   4,  79 Oct  8 08:07 ttyS15
+crw-rw----   1 root  dialout   4,  80 Oct  8 08:07 ttyS16
+crw-rw----   1 root  dialout   4,  81 Oct  8 08:07 ttyS17
+crw-rw----   1 root  dialout   4,  82 Oct  8 08:07 ttyS18
+crw-rw----   1 root  dialout   4,  83 Oct  8 08:07 ttyS19
+crw-rw----   1 root  dialout   4,  66 Oct  8 08:07 ttyS2
+crw-rw----   1 root  dialout   4,  84 Oct  8 08:07 ttyS20
+crw-rw----   1 root  dialout   4,  85 Oct  8 08:07 ttyS21
+[7m--More--[27mcrw-rw----   1 root  dialout   4,  86 Oct  8 08:07 ttyS22
+crw-rw----   1 root  dialout   4,  87 Oct  8 08:07 ttyS23
+crw-rw----   1 root  dialout   4,  88 Oct  8 08:07 ttyS24
+crw-rw----   1 root  dialout   4,  89 Oct  8 08:07 ttyS25
+crw-rw----   1 root  dialout   4,  90 Oct  8 08:07 ttyS26
+crw-rw----   1 root  dialout   4,  91 Oct  8 08:07 ttyS27
+crw-rw----   1 root  dialout   4,  92 Oct  8 08:07 ttyS28
+crw-rw----   1 root  dialout   4,  93 Oct  8 08:07 ttyS29
+crw-rw----   1 root  dialout   4,  67 Oct  8 08:07 ttyS3
+crw-rw----   1 root  dialout   4,  94 Oct  8 08:07 ttyS30
+crw-rw----   1 root  dialout   4,  95 Oct  8 08:07 ttyS31
+crw-rw----   1 root  dialout   4,  68 Oct  8 08:07 ttyS4
+crw-rw----   1 root  dialout   4,  69 Oct  8 08:07 ttyS5
+crw-rw----   1 root  dialout   4,  70 Oct  8 08:07 ttyS6
+crw-rw----   1 root  dialout   4,  71 Oct  8 08:07 ttyS7
+crw-rw----   1 root  dialout   4,  72 Oct  8 08:07 ttyS8
+crw-rw----   1 root  dialout   4,  73 Oct  8 08:07 ttyS9
+crw-rw----   1 root  kvm      10,  60 Oct  8 08:07 udmabuf
+crw-------   1 root  root     10, 239 Oct  8 08:07 uhid
+crw-------   1 root  root     10, 223 Oct  8 08:07 uinput
+crw-rw-rw-   1 root  root      1,   9 Oct  8 08:07 urandom
+crw-------   1 root  root     10, 240 Oct  8 08:07 userio
+crw-------   1 root  root     10,  58 Oct  8 08:07 vboxguest
+crw-------   1 root  root     10,  57 Oct  8 08:07 vboxuser
+crw-rw----   1 root  tty       7,   0 Oct  8 08:07 vcs
+crw-rw----   1 root  tty       7,   1 Oct  8 08:07 vcs1
+crw-rw----   1 root  tty       7,   2 Oct  8 08:07 vcs2
+crw-rw----   1 root  tty       7,   3 Oct  8 08:07 vcs3
+[7m--More--[27mcrw-rw----   1 root  tty       7,   4 Oct  8 08:07 vcs4
+crw-rw----   1 root  tty       7,   5 Oct  8 08:07 vcs5
+crw-rw----   1 root  tty       7,   6 Oct  8 08:07 vcs6
+crw-rw----   1 root  tty       7, 128 Oct  8 08:07 vcsa
+crw-rw----   1 root  tty       7, 129 Oct  8 08:07 vcsa1
+crw-rw----   1 root  tty       7, 130 Oct  8 08:07 vcsa2
+crw-rw----   1 root  tty       7, 131 Oct  8 08:07 vcsa3
+crw-rw----   1 root  tty       7, 132 Oct  8 08:07 vcsa4
+crw-rw----   1 root  tty       7, 133 Oct  8 08:07 vcsa5
+crw-rw----   1 root  tty       7, 134 Oct  8 08:07 vcsa6
+crw-rw----   1 root  tty       7,  64 Oct  8 08:07 vcsu
+crw-rw----   1 root  tty       7,  65 Oct  8 08:07 vcsu1
+crw-rw----   1 root  tty       7,  66 Oct  8 08:07 vcsu2
+crw-rw----   1 root  tty       7,  67 Oct  8 08:07 vcsu3
+crw-rw----   1 root  tty       7,  68 Oct  8 08:07 vcsu4
+crw-rw----   1 root  tty       7,  69 Oct  8 08:07 vcsu5
+crw-rw----   1 root  tty       7,  70 Oct  8 08:07 vcsu6
+drwxr-xr-x   2 root  root          60 Oct  8 08:07 vfio
+crw-------   1 root  root     10,  63 Oct  8 08:07 vga_arbiter
+crw-------   1 root  root     10, 137 Oct  8 08:07 vhci
+crw-------   1 root  root     10, 238 Oct  8 08:07 vhost-net
+crw-------   1 root  root     10, 241 Oct  8 08:07 vhost-vsock
+crw-rw-rw-   1 root  root      1,   5 Oct  8 08:07 zero
+crw-------   1 root  root     10, 249 Oct  8 08:07 zfs
+]0;hoson@hoson-VirtualBox: /dev[01;32mhoson@hoson-VirtualBox[00m:[01;34m/dev[00m$  [Kcd.\[K[K[K]0;hoson@hoson-VirtualBox: /dev[01;32mhoson@hoson-VirtualBox[00m:[01;34m/dev[00m$ cd
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ cd mode
+bash: cd: mode: No such file or directory
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ l[Kcd lab4
+]0;hoson@hoson-VirtualBox: ~/lab4[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4[00m$ cd mode
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 24
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 10:56 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+-rw-r----- 1 hoson hoson   12 Oct 11 10:56 file
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mfile1[0m
+-r--rwxr-x 1 hoson hoson    0 Oct 11 10:35 [01;32mfile2[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mhlink[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+lrwxrwxrwx 1 hoson hoson    5 Oct 11 10:35 [01;36mslink[0m -> [01;32mfile2[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ echo te[Krt [K[Ky creating b[Ka new syn[Kmolic link and se e o[Kif you able to figure out how the sizr[Ke on a symbolic link is set. what did yo u finf[Kg[Kd? The lr[Kength of the name (# of vh[K[Kcharacters) 
+bash: syntax error near unexpected token `('
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 24
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 10:56 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+-rw-r----- 1 hoson hoson   12 Oct 11 10:56 file
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mfile1[0m
+-r--rwxr-x 1 hoson hoson    0 Oct 11 10:35 [01;32mfile2[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mhlink[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+lrwxrwxrwx 1 hoson hoson    5 Oct 11 10:35 [01;36mslink[0m -> [01;32mfile2[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ umask002
+umask002: command not found
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ umask002 002[C[C[C
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ umask
+0002
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 24
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 10:56 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+-rw-r----- 1 hoson hoson   12 Oct 11 10:56 file
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mfile1[0m
+-r--rwxr-x 1 hoson hoson    0 Oct 11 10:35 [01;32mfile2[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mhlink[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+lrwxrwxrwx 1 hoson hoson    5 Oct 11 10:35 [01;36mslink[0m -> [01;32mfile2[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ more myfile
+more: cannot open myfile: Permission denied
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ more myfile[1Pyfile[C[1Pfile
+how are you
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -u[Klu
+total 16
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [0m[34;42mdir[0m
+-rw-r----- 1 hoson hoson   12 Oct 11 11:13 file
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mfile1[0m
+-r--rwxr-x 1 hoson hoson    0 Oct 11 10:35 [01;32mfile2[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mhlink[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:22 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+lrwxrwxrwx 1 hoson hoson    5 Oct 11 10:36 [01;36mslink[0m -> [01;32mfile2[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ vi myfile
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;27r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[27;1H"myfile" [Permission Denied][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [m[27;62H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [m[27;62H0,0-1[9CAll"myfile" [Permission Denied][1;1H[?25h[?25l[27;1H[1m-- INSERT --[m[27;13H[K[27;62H0,1[11CAll[27;14H[38;5;224mW10: Warning: Changing a readonly file[m[27;62H[K[?2004l[?2004h[1;1H[?25h[?25lh[27;62H1,2[11CAll[1;2H[?25h[?25lo[27;64H3[1;3H[?25h[?25lw[27;64H4[1;4H[?25h[?25l[27;64H5[1;5H[?25h[?25la[27;64H6[1;6H[?25h[?25lr[27;64H7[1;7H[?25h[?25le[27;64H8[1;8H[?25h[?25l[27;64H9[1;9H[?25h[?25ly[27;64H10[1;10H[?25h[?25lo[27;65H1[1;11H[?25h[?25lu[27;65H2[1;12H[?25h[?25l[27;65H3[1;13H[?25h[?25l?[27;65H4[1;14H[?25h[?25l?[27;65H5[1;15H[?25h[?25l[27;65H6[1;16H[?25h[27;1H[K[1;15H[?25l[27;62H1,15[10CAll[1;15H[?25h[?25l[27;62H[K[27;1H:[?2004h[?25hwq![?25l[?2004l"myfile"
+[97m[41m"myfile" E949: File changed while writing[?2004h[m
+[38;5;121mPress ENTER or type command to continue[?25h[m[1;1H[2L[?25l[1;1Hhow are you ??
+[94m~                                                                              [m[27;1H[K[27;62H1,15[10CAll[1;15H[?25h[?25l[27;62H[K[27;1H:[?2004h[?25hwq![?25l[?2004l"myfile"
+[97m[41mWARNING: The file has been changed since reading it!!![?2004h[m
+[38;5;121mDo you really want to write to it (y/n)?[?25h[m
+[?25l[38;5;121mDo you really want to write to it (y/n)?[?25h[mn[?2004h
+[38;5;121mPress ENTER or type command to continue[m[1;1H[4L[?25l[1;1Hhow are you ??
+[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [m[27;1H[K[27;62H1,15[10CAll[1;15H[?25h[?25l[27;65H4[1;14H[?25h[?25l[27;65H5[1;15H[?25h[?25l[27;62H[K[27;1H:[?2004h[?25hwq[?25l[?2004l"myfile"
+[97m[41mWARNING: The file has been changed since reading it!!![?2004h[m
+[38;5;121mDo you really want to write to it (y/n)?[?25h[m
+[?25l[38;5;121mDo you really want to write to it (y/n)?[?25h[my[?25l"myfile" 1L, 16C written[27;25H[K[27;1H[?2004l[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ 
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ more myfile
+more: cannot open myfile: Permission denied
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chmod myfile[K[K[K[K[K[K77 [K7 myfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chmod 777 myfile[5Pmore[C[C[C[C[C[C[C[2Pvi[C[C[C[C[C[C[C
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;27r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[27;1H"myfile" 1L, 16C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Hhow are you ??
+[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [m[27;62H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1Hhow are you ??
+[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [24;1H~                                                                              [25;1H~                                                                              [26;1H~                                                                              [m[27;62H1,1[11CAll"myfile" 1L, 16C[1;1H[?25h[?25l[27;1H[K[27;1H:[?2004h[?25hwq![?25l[?2004l"myfile" 1L, 16C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ more myfile
+how are you ?? 
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ chmod +x myfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ stat
+stat: missing operand
+Try 'stat --help' for more information.
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ stat myfile
+  File: myfile
+  Size: 16        	Blocks: 8          IO Block: 4096   regular file
+Device: 805h/2053d	Inode: 275098      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/   hoson)   Gid: ( 1000/   hoson)
+Access: 2020-10-11 11:15:56.259180950 +0300
+Modify: 2020-10-11 11:15:50.135043753 +0300
+Change: 2020-10-11 11:16:40.792178525 +0300
+ Birth: -
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ more myfile
+how are you ?? 
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ stat myfile
+  File: myfile
+  Size: 16        	Blocks: 8          IO Block: 4096   regular file
+Device: 805h/2053d	Inode: 275098      Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/   hoson)   Gid: ( 1000/   hoson)
+Access: 2020-10-11 11:17:19.969056128 +0300
+Modify: 2020-10-11 11:15:50.135043753 +0300
+Change: 2020-10-11 11:16:40.792178525 +0300
+ Birth: -
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ stat myfilemore[C[C[C[C[C[C[Cstat[C[C[C[C[C[C[C[Kchmod +x myfile
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 28
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 11:15 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+-rw-r----- 1 hoson hoson   12 Oct 11 10:56 file
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mfile1[0m
+-r--rwxr-x 1 hoson hoson    0 Oct 11 10:35 [01;32mfile2[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mhlink[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+-rwxrwxrwx 1 hoson hoson   16 Oct 11 11:15 [01;32mmyfile[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile~[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+lrwxrwxrwx 1 hoson hoson    5 Oct 11 10:35 [01;36mslink[0m -> [01;32mfile2[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ data
+
+Command 'data' not found, did you mean:
+
+  command 'date' from deb coreutils (8.30-3ubuntu2)
+  command 'dat' from deb liballegro4-dev (2:4.4.3.1-1)
+
+Try: sudo apt install <deb name>
+
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ date
+Sun 11 Oct 2020 11:21:06 IDT
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ date
+Sun 11 Oct 2020 11:21:23 IDT
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ tou[K[K[Kls -aa[Kl
+total 28
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 11:15 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+-rw-r----- 1 hoson hoson   12 Oct 11 10:56 file
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mfile1[0m
+-r--rwxr-x 1 hoson hoson    0 Oct 11 10:35 [01;32mfile2[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mhlink[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+-rwxrwxrwx 1 hoson hoson   16 Oct 11 11:15 [01;32mmyfile[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile~[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+lrwxrwxrwx 1 hoson hoson    5 Oct 11 10:35 [01;36mslink[0m -> [01;32mfile2[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ touch newfile1
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 28
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 11:24 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+-rw-r----- 1 hoson hoson   12 Oct 11 10:56 file
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mfile1[0m
+-r--rwxr-x 1 hoson hoson    0 Oct 11 10:35 [01;32mfile2[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mhlink[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+-rwxrwxrwx 1 hoson hoson   16 Oct 11 11:15 [01;32mmyfile[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile~[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 11:24 newfile1
+lrwxrwxrwx 1 hoson hoson    5 Oct 11 10:35 [01;36mslink[0m -> [01;32mfile2[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -altouch newfile1[K2[K[K[K[K[K[K[K[K[K[K[K[K[K[Krm -rf newfile1
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ nwe[K[Kewfile1.exe
+newfile1.exe: command not found
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ newfile1.exetnewfile1.exeonewfile1.exeunewfile1.execnewfile1.exehnewfile1.exe newfile1.exe
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 28
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 11:25 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+-rw-r----- 1 hoson hoson   12 Oct 11 10:56 file
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mfile1[0m
+-r--rwxr-x 1 hoson hoson    0 Oct 11 10:35 [01;32mfile2[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mhlink[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+-rwxrwxrwx 1 hoson hoson   16 Oct 11 11:15 [01;32mmyfile[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile~[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 11:25 newfile1.exe
+lrwxrwxrwx 1 hoson hoson    5 Oct 11 10:35 [01;36mslink[0m -> [01;32mfile2[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ touv[Kch .nw[Kewfile2
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 28
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 11:26 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+-rw-r----- 1 hoson hoson   12 Oct 11 10:56 file
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mfile1[0m
+-r--rwxr-x 1 hoson hoson    0 Oct 11 10:35 [01;32mfile2[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mhlink[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+-rwxrwxrwx 1 hoson hoson   16 Oct 11 11:15 [01;32mmyfile[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile~[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 11:25 newfile1.exe
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 11:26 .newfile2
+lrwxrwxrwx 1 hoson hoson    5 Oct 11 10:35 [01;36mslink[0m -> [01;32mfile2[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls
+[0m[34;42mdir[0m   [01;32mfile1[0m  [01;32mhlink[0m  [01;32mmyfile[0m   [01;34mnewdir[0m   newfile1.exe
+file  [01;32mfile2[0m  [34;42mmydir[0m  [01;32mmyfile~[0m  newfile  [01;36mslink[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -a
+[0m[01;34m.[0m   [34;42mdir[0m   [01;32mfile1[0m  [01;32mhlink[0m  [01;32mmyfile[0m   [01;34mnewdir[0m   newfile1.exe  [01;36mslink[0m
+[01;34m..[0m  file  [01;32mfile2[0m  [34;42mmydir[0m  [01;32mmyfile~[0m  newfile  .newfile2
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ ls -al
+total 28
+drwxrwxr-x 5 hoson hoson 4096 Oct 11 11:26 [0m[01;34m.[0m
+drwxrwxr-x 3 hoson hoson 4096 Oct 11 10:04 [01;34m..[0m
+d--xr-x-w- 2 hoson hoson 4096 Oct 11 10:24 [34;42mdir[0m
+-rw-r----- 1 hoson hoson   12 Oct 11 10:56 file
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mfile1[0m
+-r--rwxr-x 1 hoson hoson    0 Oct 11 10:35 [01;32mfile2[0m
+-rwx-----x 2 hoson hoson    0 Oct 11 10:35 [01;32mhlink[0m
+d---rwx-wx 2 hoson hoson 4096 Oct 11 10:05 [34;42mmydir[0m
+-rwxrwxrwx 1 hoson hoson   16 Oct 11 11:15 [01;32mmyfile[0m
+----rwx-wx 1 hoson hoson    0 Oct 11 10:05 [01;32mmyfile~[0m
+drwxrwxr-x 2 hoson hoson 4096 Oct 11 10:21 [01;34mnewdir[0m
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 10:21 newfile
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 11:25 newfile1.exe
+-rw-rw-r-- 1 hoson hoson    0 Oct 11 11:26 .newfile2
+lrwxrwxrwx 1 hoson hoson    5 Oct 11 10:35 [01;36mslink[0m -> [01;32mfile2[0m
+]0;hoson@hoson-VirtualBox: ~/lab4/mode[01;32mhoson@hoson-VirtualBox[00m:[01;34m~/lab4/mode[00m$ cd
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ exit 
+exit
+
+Script done on 2020-10-11 11:27:07+03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2020-10-11 11:39:12+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+]0;hoson@hoson-VirtualBox: ~[01;32mhoson@hoson-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-10-11 11:39:22+03:00 [COMMAND_EXIT_CODE="0"]
